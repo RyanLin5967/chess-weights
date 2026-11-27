@@ -1,0 +1,22 @@
+{
+ "model": "pairs",
+ "net": "out/pairs.nnue",
+ "gate_ok": true,
+ "value_acc_min": 0.0,
+ "value_acc_max": 162.0,
+ "max_fill": 80.0,
+ "linear_all_positions": true,
+ "positions_scanned": 2212530,
+ "scan_seconds": 12,
+ "compared": 3000,
+ "exact": 3000,
+ "mismatch": 0,
+ "max_abs_diff": 0,
+ "planted_mismatches": 1,
+ "eval_range": [
+  -4992,
+  4840
+ ],
+ "seconds": 13,
+ "PASS": true
+}

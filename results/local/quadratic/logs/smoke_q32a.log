@@ -1,0 +1,6 @@
+Ptnml(0-2): [42, 17, 32, 4, 4], WL/DD Ratio: 31.00
+Results of q32a vs pairs (10+0.1, 1t, 16MB, UHO_Lichess_4852_v1.epd):
+Elo: -168.40 +/- 48.23, nElo: -197.76 +/- 48.15
+LOS: 0.00 %, DrawRatio: 32.00 %, PairsRatio: 0.13
+Games: 200, Wins: 43, Losses: 133, Draws: 24, Points: 55.0 (27.50 %)
+Ptnml(0-2): [42, 18, 32, 4, 4], WL/DD Ratio: 31.00

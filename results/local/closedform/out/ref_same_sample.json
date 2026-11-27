@@ -1,0 +1,42 @@
+{
+ "default_net_static": {
+  "n": 20000,
+  "R2_internal": 0.8583,
+  "MAE_internal": 268.6,
+  "MAE_cp": 73.5,
+  "MAE_cp_label_within_300": 48.3,
+  "R2_cp": 0.9117
+ },
+ "material": {
+  "n": 20000,
+  "R2_internal": 0.6415,
+  "MAE_internal": 554.6,
+  "MAE_cp": 188.6,
+  "MAE_cp_label_within_300": 130.0,
+  "R2_cp": 0.5949
+ },
+ "psqt": {
+  "n": 20000,
+  "R2_internal": 0.7701,
+  "MAE_internal": 439.0,
+  "MAE_cp": 145.8,
+  "MAE_cp_label_within_300": 103.4,
+  "R2_cp": 0.7529
+ },
+ "threats": {
+  "n": 20000,
+  "R2_internal": 0.7805,
+  "MAE_internal": 429.8,
+  "MAE_cp": 142.3,
+  "MAE_cp_label_within_300": 101.2,
+  "R2_cp": 0.7659
+ },
+ "pairs": {
+  "n": 20000,
+  "R2_internal": 0.7849,
+  "MAE_internal": 423.7,
+  "MAE_cp": 140.1,
+  "MAE_cp_label_within_300": 98.9,
+  "R2_cp": 0.7711
+ }
+}

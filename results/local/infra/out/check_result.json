@@ -1,0 +1,130 @@
+{
+ "started": "2026-11-27T02:58:27",
+ "stages": [
+  {
+   "stage": "features_vs_default_net",
+   "n": 2500,
+   "exact": 2500,
+   "mismatch": 0,
+   "max_abs_diff": 0
+  },
+  {
+   "stage": "random_linear",
+   "n": 2500,
+   "exact": 2500,
+   "mismatch": 0,
+   "max_abs_diff": 0,
+   "ranges_eval_units": {
+    "threat": 40.0,
+    "pair": 40.0,
+    "psq": 150.0,
+    "const": 300.0
+   },
+   "slots_used": 154,
+   "stored_stacks": 192,
+   "max_slot_fill": 68,
+   "slot_cap": 126,
+   "engine_minus_ideal_max_abs": 1.3915426026530895,
+   "engine_minus_ideal_mean": 0.08374935866449293,
+   "eval_range": [
+    -2291,
+    2515
+   ],
+   "sha256": "bb2b6f2ec8660d258cd93aabab785b14ba30d7a641ebd2ddc049829804dda961"
+  },
+  {
+   "stage": "random_linear_wide",
+   "n": 2500,
+   "exact": 2500,
+   "mismatch": 0,
+   "max_abs_diff": 0,
+   "ranges_eval_units": {
+    "threat": 150.0,
+    "pair": 150.0,
+    "psq": 1000.0
+   },
+   "slots_used": 308,
+   "slots_predicted_by_rule": 308,
+   "max_slot_fill": 67,
+   "engine_minus_ideal_max_abs": 1.2676161890084359,
+   "eval_range": [
+    -11233,
+    10196
+   ]
+  },
+  {
+   "stage": "refuse_past_budget",
+   "psq_weight": 7156.506347656249,
+   "refused": true,
+   "max_psq_weight_one_sign_all_512_slots": 7092.553710937499
+  },
+  {
+   "stage": "planted_ft_weight",
+   "n": 2500,
+   "exact": 2022,
+   "mismatch": 478,
+   "max_abs_diff": 5,
+   "planted_row": 130486,
+   "planted_slot": 60,
+   "detector_fired": true
+  },
+  {
+   "stage": "planted_fc0_bias",
+   "n": 2500,
+   "exact": 2223,
+   "mismatch": 277,
+   "max_abs_diff": 4,
+   "planted": "stored stack 163 (raw 163) fc_0 bias[30] +100",
+   "positions_on_that_stack": 277,
+   "detector_fired": true
+  },
+  {
+   "stage": "material_known_answer",
+   "n": 2500,
+   "exact": 2500,
+   "mismatch": 0,
+   "max_abs_diff": 0,
+   "derived_internal_units_per_pawn": 285.4372588874601,
+   "piece_values_internal_units": {
+    "1": 285,
+    "2": 856,
+    "3": 856,
+    "4": 1427,
+    "5": 2569
+   },
+   "slots_used": 188,
+   "engine_minus_ideal_max_abs": 1.0,
+   "corr_with_default_net": 0.7521855718990765,
+   "sign_agreement_with_default_net_when_|M|>=2": 0.9314565483476133,
+   "hand_positions": {
+    "startpos": {
+     "engine": 0,
+     "predicted": 0,
+     "ideal": 0
+    },
+    "white up a queen (Q-less black), white to move": {
+     "engine": 2569,
+     "predicted": 2569,
+     "ideal": 2569
+    },
+    "same, black to move": {
+     "engine": -2569,
+     "predicted": -2569,
+     "ideal": -2569
+    },
+    "white up a knight": {
+     "engine": 856,
+     "predicted": 856,
+     "ideal": 856
+    },
+    "black up a pawn, black to move": {
+     "engine": 284,
+     "predicted": 284,
+     "ideal": 285
+    }
+   },
+   "hand_ok": true
+  }
+ ],
+ "status": "PASS"
+}

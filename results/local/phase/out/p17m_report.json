@@ -1,0 +1,415 @@
+{
+ "struct": "P17",
+ "deltas": [
+  [
+   "eg",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b0",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b1",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b2",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b3",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "noq",
+   [
+    "psq"
+   ]
+  ]
+ ],
+ "labels": "closedform/data/ds.npz = DEFAULT net depth-10 search",
+ "lam": {
+  "psq": 300,
+  "threat": 2700,
+  "pair": 9000,
+  "delta_mult": 1.0,
+  "const": 0.001,
+  "material": 1.0,
+  "group": 1.0
+ },
+ "grid": [
+  {
+   "params": 331417,
+   "iters": 4000,
+   "rel_residual": 6.718758671402207e-07,
+   "seconds": 413,
+   "delta_mult": 1.0,
+   "slots_unclipped": 322,
+   "clip_q": null,
+   "slots": 322,
+   "val_R2_float": 0.7809
+  }
+ ],
+ "clip_q": null,
+ "nslots": 322,
+ "slots_rule": 322,
+ "slot_detail": [
+  [
+   "base:side",
+   "psq",
+   1,
+   1064.7,
+   8,
+   32
+  ],
+  [
+   "base:side",
+   "psq",
+   -1,
+   1120.1,
+   8,
+   33
+  ],
+  [
+   "base",
+   "threat",
+   1,
+   215.0,
+   2,
+   28
+  ],
+  [
+   "base",
+   "threat",
+   -1,
+   211.0,
+   2,
+   28
+  ],
+  [
+   "base",
+   "pair",
+   1,
+   104.0,
+   2,
+   16
+  ],
+  [
+   "base",
+   "pair",
+   -1,
+   90.1,
+   2,
+   15
+  ],
+  [
+   "base",
+   "psq",
+   1,
+   128.9,
+   7,
+   7
+  ],
+  [
+   "base",
+   "psq",
+   -1,
+   142.6,
+   7,
+   8
+  ],
+  [
+   "eg",
+   "psq",
+   1,
+   1252.7,
+   7,
+   42
+  ],
+  [
+   "eg",
+   "psq",
+   -1,
+   1124.7,
+   7,
+   38
+  ],
+  [
+   "b0",
+   "psq",
+   1,
+   1354.1,
+   31,
+   12
+  ],
+  [
+   "b0",
+   "psq",
+   -1,
+   819.7,
+   31,
+   8
+  ],
+  [
+   "b1",
+   "psq",
+   1,
+   346.0,
+   15,
+   7
+  ],
+  [
+   "b1",
+   "psq",
+   -1,
+   259.1,
+   15,
+   6
+  ],
+  [
+   "b2",
+   "psq",
+   1,
+   11.2,
+   10,
+   4
+  ],
+  [
+   "b2",
+   "psq",
+   -1,
+   10.2,
+   10,
+   4
+  ],
+  [
+   "b3",
+   "psq",
+   1,
+   31.2,
+   7,
+   4
+  ],
+  [
+   "b3",
+   "psq",
+   -1,
+   32.9,
+   7,
+   4
+  ],
+  [
+   "noq:side",
+   "psq",
+   1,
+   189.0,
+   8,
+   8
+  ],
+  [
+   "noq:side",
+   "psq",
+   -1,
+   86.6,
+   8,
+   6
+  ],
+  [
+   "noq",
+   "psq",
+   1,
+   82.2,
+   7,
+   6
+  ],
+  [
+   "noq",
+   "psq",
+   -1,
+   94.3,
+   7,
+   6
+  ]
+ ],
+ "components": [
+  {
+   "name": "base",
+   "split": true,
+   "slots_unsplit": 251,
+   "slots_split": 167,
+   "threat_pair_bounds": {
+    "threat": 63,
+    "pair": 56
+   },
+   "psq_caps": [
+    [
+     "base:side",
+     15,
+     15
+    ],
+    [
+     "base",
+     17,
+     17
+    ]
+   ]
+  },
+  {
+   "name": "eg",
+   "split": false,
+   "slots_unsplit": 80,
+   "slots_split": 128,
+   "threat_pair_bounds": {
+    "threat": 35,
+    "pair": 41
+   },
+   "psq_caps": [
+    [
+     "eg",
+     16,
+     16
+    ]
+   ]
+  },
+  {
+   "name": "b0",
+   "split": false,
+   "slots_unsplit": 20,
+   "slots_split": 28,
+   "threat_pair_bounds": {
+    "threat": 2,
+    "pair": 2
+   },
+   "psq_caps": [
+    [
+     "b0",
+     4,
+     4
+    ]
+   ]
+  },
+  {
+   "name": "b1",
+   "split": false,
+   "slots_unsplit": 13,
+   "slots_split": 24,
+   "threat_pair_bounds": {
+    "threat": 14,
+    "pair": 19
+   },
+   "psq_caps": [
+    [
+     "b1",
+     8,
+     8
+    ]
+   ]
+  },
+  {
+   "name": "b2",
+   "split": false,
+   "slots_unsplit": 8,
+   "slots_split": 14,
+   "threat_pair_bounds": {
+    "threat": 21,
+    "pair": 30
+   },
+   "psq_caps": [
+    [
+     "b2",
+     12,
+     12
+    ]
+   ]
+  },
+  {
+   "name": "b3",
+   "split": false,
+   "slots_unsplit": 8,
+   "slots_split": 16,
+   "threat_pair_bounds": {
+    "threat": 35,
+    "pair": 41
+   },
+   "psq_caps": [
+    [
+     "b3",
+     16,
+     16
+    ]
+   ]
+  },
+  {
+   "name": "noq",
+   "split": true,
+   "slots_unsplit": 29,
+   "slots_split": 26,
+   "threat_pair_bounds": {
+    "threat": 48,
+    "pair": 56
+   },
+   "psq_caps": [
+    [
+     "noq:side",
+     15,
+     15
+    ],
+    [
+     "noq",
+     17,
+     17
+    ]
+   ]
+  }
+ ],
+ "net": "out/p17m.nnue",
+ "sha256": "62c9ac9ab8030ee07fa724e0813d72479089a4aec95dd4898843b100ef4b8d26",
+ "stored_stacks": 97,
+ "val_R2_float": 0.7809,
+ "train": {
+  "n": 1772719,
+  "R2_internal": 0.85,
+  "MAE_internal": 350.0,
+  "MAE_cp": 117.4,
+  "MAE_cp_label_within_300": 86.0,
+  "R2_cp": 0.8361
+ },
+ "val": {
+  "n": 219877,
+  "R2_internal": 0.7809,
+  "MAE_internal": 415.2,
+  "MAE_cp": 136.8,
+  "MAE_cp_label_within_300": 96.8,
+  "R2_cp": 0.7688
+ },
+ "test": {
+  "n": 219934,
+  "R2_internal": 0.7815,
+  "MAE_internal": 418.1,
+  "MAE_cp": 137.8,
+  "MAE_cp_label_within_300": 97.9,
+  "R2_cp": 0.7709
+ },
+ "test_R2_by_band": [
+  0.9122,
+  0.8364,
+  0.7638,
+  0.5969,
+  0.4502,
+  0.2923,
+  0.2369,
+  0.3815
+ ],
+ "seconds": 422
+}

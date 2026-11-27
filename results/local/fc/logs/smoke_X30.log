@@ -1,0 +1,7 @@
+Ptnml(0-2): [6, 7, 37, 29, 13], WL/DD Ratio: 5.17
+Results of X30 vs r1pairs (10+0.1, 1t, 16MB, UHO_Lichess_4852_v1.epd):
+Elo: 59.64 +/- 35.97, nElo: 81.73 +/- 48.15
+LOS: 99.96 %, DrawRatio: 41.00 %, PairsRatio: 2.69
+Games: 200, Wins: 90, Losses: 56, Draws: 54, Points: 117.0 (58.50 %)
+Ptnml(0-2): [6, 10, 41, 30, 13], WL/DD Ratio: 4.86
+fastchess Timeouts lines:   Timeouts: 9   Timeouts: 17   pgn time forfeits: 26  games: 200

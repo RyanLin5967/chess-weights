@@ -1,0 +1,22 @@
+{
+ "model": "material",
+ "net": "out/material.nnue",
+ "gate_ok": true,
+ "value_acc_min": 0.0,
+ "value_acc_max": 92.0,
+ "max_fill": 45.0,
+ "linear_all_positions": true,
+ "positions_scanned": 2212530,
+ "scan_seconds": 16,
+ "compared": 3000,
+ "exact": 3000,
+ "mismatch": 0,
+ "max_abs_diff": 0,
+ "planted_mismatches": 1,
+ "eval_range": [
+  -4666,
+  5190
+ ],
+ "seconds": 18,
+ "PASS": true
+}

@@ -1,0 +1,6 @@
+Ptnml(0-2): [21, 9, 30, 13, 17], WL/DD Ratio: 29.00
+Results of gtest8 vs pairs (10+0.1, 1t, 16MB, UHO_Lichess_4852_v1.epd):
+Elo: -13.90 +/- 47.97, nElo: -14.06 +/- 48.15
+LOS: 28.35 %, DrawRatio: 33.00 %, PairsRatio: 0.97
+Games: 200, Wins: 82, Losses: 90, Draws: 28, Points: 96.0 (48.00 %)
+Ptnml(0-2): [25, 9, 33, 15, 18], WL/DD Ratio: 15.50

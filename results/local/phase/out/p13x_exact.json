@@ -1,0 +1,35 @@
+{
+ "net": "out/p13x.nnue",
+ "gate_ok": true,
+ "value_acc_min_active": 2.0,
+ "value_acc_max_active": 252.0,
+ "max_fill_active": 125.0,
+ "value_acc_max_masked_off": 1060.0,
+ "nonlinear_active_slot_positions": 0,
+ "saturated_masked_off_slot_positions": 2019123,
+ "linear_where_active": true,
+ "acc_max_below_i16": true,
+ "positions_scanned": 2212530,
+ "scan_seconds": 12,
+ "compared": 3000,
+ "compared_by_band": [
+  375,
+  375,
+  375,
+  375,
+  375,
+  375,
+  375,
+  375
+ ],
+ "exact": 3000,
+ "mismatch": 0,
+ "max_abs_diff": 0,
+ "planted_mismatches": 1,
+ "eval_range": [
+  -4588,
+  5514
+ ],
+ "seconds": 13,
+ "PASS": true
+}

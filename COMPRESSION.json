@@ -1,0 +1,247 @@
+[
+  {
+    "path": "weights/local/bootstrap/gen1.nnue",
+    "stored_as": "weights/local/bootstrap/gen1.nnue.gz",
+    "gzip_bytes": 2264848,
+    "restored_bytes": 138254904,
+    "sha256": "fee4b3637f8f1ae23dd28324e0436b724cad985d1fc57557db844e85c2f8e28e"
+  },
+  {
+    "path": "weights/local/bootstrap/gen2.nnue",
+    "stored_as": "weights/local/bootstrap/gen2.nnue.gz",
+    "gzip_bytes": 2273138,
+    "restored_bytes": 138290112,
+    "sha256": "8bf8128431af6033c2fe321f3834bb1a86b3b35e60863dffaaa5c46a162586a5"
+  },
+  {
+    "path": "weights/local/bootstrap/gen3.nnue",
+    "stored_as": "weights/local/bootstrap/gen3.nnue.gz",
+    "gzip_bytes": 2290846,
+    "restored_bytes": 138290112,
+    "sha256": "c7b7c2b8f05a0f437bd1b503af6825278f660308a39299a927603111d3a1f204"
+  },
+  {
+    "path": "weights/local/closedform/material.nnue",
+    "stored_as": "weights/local/closedform/material.nnue.gz",
+    "gzip_bytes": 706589,
+    "restored_bytes": 135156600,
+    "sha256": "9bb3134c2e872cb61017cd0c798bdb0b575f1eae8d384818abe83f8987dd3fdb"
+  },
+  {
+    "path": "weights/local/closedform/pairs.nnue",
+    "stored_as": "weights/local/closedform/pairs.nnue.gz",
+    "gzip_bytes": 2305264,
+    "restored_bytes": 138254904,
+    "sha256": "01858aa3415179c13bed633a2a9b2031e00d5fed608fa9f5cb97da779b0604b5"
+  },
+  {
+    "path": "weights/local/closedform/psqt.nnue",
+    "stored_as": "weights/local/closedform/psqt.nnue.gz",
+    "gzip_bytes": 1788948,
+    "restored_bytes": 138254904,
+    "sha256": "7f0d71489408396ecc2f658622a832c3aa9c2a123002d09127312463fadea6e4"
+  },
+  {
+    "path": "weights/local/closedform/threats.nnue",
+    "stored_as": "weights/local/closedform/threats.nnue.gz",
+    "gzip_bytes": 2288727,
+    "restored_bytes": 138254904,
+    "sha256": "729e3314a8ec3b42dcca3412dc452888568cfe1d9d14d0a97cc0b9a8fdad2b6a"
+  },
+  {
+    "path": "weights/local/compiler/c1.nnue",
+    "stored_as": "weights/local/compiler/c1.nnue.gz",
+    "gzip_bytes": 1180126,
+    "restored_bytes": 135156600,
+    "sha256": "e16abf2b0d99fffae234685da1af6397bc53cadb2dbe42cb6356a1b010d91ee4"
+  },
+  {
+    "path": "weights/local/compiler/c2.nnue",
+    "stored_as": "weights/local/compiler/c2.nnue.gz",
+    "gzip_bytes": 1883199,
+    "restored_bytes": 135156600,
+    "sha256": "a92205ce83dced37f9aaec372789e4f09c661d0f5ecc89d24a2e2e1fa384bbf4"
+  },
+  {
+    "path": "weights/local/compiler/c3.nnue",
+    "stored_as": "weights/local/compiler/c3.nnue.gz",
+    "gzip_bytes": 1900455,
+    "restored_bytes": 135156600,
+    "sha256": "ed4fd22cd13bcd020f15887ac9e5baa7f8919154d04d6dae952408f8d6816074"
+  },
+  {
+    "path": "weights/local/compiler/c4.nnue",
+    "stored_as": "weights/local/compiler/c4.nnue.gz",
+    "gzip_bytes": 1874902,
+    "restored_bytes": 136283256,
+    "sha256": "2bf38ff30d62d19971d41ae1df45eab032da38c253acf86866377c9131d4e9f9"
+  },
+  {
+    "path": "weights/local/compiler/c5.nnue",
+    "stored_as": "weights/local/compiler/c5.nnue.gz",
+    "gzip_bytes": 2088403,
+    "restored_bytes": 136283256,
+    "sha256": "a00ed1108da3db1abd6295b530075ff9cc68b62714c89aaea5073b80e1d09fe6"
+  },
+  {
+    "path": "weights/local/compiler/c5k.nnue",
+    "stored_as": "weights/local/compiler/c5k.nnue.gz",
+    "gzip_bytes": 2017049,
+    "restored_bytes": 136142424,
+    "sha256": "630b47a1524b0a62946e348c7fbc1e8b5dab33471b8247292798406d3f5fb882"
+  },
+  {
+    "path": "weights/local/fc/XF.nnue",
+    "stored_as": "weights/local/fc/XF.nnue.gz",
+    "gzip_bytes": 2929458,
+    "restored_bytes": 141881328,
+    "sha256": "2ade86378ec3042667b4abb543cc4c2091e5d54d060af9776f5a8a3018f4f61a"
+  },
+  {
+    "path": "weights/local/infra/material.nnue",
+    "stored_as": "weights/local/infra/material.nnue.gz",
+    "gzip_bytes": 684992,
+    "restored_bytes": 135156600,
+    "sha256": "ab98af7705a243304c64ce86a7589c0247059cc1e41dd673bea3bb377950f4f3"
+  },
+  {
+    "path": "weights/local/phase/p0m.nnue",
+    "stored_as": "weights/local/phase/p0m.nnue.gz",
+    "gzip_bytes": 2231653,
+    "restored_bytes": 138254904,
+    "sha256": "5e447bc9950dcf17cca9400929a9fa6822de25c3d5ff82a1341cf8842ebd54a8"
+  },
+  {
+    "path": "weights/local/phase/p0x.nnue",
+    "stored_as": "weights/local/phase/p0x.nnue.gz",
+    "gzip_bytes": 2028563,
+    "restored_bytes": 138254904,
+    "sha256": "05a522581002d9e3477e330399577d7069f232397b1e9ae05741ccb01316c882"
+  },
+  {
+    "path": "weights/local/phase/p13m.nnue",
+    "stored_as": "weights/local/phase/p13m.nnue.gz",
+    "gzip_bytes": 3079887,
+    "restored_bytes": 138747816,
+    "sha256": "348e3746cef0d8a928cd60ad80c61f401810e55e92e0a87071a40c4ea5231349"
+  },
+  {
+    "path": "weights/local/phase/p13t.nnue",
+    "stored_as": "weights/local/phase/p13t.nnue.gz",
+    "gzip_bytes": 3065877,
+    "restored_bytes": 138747816,
+    "sha256": "d62469b6210059f43cd938a135614cc0a357152afa47c01961e797f6eeaf754f"
+  },
+  {
+    "path": "weights/local/phase/p13x.nnue",
+    "stored_as": "weights/local/phase/p13x.nnue.gz",
+    "gzip_bytes": 2634559,
+    "restored_bytes": 138747816,
+    "sha256": "0a769d4652d4ddc24e4f860e10d6865d9bc75fd22046ce1c53e4a9fd8e186fc6"
+  },
+  {
+    "path": "weights/local/phase/p17m.nnue",
+    "stored_as": "weights/local/phase/p17m.nnue.gz",
+    "gzip_bytes": 3018365,
+    "restored_bytes": 138536568,
+    "sha256": "62c9ac9ab8030ee07fa724e0813d72479089a4aec95dd4898843b100ef4b8d26"
+  },
+  {
+    "path": "weights/local/programmed/v0_material.nnue",
+    "stored_as": "weights/local/programmed/v0_material.nnue.gz",
+    "gzip_bytes": 684992,
+    "restored_bytes": 135156600,
+    "sha256": "ab98af7705a243304c64ce86a7589c0247059cc1e41dd673bea3bb377950f4f3"
+  },
+  {
+    "path": "weights/local/programmed/v1.nnue",
+    "stored_as": "weights/local/programmed/v1.nnue.gz",
+    "gzip_bytes": 864602,
+    "restored_bytes": 135156600,
+    "sha256": "6b840f11182d0fd52c072d6a383d8ba7cc14869b7bc935731c6be2f88952981b"
+  },
+  {
+    "path": "weights/local/programmed/v2.nnue",
+    "stored_as": "weights/local/programmed/v2.nnue.gz",
+    "gzip_bytes": 1245441,
+    "restored_bytes": 135156600,
+    "sha256": "0fb4a46e3fba03e91dc030e7124ab13451083f00a58185d83dcf3d1a8cc69c6e"
+  },
+  {
+    "path": "weights/local/programmed/v3.nnue",
+    "stored_as": "weights/local/programmed/v3.nnue.gz",
+    "gzip_bytes": 1306090,
+    "restored_bytes": 135156600,
+    "sha256": "ea4bc40de9735ef140144672d7a8d552a0d7877051b7ddb0304e06734a583a67"
+  },
+  {
+    "path": "weights/local/programmed/v3a.nnue",
+    "stored_as": "weights/local/programmed/v3a.nnue.gz",
+    "gzip_bytes": 1308819,
+    "restored_bytes": 135156600,
+    "sha256": "201f8948f6c5dac0c6d1f002acf48ebb5dde45859431b92b7268fe3e1345d8e9"
+  },
+  {
+    "path": "weights/local/quadratic/gtest8.nnue",
+    "stored_as": "weights/local/quadratic/gtest8.nnue.gz",
+    "gzip_bytes": 4349667,
+    "restored_bytes": 138219696,
+    "sha256": "823f919f412fadd480947e822be32299d6cd2fe5668683e945ba383dce60f8e3"
+  },
+  {
+    "path": "weights/local/quadratic/q32a.nnue",
+    "stored_as": "weights/local/quadratic/q32a.nnue.gz",
+    "gzip_bytes": 9486463,
+    "restored_bytes": 138219696,
+    "sha256": "31f1ed614a8b0b8f93442b4f6fb09d80d599b682a73f56f5d070f1915fd6fae7"
+  },
+  {
+    "path": "weights/mac2/cfvi/gens/g1/fit/gen1b.nnue",
+    "stored_as": "weights/mac2/cfvi/gens/g1/fit/gen1b.nnue.gz",
+    "gzip_bytes": 2077240,
+    "restored_bytes": 137973240,
+    "sha256": "d3f71e41f52e02589c18fea7666b303e3132406a894476c46c2180916364c028"
+  },
+  {
+    "path": "weights/mac2/cfvi/gens/g1/fit/gen1s.nnue",
+    "stored_as": "weights/mac2/cfvi/gens/g1/fit/gen1s.nnue.gz",
+    "gzip_bytes": 2065987,
+    "restored_bytes": 137973240,
+    "sha256": "a6643cfe7026681f671d484dbade751965b66f58a5d85485c1ab67c011ae9985"
+  },
+  {
+    "path": "weights/mac2/cfvi/gens/g2/fit/gen2b.nnue",
+    "stored_as": "weights/mac2/cfvi/gens/g2/fit/gen2b.nnue.gz",
+    "gzip_bytes": 2217976,
+    "restored_bytes": 138184488,
+    "sha256": "6bc8bcbb95e706eeab918467d76c51da57718f9d19765c75d3dea4e850d989eb"
+  },
+  {
+    "path": "weights/mac2/cfvi/gens/g2/fit/gen2p.nnue",
+    "stored_as": "weights/mac2/cfvi/gens/g2/fit/gen2p.nnue.gz",
+    "gzip_bytes": 2281269,
+    "restored_bytes": 138219696,
+    "sha256": "b2f8ca8765be47cc8c99f66875ba92ac98e87efdfd8b8162e20825d4ed98f526"
+  },
+  {
+    "path": "weights/mac2/cfvi/gens/g2/fit/gen2s.nnue",
+    "stored_as": "weights/mac2/cfvi/gens/g2/fit/gen2s.nnue.gz",
+    "gzip_bytes": 2201326,
+    "restored_bytes": 138184488,
+    "sha256": "793a3e17ddbf9c1f441d27d5c58158c2999465180c0b657471956d2de88f3e38"
+  },
+  {
+    "path": "weights/mac2/cfvi/nets/bs_gen1.nnue",
+    "stored_as": "weights/mac2/cfvi/nets/bs_gen1.nnue.gz",
+    "gzip_bytes": 2264848,
+    "restored_bytes": 138254904,
+    "sha256": "fee4b3637f8f1ae23dd28324e0436b724cad985d1fc57557db844e85c2f8e28e"
+  },
+  {
+    "path": "weights/mac2/spsa/final.nnue",
+    "stored_as": "weights/mac2/spsa/final.nnue.gz",
+    "gzip_bytes": 90904390,
+    "restored_bytes": 138360528,
+    "sha256": "6210841a1dcb2cc0cc7698af8b989867af3ae5a1843c80442d1e686b1ff85b5a"
+  }
+]

@@ -1,0 +1,296 @@
+{
+ "v1": {
+  "net": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v1.nnue",
+  "positions": 3009,
+  "slots": 123,
+  "slots_by_set": {
+   "lin": 123
+  },
+  "A_engine_eq_simulate": 3009,
+  "A_mismatch": 0,
+  "B_max_fill": 120,
+  "B_corpus_book_positions_over_cap": 0,
+  "B_hand_positions_over_cap": [],
+  "C_within_bound": 3009,
+  "C_positions_checked": 3009,
+  "C_max_abs_engine_minus_ideal": 1.0,
+  "C_mean_abs_engine_minus_ideal": 0.48346626786307745,
+  "C_max_bound": 1.5859375,
+  "C_mean_bound": 1.3439145454262214,
+  "D_terms_rows_vs_board_max_abs": 0.0,
+  "eval_range": [
+   -6061,
+   5148
+  ],
+  "hand": {
+   "startpos": {
+    "engine": 0,
+    "ideal": 0.0
+   },
+   "white up a queen, white to move": {
+    "engine": 2409,
+    "ideal": 2410.0
+   },
+   "same, black to move": {
+    "engine": -2409,
+    "ideal": -2410.0
+   },
+   "KPK white pawn e6": {
+    "engine": 270,
+    "ideal": 270.62
+   },
+   "queenside castled kings": {
+    "engine": 0,
+    "ideal": 0.0
+   },
+   "five queens vs five queens": {
+    "engine": 149,
+    "ideal": 149.38
+   },
+   "pawn forks knight and rook": {
+    "engine": 1778,
+    "ideal": 1778.75
+   },
+   "doubled and isolated pawns": {
+    "engine": 241,
+    "ideal": 241.25
+   },
+   "passed pawn on 6th vs blocked": {
+    "engine": -110,
+    "ideal": -110.0
+   }
+  },
+  "status": "PASS",
+  "seconds": 1.5
+ },
+ "v2": {
+  "net": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v2.nnue",
+  "positions": 3009,
+  "slots": 167,
+  "slots_by_set": {
+   "dlt": 48,
+   "lin": 119
+  },
+  "A_engine_eq_simulate": 3009,
+  "A_mismatch": 0,
+  "B_max_fill": 120,
+  "B_corpus_book_positions_over_cap": 0,
+  "B_hand_positions_over_cap": [
+   "five queens vs five queens"
+  ],
+  "C_within_bound": 3008,
+  "C_positions_checked": 3008,
+  "C_max_abs_engine_minus_ideal": 36.8984375,
+  "C_mean_abs_engine_minus_ideal": 5.019810453374335,
+  "C_max_bound": 146.9716796875,
+  "C_mean_bound": 91.24532846772183,
+  "D_terms_rows_vs_board_max_abs": 0.0,
+  "eval_range": [
+   -6015,
+   5050
+  ],
+  "hand": {
+   "startpos": {
+    "engine": 0,
+    "ideal": 0.0
+   },
+   "white up a queen, white to move": {
+    "engine": 2517,
+    "ideal": 2519.55
+   },
+   "same, black to move": {
+    "engine": -2517,
+    "ideal": -2519.55
+   },
+   "KPK white pawn e6": {
+    "engine": 241,
+    "ideal": 241.25
+   },
+   "queenside castled kings": {
+    "engine": 0,
+    "ideal": 0.0
+   },
+   "five queens vs five queens": {
+    "engine": 264,
+    "ideal": 184.72
+   },
+   "pawn forks knight and rook": {
+    "engine": 1798,
+    "ideal": 1797.7
+   },
+   "doubled and isolated pawns": {
+    "engine": 187,
+    "ideal": 187.5
+   },
+   "passed pawn on 6th vs blocked": {
+    "engine": -199,
+    "ideal": -200.0
+   }
+  },
+  "status": "PASS",
+  "seconds": 1.7
+ },
+ "v3": {
+  "net": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v3.nnue",
+  "positions": 3009,
+  "slots": 336,
+  "slots_by_set": {
+   "dlt": 124,
+   "stm": 16,
+   "bpair": 1,
+   "lin": 195
+  },
+  "A_engine_eq_simulate": 3009,
+  "A_mismatch": 0,
+  "B_max_fill": 120,
+  "B_corpus_book_positions_over_cap": 0,
+  "B_hand_positions_over_cap": [
+   "five queens vs five queens"
+  ],
+  "C_within_bound": 3008,
+  "C_positions_checked": 3008,
+  "C_max_abs_engine_minus_ideal": 38.0404259050398,
+  "C_mean_abs_engine_minus_ideal": 6.554848326644557,
+  "C_max_bound": 276.537109375,
+  "C_mean_bound": 148.94258581676846,
+  "D_terms_rows_vs_board_max_abs": 8.242295734817162e-12,
+  "eval_range": [
+   -6015,
+   5094
+  ],
+  "hand": {
+   "startpos": {
+    "engine": 19,
+    "ideal": 20.0
+   },
+   "white up a queen, white to move": {
+    "engine": 2497,
+    "ideal": 2503.16
+   },
+   "same, black to move": {
+    "engine": -2457,
+    "ideal": -2463.16
+   },
+   "KPK white pawn e6": {
+    "engine": 358,
+    "ideal": 358.89
+   },
+   "queenside castled kings": {
+    "engine": 19,
+    "ideal": 20.0
+   },
+   "five queens vs five queens": {
+    "engine": 109,
+    "ideal": 30.41
+   },
+   "pawn forks knight and rook": {
+    "engine": 1590,
+    "ideal": 1588.96
+   },
+   "doubled and isolated pawns": {
+    "engine": 162,
+    "ideal": 162.54
+   },
+   "passed pawn on 6th vs blocked": {
+    "engine": -225,
+    "ideal": -225.79
+   }
+  },
+  "planted": {
+   "ft_digit": {
+    "row": 130486,
+    "col": 117,
+    "delta": 2,
+    "mismatch_vs_simulate_of_unplanted": 599,
+    "outside_ideal_bound": 0,
+    "fired": true
+   },
+   "phase_gate": {
+    "row": 130224,
+    "col": 707,
+    "delta": 16,
+    "mismatch_vs_simulate_of_unplanted": 409,
+    "outside_ideal_bound": 0,
+    "fired": true
+   },
+   "D_rook_attacks_queen_as_feature": {
+    "max_term_diff": 137.0,
+    "fired": true
+   },
+   "D_no_king_mirror": {
+    "max_term_diff": 510.0000000000002,
+    "fired": true
+   }
+  },
+  "status": "PASS",
+  "seconds": 4.0
+ },
+ "v3a": {
+  "net": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v3a.nnue",
+  "positions": 3009,
+  "slots": 320,
+  "slots_by_set": {
+   "bpair": 1,
+   "dlt": 124,
+   "lin": 195
+  },
+  "A_engine_eq_simulate": 3009,
+  "A_mismatch": 0,
+  "B_max_fill": 120,
+  "B_corpus_book_positions_over_cap": 0,
+  "B_hand_positions_over_cap": [
+   "five queens vs five queens"
+  ],
+  "C_within_bound": 3008,
+  "C_positions_checked": 3008,
+  "C_max_abs_engine_minus_ideal": 38.0404259050398,
+  "C_mean_abs_engine_minus_ideal": 6.554142359586496,
+  "C_max_bound": 276.50048828125,
+  "C_mean_bound": 148.94051682842098,
+  "D_terms_rows_vs_board_max_abs": 8.242295734817162e-12,
+  "eval_range": [
+   -6015,
+   5094
+  ],
+  "hand": {
+   "startpos": {
+    "engine": 19,
+    "ideal": 20.0
+   },
+   "white up a queen, white to move": {
+    "engine": 2497,
+    "ideal": 2503.16
+   },
+   "same, black to move": {
+    "engine": -2457,
+    "ideal": -2463.16
+   },
+   "KPK white pawn e6": {
+    "engine": 358,
+    "ideal": 358.89
+   },
+   "queenside castled kings": {
+    "engine": 19,
+    "ideal": 20.0
+   },
+   "five queens vs five queens": {
+    "engine": 109,
+    "ideal": 30.41
+   },
+   "pawn forks knight and rook": {
+    "engine": 1590,
+    "ideal": 1588.96
+   },
+   "doubled and isolated pawns": {
+    "engine": 162,
+    "ideal": 162.54
+   },
+   "passed pawn on 6th vs blocked": {
+    "engine": -225,
+    "ideal": -225.79
+   }
+  },
+  "status": "PASS",
+  "seconds": 2.7
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "positions": 3011,
+ "truth": "official SF11 binary static eval (Colab build), stm, SF11 units",
+ "truth_sd": 743.7161144091151,
+ "excluded_known_win_evals": 84,
+ "c1": {
+  "pearson_r": 0.9206,
+  "spearman": 0.8071,
+  "R2_scaled": 0.8449,
+  "slope": 0.96,
+  "mean_abs_diff": 198.5,
+  "sign_agree_abs_ge_100": 0.8751
+ },
+ "c2": {
+  "pearson_r": 0.9384,
+  "spearman": 0.8514,
+  "R2_scaled": 0.8791,
+  "slope": 0.946,
+  "mean_abs_diff": 177.5,
+  "sign_agree_abs_ge_100": 0.9012
+ },
+ "c3": {
+  "pearson_r": 0.9433,
+  "spearman": 0.8757,
+  "R2_scaled": 0.8883,
+  "slope": 0.904,
+  "mean_abs_diff": 171.4,
+  "sign_agree_abs_ge_100": 0.9167
+ },
+ "c4": {
+  "pearson_r": 0.9432,
+  "spearman": 0.8718,
+  "R2_scaled": 0.8883,
+  "slope": 0.892,
+  "mean_abs_diff": 176.2,
+  "sign_agree_abs_ge_100": 0.9167
+ },
+ "c5": {
+  "pearson_r": 0.9453,
+  "spearman": 0.8781,
+  "R2_scaled": 0.892,
+  "slope": 0.897,
+  "mean_abs_diff": 171.0,
+  "sign_agree_abs_ge_100": 0.9206
+ }
+}

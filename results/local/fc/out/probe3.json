@@ -1,0 +1,27 @@
+{
+ "names": [
+  "thr_us_them",
+  "thr_them_us",
+  "thr_us_us",
+  "thr_them_them",
+  "psq_us_P",
+  "psq_them_P",
+  "psq_us_N",
+  "psq_them_N",
+  "psq_us_B",
+  "psq_them_B",
+  "psq_us_R",
+  "psq_them_R",
+  "psq_us_Q",
+  "psq_them_Q",
+  "psq_kings",
+  "pairs"
+ ],
+ "known_answer_maxdiff": 1.455047155647037,
+ "E17G_(1, 10, 100)": 0.8207,
+ "E17G_(1, 30, 300)": 0.8195,
+ "E17G_(1, 100, 1000)": 0.8169,
+ "E17G+fine_(1, 10, 100)": 0.8328,
+ "E17G+fine_(1, 30, 300)": 0.8311,
+ "E17G+fine_(1, 100, 1000)": 0.8276
+}

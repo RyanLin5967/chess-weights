@@ -1,0 +1,21 @@
+{
+ "name": "gen3",
+ "own_labels": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/data/labels_gen2.tsv",
+ "subset": "test games, round-1 positions, cp under both labelers",
+ "vs_own_labels": {
+  "n": 223128,
+  "R2_internal": 0.8814,
+  "MAE_internal": 268.5,
+  "MAE_cp": 87.5,
+  "MAE_cp_label_within_300": 68.5,
+  "R2_cp": 0.8749
+ },
+ "vs_default_net_labels_DIAGNOSTIC": {
+  "n": 223128,
+  "R2_internal": 0.7702,
+  "MAE_internal": 435.5,
+  "MAE_cp": 142.8,
+  "MAE_cp_label_within_300": 98.3,
+  "R2_cp": 0.7611
+ }
+}

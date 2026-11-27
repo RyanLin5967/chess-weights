@@ -1,0 +1,49 @@
+{
+ "net": "/Users/bigr/sf-wsp.noindex/cfvi/nets/bs_gen1.nnue",
+ "sha256": "fee4b3637f8f1ae23dd28324e0436b724cad985d1fc57557db844e85c2f8e28e",
+ "host": "Ryans-MacBook-Pro-MN7J5CC6HL.local",
+ "table": [
+  {
+   "depth": 8,
+   "positions": 34000,
+   "seconds": 7.1,
+   "pos_per_s": 4797.7,
+   "mean_nodes": 1760,
+   "procs": 15,
+   "hours_for_200k": 0.01,
+   "hours_for_2M": 0.12
+  },
+  {
+   "depth": 10,
+   "positions": 34000,
+   "seconds": 12.8,
+   "pos_per_s": 2660.4,
+   "mean_nodes": 4218,
+   "procs": 15,
+   "hours_for_200k": 0.02,
+   "hours_for_2M": 0.21
+  },
+  {
+   "depth": 12,
+   "positions": 34000,
+   "seconds": 28.6,
+   "pos_per_s": 1187.3,
+   "mean_nodes": 11344,
+   "procs": 15,
+   "hours_for_200k": 0.05,
+   "hours_for_2M": 0.47
+  },
+  {
+   "depth": 14,
+   "positions": 34000,
+   "seconds": 96.6,
+   "pos_per_s": 351.9,
+   "mean_nodes": 35161,
+   "procs": 15,
+   "hours_for_200k": 0.16,
+   "hours_for_2M": 1.58
+  }
+ ],
+ "rule": "deepest depth with pos/s >= 185.0 (2M positions in <= 3 h), else the fastest",
+ "depth": 14
+}

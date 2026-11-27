@@ -1,0 +1,27 @@
+{
+ "net": "out/gtest8.nnue",
+ "n_compared": 2500,
+ "build_pred_eq_P": 2500,
+ "E_eq_P": 2500,
+ "E_eq_S": 2500,
+ "S_eq_P": 2500,
+ "eval_range": [
+  -4993,
+  5260
+ ],
+ "in_check_or_none": 0,
+ "slots_used": 52,
+ "clampA_mean_used": 0.0008692307692307693,
+ "clampB_mean_used": 0.0012653846153846148,
+ "acc_abs_max": 290,
+ "F1_slot": 0,
+ "F1_row": 130486,
+ "F1_mismatches": 427,
+ "F2_stack": 83,
+ "F2_positions_on_stack": 298,
+ "F2_mismatches": 298,
+ "F2_mismatch_on_stack": 298,
+ "F3_mismatches": 1,
+ "PASS": true,
+ "seconds": 21
+}

@@ -1,0 +1,199 @@
+{
+ "struct": "P0",
+ "deltas": [
+  [
+   "eg",
+   [
+    "psq"
+   ]
+  ]
+ ],
+ "labels": "closedform/data/ds.npz = DEFAULT net depth-10 search",
+ "lam": {
+  "psq": 100.0,
+  "threat": 2700,
+  "pair": 9000,
+  "delta_mult": 1.0,
+  "const": 0.001,
+  "material": 1.0,
+  "group": 1.0
+ },
+ "grid": [
+  {
+   "params": 148621,
+   "iters": 4000,
+   "rel_residual": 5.736625768197206e-07,
+   "seconds": 219,
+   "delta_mult": 1.0,
+   "slots_unclipped": 255,
+   "clip_q": null,
+   "slots": 255,
+   "val_R2_float": 0.7663
+  }
+ ],
+ "clip_q": null,
+ "nslots": 255,
+ "slots_rule": 255,
+ "slot_detail": [
+  [
+   "base:side",
+   "psq",
+   1,
+   1184.3,
+   8,
+   35
+  ],
+  [
+   "base:side",
+   "psq",
+   -1,
+   1166.7,
+   8,
+   35
+  ],
+  [
+   "base",
+   "threat",
+   1,
+   212.7,
+   2,
+   28
+  ],
+  [
+   "base",
+   "threat",
+   -1,
+   208.8,
+   2,
+   27
+  ],
+  [
+   "base",
+   "pair",
+   1,
+   111.5,
+   2,
+   17
+  ],
+  [
+   "base",
+   "pair",
+   -1,
+   88.2,
+   2,
+   14
+  ],
+  [
+   "base",
+   "psq",
+   1,
+   195.7,
+   7,
+   9
+  ],
+  [
+   "base",
+   "psq",
+   -1,
+   163.4,
+   7,
+   8
+  ],
+  [
+   "eg",
+   "psq",
+   1,
+   1252.7,
+   7,
+   42
+  ],
+  [
+   "eg",
+   "psq",
+   -1,
+   1195.6,
+   7,
+   40
+  ]
+ ],
+ "components": [
+  {
+   "name": "base",
+   "split": true,
+   "slots_unsplit": 263,
+   "slots_split": 173,
+   "threat_pair_bounds": {
+    "threat": 63,
+    "pair": 56
+   },
+   "psq_caps": [
+    [
+     "base:side",
+     15,
+     15
+    ],
+    [
+     "base",
+     17,
+     17
+    ]
+   ]
+  },
+  {
+   "name": "eg",
+   "split": false,
+   "slots_unsplit": 82,
+   "slots_split": 135,
+   "threat_pair_bounds": {
+    "threat": 35,
+    "pair": 41
+   },
+   "psq_caps": [
+    [
+     "eg",
+     16,
+     16
+    ]
+   ]
+  }
+ ],
+ "net": "out/p0m.nnue",
+ "sha256": "5e447bc9950dcf17cca9400929a9fa6822de25c3d5ff82a1341cf8842ebd54a8",
+ "stored_stacks": 89,
+ "val_R2_float": 0.7663,
+ "train": {
+  "n": 1772719,
+  "R2_internal": 0.8295,
+  "MAE_internal": 372.9,
+  "MAE_cp": 123.4,
+  "MAE_cp_label_within_300": 88.8,
+  "R2_cp": 0.8184
+ },
+ "val": {
+  "n": 219877,
+  "R2_internal": 0.7663,
+  "MAE_internal": 429.5,
+  "MAE_cp": 140.7,
+  "MAE_cp_label_within_300": 98.9,
+  "R2_cp": 0.7559
+ },
+ "test": {
+  "n": 219934,
+  "R2_internal": 0.7672,
+  "MAE_internal": 432.4,
+  "MAE_cp": 141.9,
+  "MAE_cp_label_within_300": 100.1,
+  "R2_cp": 0.7577
+ },
+ "test_R2_by_band": [
+  0.8757,
+  0.8297,
+  0.7558,
+  0.5825,
+  0.4423,
+  0.2726,
+  0.2338,
+  0.3889
+ ],
+ "seconds": 227
+}

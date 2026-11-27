@@ -1,0 +1,22 @@
+{
+ "model": "gen3",
+ "net": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen3.nnue",
+ "gate_ok": true,
+ "value_acc_min": 0.0,
+ "value_acc_max": 146.0,
+ "max_fill": 72.0,
+ "linear_all_positions": true,
+ "positions_scanned": 3623812,
+ "scan_seconds": 27,
+ "compared": 3000,
+ "exact": 3000,
+ "mismatch": 0,
+ "max_abs_diff": 0,
+ "planted_mismatches": 1,
+ "eval_range": [
+  -5585,
+  5359
+ ],
+ "seconds": 30,
+ "PASS": true
+}

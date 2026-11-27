@@ -1,0 +1,4 @@
+{"anchor": 1600, "games": 100, "w": 75, "l": 24, "d": 1, "timeouts": 34, "score": 0.755, "elo_diff": 195.5, "ci95": [116.9, 274.1], "implied": 1795.5}
+{"anchor": 2000, "games": 100, "w": 75, "l": 24, "d": 1, "timeouts": 15, "score": 0.755, "elo_diff": 195.5, "ci95": [116.9, 274.1], "implied": 2195.5}
+{"anchor": 2400, "games": 100, "w": 50, "l": 50, "d": 0, "timeouts": 58, "score": 0.5, "elo_diff": -0.0, "ci95": [-68.1, 68.1], "implied": 2400.0}
+{"rating": 2157.3, "rating_se": 22.0}

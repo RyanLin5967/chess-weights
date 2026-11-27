@@ -1,0 +1,146 @@
+{
+ "gen": 2,
+ "best": {
+  "name": "bs_gen1",
+  "path": "/Users/bigr/sf-wsp.noindex/cfvi/nets/bs_gen1.nnue",
+  "sha256": "fee4b3637f8f1ae23dd28324e0436b724cad985d1fc57557db844e85c2f8e28e",
+  "since_gen": 0,
+  "weights": "/Users/bigr/sf-wsp.noindex/cfvi/nets/bs_gen1_weights.npz"
+ },
+ "depth": 14,
+ "throughput": [
+  {
+   "depth": 8,
+   "positions": 34000,
+   "seconds": 7.1,
+   "pos_per_s": 4797.7,
+   "mean_nodes": 1760,
+   "procs": 15,
+   "hours_for_200k": 0.01,
+   "hours_for_2M": 0.12
+  },
+  {
+   "depth": 10,
+   "positions": 34000,
+   "seconds": 12.8,
+   "pos_per_s": 2660.4,
+   "mean_nodes": 4218,
+   "procs": 15,
+   "hours_for_200k": 0.02,
+   "hours_for_2M": 0.21
+  },
+  {
+   "depth": 12,
+   "positions": 34000,
+   "seconds": 28.6,
+   "pos_per_s": 1187.3,
+   "mean_nodes": 11344,
+   "procs": 15,
+   "hours_for_200k": 0.05,
+   "hours_for_2M": 0.47
+  },
+  {
+   "depth": 14,
+   "positions": 34000,
+   "seconds": 96.6,
+   "pos_per_s": 351.9,
+   "mean_nodes": 35161,
+   "procs": 15,
+   "hours_for_200k": 0.16,
+   "hours_for_2M": 1.58
+  }
+ ],
+ "gens": [
+  {
+   "gen": 1,
+   "net": "/Users/bigr/sf-wsp.noindex/cfvi/gens/g1/fit/gen1s.nnue",
+   "name": "gen1s",
+   "sha256": "a6643cfe7026681f671d484dbade751965b66f58a5d85485c1ab67c011ae9985",
+   "fitter": "fit_linear.py",
+   "result_lambda": 1.0,
+   "labeller": "bs_gen1",
+   "labeller_sha256": "fee4b3637f8f1ae23dd28324e0436b724cad985d1fc57557db844e85c2f8e28e",
+   "depth": 14,
+   "N_target": 200000,
+   "positions_new": 250753,
+   "games_selfplay": 2587,
+   "pool_positions": 250753,
+   "pool_gens": [
+    1
+   ],
+   "scale": 3.0,
+   "val_R2": 0.8212,
+   "test_R2_own_labels": 0.8247,
+   "test_R2_vs_search_labels": 0.8247,
+   "test_R2_this_gen": 0.8247,
+   "test_MAE_cp": 130.0,
+   "check_PASS": true,
+   "gate_vs": "bs_gen1",
+   "candidates": [
+    {
+     "name": "gen1s",
+     "result_lambda": 1.0,
+     "sha256": "a6643cfe7026681f671d484dbade751965b66f58a5d85485c1ab67c011ae9985",
+     "test_R2_own_labels": 0.8247,
+     "check_PASS": true,
+     "screen": {
+      "games": 200,
+      "score": 0.2175,
+      "elo": -222.4,
+      "elo_lo95": -274.6,
+      "elo_hi95": -177.8
+     }
+    },
+    {
+     "name": "gen1b",
+     "result_lambda": 0.75,
+     "sha256": "d3f71e41f52e02589c18fea7666b303e3132406a894476c46c2180916364c028",
+     "test_R2_own_labels": 0.7977,
+     "check_PASS": true,
+     "screen": {
+      "games": 200,
+      "score": 0.1825,
+      "elo": -260.5,
+      "elo_lo95": -324.1,
+      "elo_hi95": -209.0
+     }
+    }
+   ],
+   "gate": {
+    "games": 400,
+    "time_losses": 0,
+    "penta": [
+     96,
+     38,
+     55,
+     7,
+     4
+    ],
+    "score": 0.2313,
+    "elo": -208.7,
+    "elo_lo95": -245.8,
+    "elo_hi95": -175.4,
+    "promote": false
+   },
+   "finished": "2026-11-27T13:09:28"
+  }
+ ],
+ "data_positions": 250753,
+ "promotions": 0,
+ "created": "2026-11-27T12:19:43",
+ "next_action": "gen 2: gate gen2p vs bs_gen1 (400 games 10+0.1)",
+ "updated": "2026-11-27T14:01:41",
+ "cur": {
+  "gen": 2,
+  "labeller": {
+   "name": "bs_gen1",
+   "path": "/Users/bigr/sf-wsp.noindex/cfvi/nets/bs_gen1.nnue",
+   "sha256": "fee4b3637f8f1ae23dd28324e0436b724cad985d1fc57557db844e85c2f8e28e",
+   "since_gen": 0,
+   "weights": "/Users/bigr/sf-wsp.noindex/cfvi/nets/bs_gen1_weights.npz"
+  },
+  "N_target": 400000,
+  "depth": 14,
+  "started": "2026-11-27T13:09:44"
+ }
+}

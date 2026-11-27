@@ -1,0 +1,36 @@
+{
+ "groups": [
+  "all:pair:+",
+  "all:pair:-",
+  "all:psq:+",
+  "all:psq:-",
+  "all:psq:them:-",
+  "all:psq:us:+",
+  "all:threat:+",
+  "all:threat:-",
+  "eg:psq:+",
+  "eg:psq:-",
+  "eg:psq:them:+",
+  "eg:psq:them:-"
+ ],
+ "r1": {
+  "train": 0.8264,
+  "val": 0.7749,
+  "test": 0.7762
+ },
+ "lin": {
+  "train": 0.8281,
+  "val": 0.7737,
+  "test": 0.7746
+ },
+ "rand": {
+  "train": 0.8537,
+  "val": 0.7998,
+  "test": 0.8032
+ },
+ "hingeE_band": {
+  "train": 0.85,
+  "val": 0.7964,
+  "test": 0.8002
+ }
+}

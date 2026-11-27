@@ -1,0 +1,44 @@
+{
+ "v1": {
+  "path": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v1.nnue",
+  "sha256": "6b840f11182d0fd52c072d6a383d8ba7cc14869b7bc935731c6be2f88952981b",
+  "slots": 123,
+  "slots_by_set": {
+   "lin": 123
+  },
+  "fc0_bias_tempo": 0
+ },
+ "v2": {
+  "path": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v2.nnue",
+  "sha256": "0fb4a46e3fba03e91dc030e7124ab13451083f00a58185d83dcf3d1a8cc69c6e",
+  "slots": 167,
+  "slots_by_set": {
+   "dlt": 48,
+   "lin": 119
+  },
+  "fc0_bias_tempo": 0
+ },
+ "v3": {
+  "path": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v3.nnue",
+  "sha256": "ea4bc40de9735ef140144672d7a8d552a0d7877051b7ddb0304e06734a583a67",
+  "slots": 336,
+  "slots_by_set": {
+   "stm": 16,
+   "dlt": 124,
+   "lin": 195,
+   "bpair": 1
+  },
+  "fc0_bias_tempo": 546
+ },
+ "v3a": {
+  "path": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v3a.nnue",
+  "sha256": "201f8948f6c5dac0c6d1f002acf48ebb5dde45859431b92b7268fe3e1345d8e9",
+  "slots": 320,
+  "slots_by_set": {
+   "bpair": 1,
+   "lin": 195,
+   "dlt": 124
+  },
+  "fc0_bias_tempo": 546
+ }
+}

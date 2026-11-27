@@ -1,0 +1,1027 @@
+[
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {},
+  "val_R2_fit": -95.55272,
+  "clip_q": null,
+  "slots": 435,
+  "iters": 1024,
+  "seconds": 165,
+  "t": "07:39:55"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333
+  },
+  "val_R2_fit": -95.42652,
+  "clip_q": null,
+  "slots": 435,
+  "iters": 260,
+  "seconds": 64,
+  "t": "07:41:00"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333
+  },
+  "val_R2_fit": -95.27956,
+  "clip_q": null,
+  "slots": 437,
+  "iters": 249,
+  "seconds": 63,
+  "t": "07:42:04"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 0.3333
+  },
+  "val_R2_fit": -95.64655,
+  "clip_q": null,
+  "slots": 443,
+  "iters": 286,
+  "seconds": 66,
+  "t": "07:43:10"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0
+  },
+  "val_R2_fit": -95.07832,
+  "clip_q": null,
+  "slots": 438,
+  "iters": 339,
+  "seconds": 73,
+  "t": "07:44:23"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 0.3333
+  },
+  "val_R2_fit": -95.56554,
+  "clip_q": null,
+  "slots": 443,
+  "iters": 249,
+  "seconds": 62,
+  "t": "07:45:26"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0
+  },
+  "val_R2_fit": -94.75986,
+  "clip_q": null,
+  "slots": 432,
+  "iters": 278,
+  "seconds": 65,
+  "t": "07:46:31"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 0.3333
+  },
+  "val_R2_fit": -95.06478,
+  "clip_q": null,
+  "slots": 441,
+  "iters": 234,
+  "seconds": 59,
+  "t": "07:47:31"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0
+  },
+  "val_R2_fit": -94.54932,
+  "clip_q": null,
+  "slots": 430,
+  "iters": 249,
+  "seconds": 61,
+  "t": "07:48:33"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 0.3333
+  },
+  "val_R2_fit": -94.71195,
+  "clip_q": null,
+  "slots": 441,
+  "iters": 245,
+  "seconds": 61,
+  "t": "07:49:34"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0
+  },
+  "val_R2_fit": -94.43016,
+  "clip_q": null,
+  "slots": 419,
+  "iters": 266,
+  "seconds": 63,
+  "t": "07:50:37"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0,
+   "b6": 0.3333
+  },
+  "val_R2_fit": -94.46852,
+  "clip_q": null,
+  "slots": 435,
+  "iters": 248,
+  "seconds": 61,
+  "t": "07:51:39"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0,
+   "b6": 3.0
+  },
+  "val_R2_fit": -94.42395,
+  "clip_q": null,
+  "slots": 411,
+  "iters": 244,
+  "seconds": 61,
+  "t": "07:52:40"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0,
+   "b7": 0.3333
+  },
+  "val_R2_fit": -94.42225,
+  "clip_q": null,
+  "slots": 427,
+  "iters": 251,
+  "seconds": 45,
+  "t": "07:53:26"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0,
+   "b7": 3.0
+  },
+  "val_R2_fit": -94.45469,
+  "clip_q": null,
+  "slots": 413,
+  "iters": 221,
+  "seconds": 49,
+  "t": "07:54:15"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0,
+   "noq": 0.3333
+  },
+  "val_R2_fit": -94.43359,
+  "clip_q": null,
+  "slots": 432,
+  "iters": 336,
+  "seconds": 61,
+  "t": "07:55:17"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0,
+   "noq": 3.0
+  },
+  "val_R2_fit": -94.45548,
+  "clip_q": null,
+  "slots": 412,
+  "iters": 343,
+  "seconds": 61,
+  "t": "07:56:19"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 33.33333333333333,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0
+  },
+  "val_R2_fit": -95.24267,
+  "clip_q": null,
+  "slots": 478,
+  "iters": 433,
+  "seconds": 70,
+  "t": "07:57:29"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 300.0,
+   "threat": 300.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0
+  },
+  "val_R2_fit": -94.6805,
+  "clip_q": null,
+  "slots": 389,
+  "iters": 287,
+  "seconds": 58,
+  "t": "07:58:28"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 100.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0
+  },
+  "val_R2_fit": -95.58804,
+  "clip_q": null,
+  "slots": 457,
+  "iters": 290,
+  "seconds": 58,
+  "t": "07:59:26"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0
+  },
+  "val_R2_fit": -93.76547,
+  "clip_q": null,
+  "slots": 411,
+  "iters": 241,
+  "seconds": 51,
+  "t": "08:00:18"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 333.3333333333333
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0
+  },
+  "val_R2_fit": -93.94788,
+  "clip_q": null,
+  "slots": 422,
+  "iters": 196,
+  "seconds": 47,
+  "t": "08:01:05"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.3333,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0
+  },
+  "val_R2_fit": -93.55023,
+  "clip_q": null,
+  "slots": 396,
+  "iters": 197,
+  "seconds": 47,
+  "t": "08:01:53"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.3333,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0
+  },
+  "val_R2_fit": -93.47114,
+  "clip_q": null,
+  "slots": 400,
+  "iters": 233,
+  "seconds": 50,
+  "t": "08:02:43"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 3.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0
+  },
+  "val_R2_fit": -93.4277,
+  "clip_q": null,
+  "slots": 407,
+  "iters": 249,
+  "seconds": 51,
+  "t": "08:03:35"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 1.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0
+  },
+  "val_R2_fit": -93.63503,
+  "clip_q": null,
+  "slots": 408,
+  "iters": 269,
+  "seconds": 53,
+  "t": "08:04:29"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 3.0,
+   "b4": 3.0,
+   "b5": 3.0
+  },
+  "val_R2_fit": -93.3612,
+  "clip_q": null,
+  "slots": 408,
+  "iters": 285,
+  "seconds": 55,
+  "t": "08:05:24"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 1.0,
+   "b4": 3.0,
+   "b5": 3.0
+  },
+  "val_R2_fit": -93.73748,
+  "clip_q": null,
+  "slots": 414,
+  "iters": 214,
+  "seconds": 48,
+  "t": "08:06:12"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 3.0,
+   "b5": 3.0
+  },
+  "val_R2_fit": -93.16207,
+  "clip_q": null,
+  "slots": 404,
+  "iters": 240,
+  "seconds": 50,
+  "t": "08:07:02"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 1.0,
+   "b5": 3.0
+  },
+  "val_R2_fit": -93.4309,
+  "clip_q": null,
+  "slots": 408,
+  "iters": 194,
+  "seconds": 46,
+  "t": "08:07:49"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 9.0,
+   "b5": 3.0
+  },
+  "val_R2_fit": -93.00435,
+  "clip_q": null,
+  "slots": 404,
+  "iters": 219,
+  "seconds": 49,
+  "t": "08:08:38"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 9.0,
+   "b5": 1.0
+  },
+  "val_R2_fit": -93.13867,
+  "clip_q": null,
+  "slots": 412,
+  "iters": 217,
+  "seconds": 47,
+  "t": "08:09:26"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 9.0,
+   "b5": 9.0
+  },
+  "val_R2_fit": -92.92968,
+  "clip_q": null,
+  "slots": 398,
+  "iters": 235,
+  "seconds": 50,
+  "t": "08:10:15"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 9.0,
+   "b5": 9.0,
+   "b6": 0.3333
+  },
+  "val_R2_fit": -92.95635,
+  "clip_q": null,
+  "slots": 412,
+  "iters": 198,
+  "seconds": 46,
+  "t": "08:11:02"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 9.0,
+   "b5": 9.0,
+   "b6": 3.0
+  },
+  "val_R2_fit": -92.93007,
+  "clip_q": null,
+  "slots": 388,
+  "iters": 228,
+  "seconds": 37,
+  "t": "08:11:39"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 9.0,
+   "b5": 9.0,
+   "b7": 0.3333
+  },
+  "val_R2_fit": -92.91346,
+  "clip_q": null,
+  "slots": 405,
+  "iters": 229,
+  "seconds": 48,
+  "t": "08:12:26"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 9.0,
+   "b5": 9.0,
+   "b7": 3.0
+  },
+  "val_R2_fit": -92.95913,
+  "clip_q": null,
+  "slots": 391,
+  "iters": 200,
+  "seconds": 50,
+  "t": "08:13:17"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 9.0,
+   "b5": 9.0,
+   "noq": 0.3333
+  },
+  "val_R2_fit": -92.98653,
+  "clip_q": null,
+  "slots": 408,
+  "iters": 317,
+  "seconds": 66,
+  "t": "08:14:23"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 9.0,
+   "b5": 9.0,
+   "noq": 3.0
+  },
+  "val_R2_fit": -92.90833,
+  "clip_q": null,
+  "slots": 386,
+  "iters": 299,
+  "seconds": 64,
+  "t": "08:15:27"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 33.33333333333333,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 9.0,
+   "b5": 9.0,
+   "noq": 3.0
+  },
+  "val_R2_fit": -93.60546,
+  "clip_q": null,
+  "slots": 447,
+  "iters": 351,
+  "seconds": 71,
+  "t": "08:16:38"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 300.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 9.0,
+   "b5": 9.0,
+   "noq": 3.0
+  },
+  "val_R2_fit": -93.23381,
+  "clip_q": null,
+  "slots": 348,
+  "iters": 298,
+  "seconds": 64,
+  "t": "08:17:42"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 300.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 9.0,
+   "b5": 9.0,
+   "noq": 3.0
+  },
+  "val_R2_fit": -93.60907,
+  "clip_q": null,
+  "slots": 400,
+  "iters": 289,
+  "seconds": 62,
+  "t": "08:18:45"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 2700.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 9.0,
+   "b5": 9.0,
+   "noq": 3.0
+  },
+  "val_R2_fit": -92.77139,
+  "clip_q": null,
+  "slots": 382,
+  "iters": 215,
+  "seconds": 52,
+  "t": "08:19:37"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 2700.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 9.0,
+   "b5": 9.0,
+   "noq": 3.0
+  },
+  "val_R2_fit": -92.99779,
+  "clip_q": null,
+  "slots": 395,
+  "iters": 161,
+  "seconds": 44,
+  "t": "08:20:21"
+ },
+ {
+  "objective": "mid",
+  "struct": "P13",
+  "lam": {
+   "psq": 100.0,
+   "threat": 2700.0,
+   "pair": 9000.0
+  },
+  "dm_map": {
+   "b0": 0.1111,
+   "b1": 0.1111,
+   "b2": 9.0,
+   "b3": 9.0,
+   "b4": 9.0,
+   "b5": 9.0,
+   "noq": 3.0
+  },
+  "val_R2_fit": -92.6116,
+  "clip_q": null,
+  "slots": 374,
+  "iters": 192,
+  "seconds": 35,
+  "t": "08:20:56"
+ }
+]

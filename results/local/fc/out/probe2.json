@@ -1,0 +1,17 @@
+{
+ "rawlin": {
+  "train": 0.8298,
+  "val": 0.7742,
+  "test": 0.775
+ },
+ "rawrand_hb": {
+  "train": 0.8547,
+  "val": 0.7991,
+  "test": 0.8015
+ },
+ "hingeE_stack": {
+  "train": 0.8681,
+  "val": 0.8173,
+  "test": 0.8186
+ }
+}

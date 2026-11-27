@@ -1,0 +1,25 @@
+{
+ "cand": "/Users/bigr/sf-wsp.noindex/cfvi/gens/g2/fit/gen2b.nnue",
+ "cand_sha256": "6bc8bcbb95e706eeab918467d76c51da57718f9d19765c75d3dea4e850d989eb",
+ "best": "/Users/bigr/sf-wsp.noindex/cfvi/nets/bs_gen1.nnue",
+ "best_sha256": "fee4b3637f8f1ae23dd28324e0436b724cad985d1fc57557db844e85c2f8e28e",
+ "srand": 800021,
+ "tc": "10+0.1",
+ "games": 200,
+ "time_losses": 0,
+ "penta": [
+  36,
+  23,
+  30,
+  7,
+  4
+ ],
+ "pairs": 100,
+ "score": 0.3,
+ "elo": -147.2,
+ "elo_lo95": -195.5,
+ "elo_hi95": -103.7,
+ "promote": false,
+ "fastchess_elo_line": "Elo: -147.19 +/- 45.89, nElo: -175.09 +/- 48.15",
+ "fastchess_result_line": "Games: 200, Wins: 40, Losses: 120, Draws: 40, Points: 60.0 (30.00 %)"
+}

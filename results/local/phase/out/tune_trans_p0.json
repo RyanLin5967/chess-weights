@@ -1,0 +1,416 @@
+[
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 100.0,
+   "threat": 2700,
+   "pair": 9000
+  },
+  "dm_map": {
+   "eg": 0.037
+  },
+  "val_R2_fit": -126.11211,
+  "clip_q": null,
+  "slots": 256,
+  "iters": 1082,
+  "seconds": 38,
+  "t": "11:09:58"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 100.0,
+   "threat": 2700,
+   "pair": 9000
+  },
+  "dm_map": {
+   "eg": 0.0123
+  },
+  "val_R2_fit": -127.53535,
+  "clip_q": null,
+  "slots": 293,
+  "iters": 289,
+  "seconds": 14,
+  "t": "11:10:13"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 100.0,
+   "threat": 2700,
+   "pair": 9000
+  },
+  "dm_map": {
+   "eg": 0.111
+  },
+  "val_R2_fit": -124.11027,
+  "clip_q": null,
+  "slots": 248,
+  "iters": 507,
+  "seconds": 21,
+  "t": "11:10:33"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 33.33333333333333,
+   "threat": 2700,
+   "pair": 9000
+  },
+  "dm_map": {
+   "eg": 0.111
+  },
+  "val_R2_fit": -126.22355,
+  "clip_q": null,
+  "slots": 258,
+  "iters": 288,
+  "seconds": 17,
+  "t": "11:10:51"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 300.0,
+   "threat": 2700,
+   "pair": 9000
+  },
+  "dm_map": {
+   "eg": 0.111
+  },
+  "val_R2_fit": -121.45234,
+  "clip_q": null,
+  "slots": 242,
+  "iters": 308,
+  "seconds": 15,
+  "t": "11:11:06"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 300.0,
+   "threat": 900.0,
+   "pair": 9000
+  },
+  "dm_map": {
+   "eg": 0.111
+  },
+  "val_R2_fit": -121.40067,
+  "clip_q": null,
+  "slots": 248,
+  "iters": 110,
+  "seconds": 9,
+  "t": "11:11:15"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 300.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "eg": 0.111
+  },
+  "val_R2_fit": -121.28642,
+  "clip_q": null,
+  "slots": 264,
+  "iters": 135,
+  "seconds": 10,
+  "t": "11:11:25"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 300.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "eg": 0.037
+  },
+  "val_R2_fit": -123.71563,
+  "clip_q": null,
+  "slots": 266,
+  "iters": 297,
+  "seconds": 16,
+  "t": "11:11:41"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 300.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "eg": 0.333
+  },
+  "val_R2_fit": -118.86338,
+  "clip_q": null,
+  "slots": 255,
+  "iters": 297,
+  "seconds": 14,
+  "t": "11:11:56"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 100.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "eg": 0.333
+  },
+  "val_R2_fit": -121.63669,
+  "clip_q": null,
+  "slots": 257,
+  "iters": 304,
+  "seconds": 15,
+  "t": "11:12:11"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 900.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "eg": 0.333
+  },
+  "val_R2_fit": -116.37671,
+  "clip_q": null,
+  "slots": 235,
+  "iters": 230,
+  "seconds": 15,
+  "t": "11:12:26"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 900.0,
+   "threat": 300.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "eg": 0.333
+  },
+  "val_R2_fit": -116.84962,
+  "clip_q": null,
+  "slots": 265,
+  "iters": 125,
+  "seconds": 16,
+  "t": "11:12:41"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 900.0,
+   "threat": 2700.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "eg": 0.333
+  },
+  "val_R2_fit": -116.3406,
+  "clip_q": null,
+  "slots": 231,
+  "iters": 119,
+  "seconds": 15,
+  "t": "11:12:56"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 900.0,
+   "threat": 2700.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "eg": 0.333
+  },
+  "val_R2_fit": -116.45894,
+  "clip_q": null,
+  "slots": 247,
+  "iters": 120,
+  "seconds": 16,
+  "t": "11:13:13"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 900.0,
+   "threat": 2700.0,
+   "pair": 9000.0
+  },
+  "dm_map": {
+   "eg": 0.333
+  },
+  "val_R2_fit": -116.39039,
+  "clip_q": null,
+  "slots": 223,
+  "iters": 101,
+  "seconds": 21,
+  "t": "11:13:34"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 900.0,
+   "threat": 2700.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "eg": 0.111
+  },
+  "val_R2_fit": -118.54717,
+  "clip_q": null,
+  "slots": 241,
+  "iters": 200,
+  "seconds": 29,
+  "t": "11:14:04"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 900.0,
+   "threat": 2700.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "eg": 0.999
+  },
+  "val_R2_fit": -114.94727,
+  "clip_q": null,
+  "slots": 220,
+  "iters": 202,
+  "seconds": 28,
+  "t": "11:14:32"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 300.0,
+   "threat": 2700.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "eg": 0.999
+  },
+  "val_R2_fit": -116.87573,
+  "clip_q": null,
+  "slots": 234,
+  "iters": 224,
+  "seconds": 32,
+  "t": "11:15:03"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 2700.0,
+   "threat": 2700.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "eg": 0.999
+  },
+  "val_R2_fit": -114.14743,
+  "clip_q": null,
+  "slots": 212,
+  "iters": 172,
+  "seconds": 18,
+  "t": "11:15:22"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 2700.0,
+   "threat": 900.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "eg": 0.999
+  },
+  "val_R2_fit": -114.25812,
+  "clip_q": null,
+  "slots": 217,
+  "iters": 99,
+  "seconds": 14,
+  "t": "11:15:36"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 2700.0,
+   "threat": 8100.0,
+   "pair": 3000.0
+  },
+  "dm_map": {
+   "eg": 0.999
+  },
+  "val_R2_fit": -114.38219,
+  "clip_q": null,
+  "slots": 207,
+  "iters": 82,
+  "seconds": 16,
+  "t": "11:15:52"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 2700.0,
+   "threat": 2700.0,
+   "pair": 1000.0
+  },
+  "dm_map": {
+   "eg": 0.999
+  },
+  "val_R2_fit": -114.30184,
+  "clip_q": null,
+  "slots": 227,
+  "iters": 113,
+  "seconds": 22,
+  "t": "11:16:14"
+ },
+ {
+  "objective": "trans",
+  "struct": "P0",
+  "lam": {
+   "psq": 2700.0,
+   "threat": 2700.0,
+   "pair": 9000.0
+  },
+  "dm_map": {
+   "eg": 0.999
+  },
+  "val_R2_fit": -114.14004,
+  "clip_q": null,
+  "slots": 201,
+  "iters": 79,
+  "seconds": 15,
+  "t": "11:16:29"
+ }
+]

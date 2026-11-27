@@ -1,0 +1,24 @@
+{
+ "N": 2212530,
+ "train": 1772719,
+ "val": 219877,
+ "test": 219934,
+ "known_answer_test_mismatch": 0,
+ "known_answer_compared": 219934,
+ "groups": {
+  "all:pair:+": 31,
+  "all:pair:-": 32,
+  "all:psq:+": 10,
+  "all:psq:-": 10,
+  "all:psq:them:-": 36,
+  "all:psq:us:+": 37,
+  "all:threat:+": 46,
+  "all:threat:-": 46,
+  "eg:psq:+": 14,
+  "eg:psq:-": 10,
+  "eg:psq:them:+": 8,
+  "eg:psq:them:-": 6
+ },
+ "r1_sha256": "d9b0dcf1161b009f199bbbd166bdb7ac9d2d342d5d5a0c0e724e0c7b9dc81fd8",
+ "seconds": 20
+}

@@ -1,0 +1,7 @@
+Ptnml(0-2): [4, 15, 34, 27, 10], WL/DD Ratio: 2.09
+Results of E17G vs r1pairs (10+0.1, 1t, 16MB, UHO_Lichess_4852_v1.epd):
+Elo: 52.51 +/- 34.78, nElo: 74.07 +/- 48.15
+LOS: 99.87 %, DrawRatio: 37.00 %, PairsRatio: 2.15
+Games: 200, Wins: 80, Losses: 50, Draws: 70, Points: 115.0 (57.50 %)
+Ptnml(0-2): [4, 16, 37, 32, 11], WL/DD Ratio: 2.36
+fastchess Timeouts lines:   Timeouts: 1   Timeouts: 5   pgn time forfeits: 6  games: 200

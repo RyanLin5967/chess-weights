@@ -1,0 +1,553 @@
+{
+ "struct": "P13",
+ "deltas": [
+  [
+   "b0",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b1",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b2",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b3",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b4",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b5",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b6",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b7",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "noq",
+   [
+    "psq"
+   ]
+  ]
+ ],
+ "labels": "closedform/data/ds.npz = DEFAULT net depth-10 search",
+ "lam": {
+  "psq": 100.0,
+  "threat": 2700,
+  "pair": 9000,
+  "delta_mult": 1.0,
+  "const": 0.001,
+  "material": 1.0,
+  "group": 1.0
+ },
+ "grid": [
+  {
+   "params": 333673,
+   "iters": 4000,
+   "rel_residual": 3.635827144801707e-06,
+   "seconds": 556,
+   "delta_mult": 1.0,
+   "slots_unclipped": 374,
+   "clip_q": null,
+   "slots": 374,
+   "val_R2_float": 0.7856
+  }
+ ],
+ "clip_q": null,
+ "nslots": 374,
+ "slots_rule": 374,
+ "slot_detail": [
+  [
+   "base:side",
+   "psq",
+   1,
+   1217.6,
+   8,
+   36
+  ],
+  [
+   "base:side",
+   "psq",
+   -1,
+   1225.0,
+   8,
+   36
+  ],
+  [
+   "base",
+   "threat",
+   1,
+   238.9,
+   2,
+   31
+  ],
+  [
+   "base",
+   "threat",
+   -1,
+   234.6,
+   2,
+   30
+  ],
+  [
+   "base",
+   "pair",
+   1,
+   109.8,
+   2,
+   17
+  ],
+  [
+   "base",
+   "pair",
+   -1,
+   100.0,
+   2,
+   16
+  ],
+  [
+   "base",
+   "psq",
+   1,
+   188.6,
+   7,
+   9
+  ],
+  [
+   "base",
+   "psq",
+   -1,
+   195.0,
+   7,
+   9
+  ],
+  [
+   "b0",
+   "psq",
+   1,
+   1730.4,
+   31,
+   14
+  ],
+  [
+   "b0",
+   "psq",
+   -1,
+   1017.7,
+   31,
+   10
+  ],
+  [
+   "b1",
+   "psq",
+   1,
+   771.6,
+   15,
+   13
+  ],
+  [
+   "b1",
+   "psq",
+   -1,
+   747.9,
+   15,
+   13
+  ],
+  [
+   "b2",
+   "psq",
+   1,
+   79.0,
+   10,
+   5
+  ],
+  [
+   "b2",
+   "psq",
+   -1,
+   85.8,
+   10,
+   5
+  ],
+  [
+   "b3",
+   "psq",
+   1,
+   79.8,
+   7,
+   6
+  ],
+  [
+   "b3",
+   "psq",
+   -1,
+   58.0,
+   7,
+   5
+  ],
+  [
+   "b4",
+   "psq",
+   1,
+   68.7,
+   6,
+   6
+  ],
+  [
+   "b4",
+   "psq",
+   -1,
+   51.5,
+   6,
+   5
+  ],
+  [
+   "b5",
+   "psq",
+   1,
+   57.5,
+   5,
+   6
+  ],
+  [
+   "b5",
+   "psq",
+   -1,
+   59.7,
+   5,
+   6
+  ],
+  [
+   "b6",
+   "psq",
+   1,
+   178.4,
+   4,
+   14
+  ],
+  [
+   "b6",
+   "psq",
+   -1,
+   192.6,
+   4,
+   15
+  ],
+  [
+   "b7:side",
+   "psq",
+   1,
+   94.5,
+   8,
+   6
+  ],
+  [
+   "b7:side",
+   "psq",
+   -1,
+   67.1,
+   8,
+   5
+  ],
+  [
+   "b7",
+   "psq",
+   1,
+   183.0,
+   7,
+   9
+  ],
+  [
+   "b7",
+   "psq",
+   -1,
+   169.4,
+   7,
+   9
+  ],
+  [
+   "noq:side",
+   "psq",
+   1,
+   312.6,
+   8,
+   12
+  ],
+  [
+   "noq:side",
+   "psq",
+   -1,
+   187.2,
+   8,
+   8
+  ],
+  [
+   "noq",
+   "psq",
+   1,
+   209.2,
+   7,
+   10
+  ],
+  [
+   "noq",
+   "psq",
+   -1,
+   162.9,
+   7,
+   8
+  ]
+ ],
+ "components": [
+  {
+   "name": "base",
+   "split": true,
+   "slots_unsplit": 277,
+   "slots_split": 184,
+   "threat_pair_bounds": {
+    "threat": 63,
+    "pair": 56
+   },
+   "psq_caps": [
+    [
+     "base:side",
+     15,
+     15
+    ],
+    [
+     "base",
+     17,
+     17
+    ]
+   ]
+  },
+  {
+   "name": "b0",
+   "split": false,
+   "slots_unsplit": 24,
+   "slots_split": 34,
+   "threat_pair_bounds": {
+    "threat": 2,
+    "pair": 2
+   },
+   "psq_caps": [
+    [
+     "b0",
+     4,
+     4
+    ]
+   ]
+  },
+  {
+   "name": "b1",
+   "split": false,
+   "slots_unsplit": 26,
+   "slots_split": 45,
+   "threat_pair_bounds": {
+    "threat": 14,
+    "pair": 19
+   },
+   "psq_caps": [
+    [
+     "b1",
+     8,
+     8
+    ]
+   ]
+  },
+  {
+   "name": "b2",
+   "split": false,
+   "slots_unsplit": 10,
+   "slots_split": 18,
+   "threat_pair_bounds": {
+    "threat": 21,
+    "pair": 30
+   },
+   "psq_caps": [
+    [
+     "b2",
+     12,
+     12
+    ]
+   ]
+  },
+  {
+   "name": "b3",
+   "split": false,
+   "slots_unsplit": 11,
+   "slots_split": 20,
+   "threat_pair_bounds": {
+    "threat": 35,
+    "pair": 41
+   },
+   "psq_caps": [
+    [
+     "b3",
+     16,
+     16
+    ]
+   ]
+  },
+  {
+   "name": "b4",
+   "split": false,
+   "slots_unsplit": 11,
+   "slots_split": 20,
+   "threat_pair_bounds": {
+    "threat": 45,
+    "pair": 51
+   },
+   "psq_caps": [
+    [
+     "b4",
+     20,
+     20
+    ]
+   ]
+  },
+  {
+   "name": "b5",
+   "split": false,
+   "slots_unsplit": 12,
+   "slots_split": 20,
+   "threat_pair_bounds": {
+    "threat": 55,
+    "pair": 56
+   },
+   "psq_caps": [
+    [
+     "b5",
+     24,
+     24
+    ]
+   ]
+  },
+  {
+   "name": "b6",
+   "split": false,
+   "slots_unsplit": 29,
+   "slots_split": 31,
+   "threat_pair_bounds": {
+    "threat": 63,
+    "pair": 56
+   },
+   "psq_caps": [
+    [
+     "b6",
+     28,
+     28
+    ]
+   ]
+  },
+  {
+   "name": "b7",
+   "split": true,
+   "slots_unsplit": 33,
+   "slots_split": 29,
+   "threat_pair_bounds": {
+    "threat": 63,
+    "pair": 56
+   },
+   "psq_caps": [
+    [
+     "b7:side",
+     15,
+     15
+    ],
+    [
+     "b7",
+     17,
+     17
+    ]
+   ]
+  },
+  {
+   "name": "noq",
+   "split": true,
+   "slots_unsplit": 45,
+   "slots_split": 38,
+   "threat_pair_bounds": {
+    "threat": 48,
+    "pair": 56
+   },
+   "psq_caps": [
+    [
+     "noq:side",
+     15,
+     15
+    ],
+    [
+     "noq",
+     17,
+     17
+    ]
+   ]
+  }
+ ],
+ "net": "out/p13m.nnue",
+ "sha256": "348e3746cef0d8a928cd60ad80c61f401810e55e92e0a87071a40c4ea5231349",
+ "stored_stacks": 103,
+ "val_R2_float": 0.7856,
+ "train": {
+  "n": 1772719,
+  "R2_internal": 0.8528,
+  "MAE_internal": 345.0,
+  "MAE_cp": 116.1,
+  "MAE_cp_label_within_300": 85.2,
+  "R2_cp": 0.8381
+ },
+ "val": {
+  "n": 219877,
+  "R2_internal": 0.7856,
+  "MAE_internal": 411.8,
+  "MAE_cp": 135.9,
+  "MAE_cp_label_within_300": 97.3,
+  "R2_cp": 0.7731
+ },
+ "test": {
+  "n": 219934,
+  "R2_internal": 0.7867,
+  "MAE_internal": 413.7,
+  "MAE_cp": 136.6,
+  "MAE_cp_label_within_300": 98.0,
+  "R2_cp": 0.7753
+ },
+ "test_R2_by_band": [
+  0.9186,
+  0.8329,
+  0.7738,
+  0.6436,
+  0.4422,
+  0.238,
+  0.2087,
+  0.3957
+ ],
+ "seconds": 566
+}

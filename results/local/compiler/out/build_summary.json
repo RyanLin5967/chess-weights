@@ -1,0 +1,185 @@
+{
+ "c1": {
+  "path": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c1.nnue",
+  "sha256": "e16abf2b0d99fffae234685da1af6397bc53cadb2dbe42cb6356a1b010d91ee4",
+  "slots": 123,
+  "slots_by_term": {
+   "psqt": 87,
+   "imb": 36
+  },
+  "K": 1.037800641562262,
+  "phase_gate": {
+   "w": {
+    "2": 18,
+    "3": 19,
+    "4": 29,
+    "5": 57
+   },
+   "bias": -91,
+   "mean_abs_err_gate_units": 0.696,
+   "max_abs_err_gate_units": 3
+  },
+  "tempo_b30": 793
+ },
+ "c2": {
+  "path": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c2.nnue",
+  "sha256": "a92205ce83dced37f9aaec372789e4f09c661d0f5ecc89d24a2e2e1fa384bbf4",
+  "slots": 432,
+  "slots_by_term": {
+   "psqt": 87,
+   "imb": 36,
+   "pawnpair": 40,
+   "isolated": 16,
+   "unopposed": 16,
+   "passed": 71,
+   "passed_enemy": 64,
+   "threats": 70,
+   "shelter": 26,
+   "flank": 6
+  },
+  "K": 1.037800641562262,
+  "phase_gate": {
+   "w": {
+    "2": 18,
+    "3": 19,
+    "4": 29,
+    "5": 57
+   },
+   "bias": -91,
+   "mean_abs_err_gate_units": 0.696,
+   "max_abs_err_gate_units": 3
+  },
+  "tempo_b30": 793
+ },
+ "c3": {
+  "path": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c3.nnue",
+  "sha256": "ed4fd22cd13bcd020f15887ac9e5baa7f8919154d04d6dae952408f8d6816074",
+  "slots": 417,
+  "slots_by_term": {
+   "psqt": 90,
+   "imb": 36,
+   "pawnpair": 40,
+   "isolated": 16,
+   "unopposed": 16,
+   "passed": 71,
+   "passed_enemy": 32,
+   "threats": 70,
+   "mob": 14,
+   "shelter": 26,
+   "flank": 6
+  },
+  "K": 1.037800641562262,
+  "phase_gate": {
+   "w": {
+    "2": 18,
+    "3": 19,
+    "4": 29,
+    "5": 57
+   },
+   "bias": -91,
+   "mean_abs_err_gate_units": 0.696,
+   "max_abs_err_gate_units": 3
+  },
+  "tempo_b30": 793
+ },
+ "c4": {
+  "path": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c4.nnue",
+  "sha256": "2bf38ff30d62d19971d41ae1df45eab032da38c253acf86866377c9131d4e9f9",
+  "slots": 450,
+  "slots_by_term": {
+   "psqt": 90,
+   "imb": 36,
+   "pawnpair": 40,
+   "isolated": 16,
+   "unopposed": 16,
+   "passed": 71,
+   "passed_enemy": 32,
+   "threats": 70,
+   "mob": 14,
+   "shelter": 26,
+   "flank": 6,
+   "kd": 33
+  },
+  "K": 1.037800641562262,
+  "phase_gate": {
+   "w": {
+    "2": 18,
+    "3": 19,
+    "4": 29,
+    "5": 57
+   },
+   "bias": -91,
+   "mean_abs_err_gate_units": 0.696,
+   "max_abs_err_gate_units": 3
+  },
+  "tempo_b30": 793
+ },
+ "c5": {
+  "path": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c5.nnue",
+  "sha256": "a00ed1108da3db1abd6295b530075ff9cc68b62714c89aaea5073b80e1d09fe6",
+  "slots": 494,
+  "slots_by_term": {
+   "psqt": 95,
+   "imb": 36,
+   "pawnpair": 40,
+   "isolated": 16,
+   "unopposed": 16,
+   "passed": 71,
+   "passed_enemy": 32,
+   "threats": 70,
+   "mob": 14,
+   "rookfile": 32,
+   "minpd": 7,
+   "shelter": 26,
+   "flank": 6,
+   "kd": 33
+  },
+  "K": 1.037800641562262,
+  "phase_gate": {
+   "w": {
+    "2": 18,
+    "3": 19,
+    "4": 29,
+    "5": 57
+   },
+   "bias": -91,
+   "mean_abs_err_gate_units": 0.696,
+   "max_abs_err_gate_units": 3
+  },
+  "tempo_b30": 793
+ },
+ "c5k": {
+  "path": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c5k.nnue",
+  "sha256": "630b47a1524b0a62946e348c7fbc1e8b5dab33471b8247292798406d3f5fb882",
+  "slots": 502,
+  "slots_by_term": {
+   "psqt": 118,
+   "imb": 37,
+   "pawnpair": 44,
+   "isolated": 16,
+   "unopposed": 16,
+   "passed": 92,
+   "passed_enemy": 40,
+   "threats": 27,
+   "mob": 14,
+   "rookfile": 32,
+   "minpd": 7,
+   "shelter": 20,
+   "flank": 6,
+   "kd": 33
+  },
+  "K": 1.417650113688894,
+  "phase_gate": {
+   "w": {
+    "2": 18,
+    "3": 19,
+    "4": 29,
+    "5": 57
+   },
+   "bias": -91,
+   "mean_abs_err_gate_units": 0.696,
+   "max_abs_err_gate_units": 3
+  },
+  "tempo_b30": 1084
+ }
+}

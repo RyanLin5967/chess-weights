@@ -1,0 +1,96 @@
+{
+ "model": "out/c2_R32_snap1.npz",
+ "name": "q32a",
+ "QLO": 0.0005,
+ "CC": 160,
+ "CF": 20,
+ "basis": "grp",
+ "product_slots": 32,
+ "product_zero_frac": 0.001757381598550024,
+ "refit1": {
+  "it": 4000,
+  "res": 7.111032742955867e-05,
+  "val_R2_float": 0.79048
+ },
+ "linear_slots": [
+  {
+   "kind": "anti",
+   "coarse_cols": 13,
+   "need_p9999": 741.000100000063,
+   "Dmax": 296,
+   "Emax": 4
+  },
+  {
+   "kind": "sym",
+   "coarse_cols": 2,
+   "need_p9999": 81.00010000006296,
+   "Dmax": 45,
+   "Emax": 4
+  }
+ ],
+ "linear_slot_sat_frac_tr_va_te": [
+  9.377419326901052e-05,
+  8.641194849847869e-05,
+  8.291257430705147e-05
+ ],
+ "lam_d_grid": [
+  {
+   "lam_d": 1000.0,
+   "val_R2_float": 0.80506
+  },
+  {
+   "lam_d": 10000.0,
+   "val_R2_float": 0.80521
+  },
+  {
+   "lam_d": 100000.0,
+   "val_R2_float": 0.80516
+  },
+  {
+   "lam_d": 1000000.0,
+   "val_R2_float": 0.80349
+  },
+  {
+   "lam_d": null,
+   "val_R2_float": 0.79047
+  }
+ ],
+ "lam_d": 10000.0,
+ "beta_clipped_frac_weighted": 0.001774745461632667,
+ "product_copies_total": 108,
+ "product_copies_max": 5,
+ "train": {
+  "n": 1772719,
+  "R2_internal": 0.8679,
+  "MAE_internal": 332.9,
+  "MAE_cp": 110.6,
+  "MAE_cp_label_within_300": 86.1,
+  "R2_cp": 0.8593
+ },
+ "val": {
+  "n": 219877,
+  "R2_internal": 0.8052,
+  "MAE_internal": 401.4,
+  "MAE_cp": 133.4,
+  "MAE_cp_label_within_300": 102.4,
+  "R2_cp": 0.7908
+ },
+ "test": {
+  "n": 219934,
+  "R2_internal": 0.8051,
+  "MAE_internal": 404.4,
+  "MAE_cp": 134.1,
+  "MAE_cp_label_within_300": 103.1,
+  "R2_cp": 0.7927
+ },
+ "slots": {
+  "linear": 17,
+  "product_ranks": 32,
+  "product_slots": 108,
+  "total": 125
+ },
+ "stored_stacks": 88,
+ "sha256": "31f1ed614a8b0b8f93442b4f6fb09d80d599b682a73f56f5d070f1915fd6fae7",
+ "net": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/out/q32a.nnue",
+ "seconds": 1972
+}

@@ -1,0 +1,27 @@
+{
+ "net": "out/q32a.nnue",
+ "n_compared": 2500,
+ "build_pred_eq_P": 2500,
+ "E_eq_P": 2500,
+ "E_eq_S": 2500,
+ "S_eq_P": 2500,
+ "eval_range": [
+  -4838,
+  5578
+ ],
+ "in_check_or_none": 0,
+ "slots_used": 125,
+ "clampA_mean_used": 0.0008192000000000003,
+ "clampB_mean_used": 0.0009632000000000002,
+ "acc_abs_max": 346,
+ "F1_slot": 2,
+ "F1_row": 130486,
+ "F1_mismatches": 427,
+ "F2_stack": 83,
+ "F2_positions_on_stack": 298,
+ "F2_mismatches": 298,
+ "F2_mismatch_on_stack": 298,
+ "F3_mismatches": 1,
+ "PASS": true,
+ "seconds": 12
+}

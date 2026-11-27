@@ -1,0 +1,101 @@
+{
+ "fitter": "fit_linear",
+ "name": "gen1b",
+ "net": "/Users/bigr/sf-wsp.noindex/cfvi/gens/g1/fit/gen1b.nnue",
+ "sha256": "d3f71e41f52e02589c18fea7666b303e3132406a894476c46c2180916364c028",
+ "template": "/Users/bigr/sf-wsp.noindex/cfvi/nets/bs_gen1.nnue",
+ "nslots_written": 408,
+ "scale": 3.0,
+ "clip_q": null,
+ "pcg_iters": 1172,
+ "rel_residual": 8.447921542572515e-08,
+ "grid": [
+  {
+   "scale": 1.0,
+   "iters": 2096,
+   "rel_residual": 8.754067676437908e-08,
+   "slots_unclipped": 422,
+   "clip_q": null,
+   "slots": 422,
+   "val_R2_float": 0.7953
+  },
+  {
+   "scale": 3.0,
+   "iters": 1172,
+   "rel_residual": 8.447921542572515e-08,
+   "slots_unclipped": 408,
+   "clip_q": null,
+   "slots": 408,
+   "val_R2_float": 0.7989
+  },
+  {
+   "scale": 10.0,
+   "iters": 804,
+   "rel_residual": 9.42443547435978e-08,
+   "slots_unclipped": 392,
+   "clip_q": null,
+   "slots": 392,
+   "val_R2_float": 0.7988
+  }
+ ],
+ "val_R2": 0.7989,
+ "result_lambda": 0.75,
+ "N": 250753,
+ "mates_dropped": 14262,
+ "train_n": 185877,
+ "sets": [
+  {
+   "gen": 1,
+   "pos": "/Users/bigr/sf-wsp.noindex/cfvi/gens/g1/pos.npz",
+   "labels": "/Users/bigr/sf-wsp.noindex/cfvi/gens/g1/labels.tsv",
+   "depth": 14,
+   "label_net": "bs_gen1",
+   "label_sha256": "fee4b3637f8f1ae23dd28324e0436b724cad985d1fc57557db844e85c2f8e28e"
+  }
+ ],
+ "max_fill": 62.0,
+ "linear_all_positions": true,
+ "train": {
+  "n": 185877,
+  "R2_internal": 0.8836,
+  "MAE_internal": 340.3,
+  "MAE_cp": 114.3,
+  "MAE_cp_label_within_300": 94.9,
+  "R2_cp": 0.8831
+ },
+ "val": {
+  "n": 24401,
+  "R2_internal": 0.7989,
+  "MAE_internal": 466.0,
+  "MAE_cp": 154.0,
+  "MAE_cp_label_within_300": 128.4,
+  "R2_cp": 0.8049
+ },
+ "test": {
+  "n": 26213,
+  "R2_internal": 0.7977,
+  "MAE_internal": 463.4,
+  "MAE_cp": 155.6,
+  "MAE_cp_label_within_300": 126.6,
+  "R2_cp": 0.7991
+ },
+ "test_by_gen": {
+  "1": {
+   "n": 26213,
+   "R2_internal": 0.7977,
+   "MAE_internal": 463.4,
+   "MAE_cp": 155.6,
+   "MAE_cp_label_within_300": 126.6,
+   "R2_cp": 0.7991
+  }
+ },
+ "test_vs_search_labels": {
+  "n": 26213,
+  "R2_internal": 0.8199,
+  "MAE_internal": 397.7,
+  "MAE_cp": 132.1,
+  "MAE_cp_label_within_300": 103.2,
+  "R2_cp": 0.8231
+ },
+ "seconds": 59
+}

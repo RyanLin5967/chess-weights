@@ -1,0 +1,91 @@
+{
+ "evalfiles": [
+  {
+   "EvalFile": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen1.nnue",
+   "sha256_now": "fee4b3637f8f1ae23dd28324e0436b724cad985d1fc57557db844e85c2f8e28e",
+   "sha_logged_matches": true,
+   "stages": [
+    "exact",
+    "fastchess:gen1_vs_pairs",
+    "fastchess:gen1_vs_pairs_s4343",
+    "fastchess:gen1_vs_v3",
+    "fastchess:gen1_vs_v3_s4343",
+    "fastchess:gen2_vs_gen1",
+    "fastchess:gen3_vs_gen1",
+    "label",
+    "smoke"
+   ]
+  },
+  {
+   "EvalFile": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen2.nnue",
+   "sha256_now": "8bf8128431af6033c2fe321f3834bb1a86b3b35e60863dffaaa5c46a162586a5",
+   "sha_logged_matches": true,
+   "stages": [
+    "exact",
+    "fastchess:gen2_vs_gen1",
+    "label",
+    "smoke"
+   ]
+  },
+  {
+   "EvalFile": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen3.nnue",
+   "sha256_now": "c7b7c2b8f05a0f437bd1b503af6825278f660308a39299a927603111d3a1f204",
+   "sha_logged_matches": true,
+   "stages": [
+    "exact",
+    "fastchess:gen3_vs_gen1",
+    "smoke"
+   ]
+  },
+  {
+   "EvalFile": "/Users/idide/projects/sf-wsp.noindex/wspnet/closedform/out/pairs.nnue",
+   "sha256_now": "01858aa3415179c13bed633a2a9b2031e00d5fed608fa9f5cb97da779b0604b5",
+   "sha_logged_matches": true,
+   "stages": [
+    "fastchess:gen1_vs_pairs",
+    "fastchess:gen1_vs_pairs_s4343",
+    "fastchess:v3_vs_pairs",
+    "smoke"
+   ]
+  },
+  {
+   "EvalFile": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v1.nnue",
+   "sha256_now": "6b840f11182d0fd52c072d6a383d8ba7cc14869b7bc935731c6be2f88952981b",
+   "sha_logged_matches": true,
+   "stages": [
+    "fastchess:games",
+    "gen_games"
+   ]
+  },
+  {
+   "EvalFile": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v2.nnue",
+   "sha256_now": "0fb4a46e3fba03e91dc030e7124ab13451083f00a58185d83dcf3d1a8cc69c6e",
+   "sha_logged_matches": true,
+   "stages": [
+    "fastchess:games",
+    "gen_games"
+   ]
+  },
+  {
+   "EvalFile": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v3.nnue",
+   "sha256_now": "ea4bc40de9735ef140144672d7a8d552a0d7877051b7ddb0304e06734a583a67",
+   "sha_logged_matches": true,
+   "stages": [
+    "diag_static",
+    "fastchess:games",
+    "fastchess:gen1_vs_v3",
+    "fastchess:gen1_vs_v3_s4343",
+    "fastchess:v3_vs_pairs",
+    "gen_games",
+    "label",
+    "smoke"
+   ]
+  }
+ ],
+ "config_files_read": 9,
+ "default_net_used": [],
+ "lines_naming_round1_label_files": [
+  "diag.py:8",
+  "diag.py:58"
+ ]
+}

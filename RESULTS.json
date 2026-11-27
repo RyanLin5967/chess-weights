@@ -1,0 +1,1485 @@
+{
+  "created_utc": "2026-11-27T19:02:56.050293+00:00",
+  "architecture": "SFNNv20; pinned Stockfish source 88337401b7a4.",
+  "interpretation": "+62 Elo is p13x versus our pairs checkpoint, NOT versus official Stockfish. Anchor ratings are approximate engine ratings, not verified FIDE ratings. No checkpoint here has demonstrated parity with official Stockfish.",
+  "highlights": {
+    "programmed/v3": {
+      "anchor_rating": 2839.3,
+      "uncertainty": 17.0
+    },
+    "closedform/pairs": {
+      "anchor_rating": 2928.2,
+      "uncertainty": 17.3,
+      "labels": "Official-net depth-10 search"
+    },
+    "bootstrap/gen1": {
+      "vs_v3_elo": 63.2,
+      "uncertainty": 42.0,
+      "repeat_elo": 68.6,
+      "vs_official_elo": -552.08,
+      "vs_official_uncertainty": 115.88,
+      "caveat": "Official match ran under load; anchor rating refused for time losses."
+    },
+    "bootstrap/gen2": {
+      "vs_gen1_elo": -45.4,
+      "uncertainty": 35.3
+    },
+    "bootstrap/gen3": {
+      "vs_gen1_elo": -135.0,
+      "uncertainty": 39.5
+    },
+    "phase/p13x": {
+      "vs_pairs_elo": 62,
+      "ci95": [
+        40,
+        84
+      ],
+      "games": 600,
+      "vs_official_elo": -619.42,
+      "vs_official_uncertainty": 156.91,
+      "caveat": "Official match ran under load; needs clean repeat."
+    },
+    "compiler/c3": {
+      "vs_v3_elo": 45.4,
+      "uncertainty": 43.1
+    },
+    "quadratic/gtest8": {
+      "test_r2": 0.7975,
+      "vs_pairs_elo": -13.9,
+      "uncertainty": 47.97
+    },
+    "quadratic/q32a": {
+      "status": "Experimental, no verified strength claim; see fit/exactness reports."
+    },
+    "fc/XF": {
+      "test_r2": 0.8303,
+      "smoke_valid": false,
+      "time_forfeits": 27,
+      "games": 200
+    },
+    "mac2/spsa/final": {
+      "status": "Tuning complete; registered verification SPRT deferred. No gain claim."
+    },
+    "mac2/cfvi": {
+      "incumbent": "bs_gen1",
+      "generation1_promoted": false,
+      "generation1_gate_elo": -208.7,
+      "generation1_ci95": [
+        -245.8,
+        -175.4
+      ],
+      "generation2_status": "Screening at snapshot; no promotion yet."
+    }
+  },
+  "scope": "All saved research NNUE output checkpoints in eight local lanes plus current mac2 CFVI and final SPSA snapshots. Random/debug fixtures, downloaded official nets, datasets, and temporary solver files excluded.",
+  "weight_files": 35,
+  "files": [
+    {
+      "path": "results/local/bootstrap/README.md",
+      "bytes": 5437,
+      "sha256": "d843d887a011c72c1b0985849d0dbb0481e9ffd748974ec25aa70b727b308065",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/README.md",
+      "mtime_ns": 1795791508325077448
+    },
+    {
+      "path": "results/local/bootstrap/RESUME.md",
+      "bytes": 2283,
+      "sha256": "0b0000996a8daa156fbb6f12be19b8b4881a522506a3c082fcbae4a9f3dd8a92",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/RESUME.md",
+      "mtime_ns": 1795791500974546980
+    },
+    {
+      "path": "results/local/bootstrap/logs/smoke_gen1.log",
+      "bytes": 193,
+      "sha256": "12d17ac01b7c24abcc5167440b6e4086b2ff959074855d4d0c4ea58121b27711",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/logs/smoke_gen1.log",
+      "mtime_ns": 1795782376523272976
+    },
+    {
+      "path": "results/local/bootstrap/logs/smoke_gen1_vs_pairs.log",
+      "bytes": 198,
+      "sha256": "7521e3e3b8edb5a507695dd228130b50e08b8d059542e2852f934e2ece8b162c",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/logs/smoke_gen1_vs_pairs.log",
+      "mtime_ns": 1795789892829316971
+    },
+    {
+      "path": "results/local/bootstrap/logs/smoke_gen2.log",
+      "bytes": 195,
+      "sha256": "fe34866f9016802bae59681ea119eedeed5c95a881caf3a806b8b3215d30b3ac",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/logs/smoke_gen2.log",
+      "mtime_ns": 1795785657236669547
+    },
+    {
+      "path": "results/local/bootstrap/logs/smoke_gen3.log",
+      "bytes": 198,
+      "sha256": "6e4eb20221355e874280e076b4a99adadb4028914073485f453f7e776498e480",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/logs/smoke_gen3.log",
+      "mtime_ns": 1795789345926264367
+    },
+    {
+      "path": "results/local/bootstrap/out/evalfile_audit.json",
+      "bytes": 2472,
+      "sha256": "bdb69a10fe04bd9c5caa3513466da85c2bbc02d4d00942ff36d609f882ecb879",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/evalfile_audit.json",
+      "mtime_ns": 1795791506629795613
+    },
+    {
+      "path": "results/local/bootstrap/out/gen1_diag.json",
+      "bytes": 517,
+      "sha256": "8b08434c049b6f108a4657a279fbfb1ab662ea034bde8681a19c5144efa5b68a",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen1_diag.json",
+      "mtime_ns": 1795781862605867957
+    },
+    {
+      "path": "results/local/bootstrap/out/gen1_exact.json",
+      "bytes": 432,
+      "sha256": "e0c402954ebcf595303fb33435848a6dc0b68fe2aab1e80788ca1463d1b404b1",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen1_exact.json",
+      "mtime_ns": 1795781858916808069
+    },
+    {
+      "path": "results/local/bootstrap/out/gen1_report.json",
+      "bytes": 2448,
+      "sha256": "875d1b44f3f81ddab40be21fb970f9ce372148ff5458279a8dc7627e9ee8988b",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen1_report.json",
+      "mtime_ns": 1795781831581587259
+    },
+    {
+      "path": "results/local/bootstrap/out/gen2_diag.json",
+      "bytes": 519,
+      "sha256": "1c71d4f0b8b179b05ce5afffba44625c96007c7a79b685b7c63a75718b709fea",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen2_diag.json",
+      "mtime_ns": 1795785111137282134
+    },
+    {
+      "path": "results/local/bootstrap/out/gen2_exact.json",
+      "bytes": 432,
+      "sha256": "124e7456793f4deb59498689729a2a53993ce21f24bd9cde337fba1c0b493419",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen2_exact.json",
+      "mtime_ns": 1795785106678899163
+    },
+    {
+      "path": "results/local/bootstrap/out/gen2_report.json",
+      "bytes": 1791,
+      "sha256": "a6d9f7e9165af0d44746d31c581e5647c2f79fa115351198130646a9e2a5a5f4",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen2_report.json",
+      "mtime_ns": 1795785076667068556
+    },
+    {
+      "path": "results/local/bootstrap/out/gen3_diag.json",
+      "bytes": 520,
+      "sha256": "70acc72091d8d406ed1156a443a18bd745330a1bac3a47c59efeb8925f927f88",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen3_diag.json",
+      "mtime_ns": 1795788814027552733
+    },
+    {
+      "path": "results/local/bootstrap/out/gen3_exact.json",
+      "bytes": 432,
+      "sha256": "f38560758a670be44a80584007b36f560a34b7ec7be3ab102f4cfb17e43a014e",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen3_exact.json",
+      "mtime_ns": 1795788808605337261
+    },
+    {
+      "path": "results/local/bootstrap/out/gen3_report.json",
+      "bytes": 1788,
+      "sha256": "d2a6c9bf2529394bae9fb153030f9cce35243d5ee9123b476f24f45ffcd24ea7",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen3_report.json",
+      "mtime_ns": 1795788778021860654
+    },
+    {
+      "path": "results/local/bootstrap/out/label_stats.json",
+      "bytes": 1128,
+      "sha256": "2613ce156bc116d4e19dfd338ff25003acb8a73b23d365952b68a06346fe5219",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/label_stats.json",
+      "mtime_ns": 1795789380246244558
+    },
+    {
+      "path": "results/local/bootstrap/out/v3_diag.json",
+      "bytes": 515,
+      "sha256": "d2aa0c29b26397f740ca10b1a39fd4e70c7476283dce6266398ed7db6269b3c7",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/v3_diag.json",
+      "mtime_ns": 1795778662721716750
+    },
+    {
+      "path": "results/local/bootstrap/smoke/gen1_vs_pairs/games.pgn",
+      "bytes": 651226,
+      "sha256": "da201909b1cf0412110bb57afa569b8b95109e6b084984bed8b99791a197c638",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/smoke/gen1_vs_pairs/games.pgn",
+      "mtime_ns": 1795789889993421430
+    },
+    {
+      "path": "results/local/bootstrap/smoke/gen1_vs_pairs/summary.json",
+      "bytes": 198,
+      "sha256": "7521e3e3b8edb5a507695dd228130b50e08b8d059542e2852f934e2ece8b162c",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/smoke/gen1_vs_pairs/summary.json",
+      "mtime_ns": 1795789892829018716
+    },
+    {
+      "path": "results/local/bootstrap/smoke/gen1_vs_pairs_s4343/games.pgn",
+      "bytes": 634493,
+      "sha256": "e2eee4ced0185872986628885b1fe3613efaded5ad3dd45791494a2672f33ddd",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/smoke/gen1_vs_pairs_s4343/games.pgn",
+      "mtime_ns": 1795790942538690987
+    },
+    {
+      "path": "results/local/bootstrap/smoke/gen1_vs_pairs_s4343/summary.json",
+      "bytes": 204,
+      "sha256": "691e9b7ee2a621060a5a52ba85d1c101a95864604816c942de6d6d65027850fd",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/smoke/gen1_vs_pairs_s4343/summary.json",
+      "mtime_ns": 1795790945714078112
+    },
+    {
+      "path": "results/local/bootstrap/smoke/gen1_vs_v3/games.pgn",
+      "bytes": 647702,
+      "sha256": "b568bf27489a2995f879cb4ba3bbd7f9f4bdaa10383eb8e9c9a8f1b6e74d0406",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/smoke/gen1_vs_v3/games.pgn",
+      "mtime_ns": 1795782373141911173
+    },
+    {
+      "path": "results/local/bootstrap/smoke/gen1_vs_v3/summary.json",
+      "bytes": 193,
+      "sha256": "12d17ac01b7c24abcc5167440b6e4086b2ff959074855d4d0c4ea58121b27711",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/smoke/gen1_vs_v3/summary.json",
+      "mtime_ns": 1795782376523239184
+    },
+    {
+      "path": "results/local/bootstrap/smoke/gen1_vs_v3_s4343/games.pgn",
+      "bytes": 665460,
+      "sha256": "ac355a185a4ab50c4435fa5236e0930e91eca02d680c2a9e717bcc669a73d8f0",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/smoke/gen1_vs_v3_s4343/games.pgn",
+      "mtime_ns": 1795791461640242908
+    },
+    {
+      "path": "results/local/bootstrap/smoke/gen1_vs_v3_s4343/summary.json",
+      "bytes": 198,
+      "sha256": "0ce59b54315a632a6fe58302ed80bc5ca0e4ae7e464d1c2cbb8a587d78d704cf",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/smoke/gen1_vs_v3_s4343/summary.json",
+      "mtime_ns": 1795791464403625464
+    },
+    {
+      "path": "results/local/bootstrap/smoke/gen2_vs_gen1/games.pgn",
+      "bytes": 721072,
+      "sha256": "f09130cb4873cb978a9c834568e2ae6fd372ee3a7b87de77e82917bef1291979",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/smoke/gen2_vs_gen1/games.pgn",
+      "mtime_ns": 1795785653659488344
+    },
+    {
+      "path": "results/local/bootstrap/smoke/gen2_vs_gen1/summary.json",
+      "bytes": 195,
+      "sha256": "fe34866f9016802bae59681ea119eedeed5c95a881caf3a806b8b3215d30b3ac",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/smoke/gen2_vs_gen1/summary.json",
+      "mtime_ns": 1795785657236650047
+    },
+    {
+      "path": "results/local/bootstrap/smoke/gen3_vs_gen1/games.pgn",
+      "bytes": 691862,
+      "sha256": "2a5af52df1c4e9949638d8cc68ed0b397701140c499278162285a176272d703e",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/smoke/gen3_vs_gen1/games.pgn",
+      "mtime_ns": 1795789343025189408
+    },
+    {
+      "path": "results/local/bootstrap/smoke/gen3_vs_gen1/summary.json",
+      "bytes": 198,
+      "sha256": "6e4eb20221355e874280e076b4a99adadb4028914073485f453f7e776498e480",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/smoke/gen3_vs_gen1/summary.json",
+      "mtime_ns": 1795789345926215242
+    },
+    {
+      "path": "results/local/bootstrap/smoke/v3_vs_pairs/games.pgn",
+      "bytes": 612537,
+      "sha256": "efd7f98764bbbda624e1eedd08e4548953e6e39d86b93ade9cbb75168e998bc9",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/smoke/v3_vs_pairs/games.pgn",
+      "mtime_ns": 1795790423674832189
+    },
+    {
+      "path": "results/local/bootstrap/smoke/v3_vs_pairs/summary.json",
+      "bytes": 194,
+      "sha256": "603cd81fdc3f5e58e3f77a8c7b2558de6fb262641a58de08b79c2d2fe1d2c1f3",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/smoke/v3_vs_pairs/summary.json",
+      "mtime_ns": 1795790426777725078
+    },
+    {
+      "path": "results/local/closedform/RESUME.md",
+      "bytes": 1011,
+      "sha256": "031dc17277516c2b756125f9319004793e75ea6442e835b5f8037c259a686e34",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/closedform/RESUME.md",
+      "mtime_ns": 1795772280735413033
+    },
+    {
+      "path": "results/local/closedform/out/material_exact.json",
+      "bytes": 385,
+      "sha256": "88bf967d95fc42d788ee46fe50bf3f6d9e598d187d1c19964798e8497eddcb48",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/closedform/out/material_exact.json",
+      "mtime_ns": 1795769386972418556
+    },
+    {
+      "path": "results/local/closedform/out/pairs_exact.json",
+      "bytes": 380,
+      "sha256": "cb2d847b694e0545e6d907c1df6f5918a6643bb695c0d68b60fc4b631d807130",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/closedform/out/pairs_exact.json",
+      "mtime_ns": 1795770807594578095
+    },
+    {
+      "path": "results/local/closedform/out/psqt_exact.json",
+      "bytes": 378,
+      "sha256": "487f2fc7e25979be637d7dc10af38ba79d125a191a95ca12bee7c629e7756640",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/closedform/out/psqt_exact.json",
+      "mtime_ns": 1795769403982212144
+    },
+    {
+      "path": "results/local/closedform/out/ref_same_sample.json",
+      "bytes": 781,
+      "sha256": "f79acd3d766040ec5299a52a8a7d352a2205eb847243194f60d93fd5e67bf0a0",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/closedform/out/ref_same_sample.json",
+      "mtime_ns": 1795770813753459113
+    },
+    {
+      "path": "results/local/closedform/out/report.json",
+      "bytes": 7150,
+      "sha256": "0ba5e2c4604c3c1cebf37894f9557e0847fc1dc44cc0acea616237e66272ce1d",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/closedform/out/report.json",
+      "mtime_ns": 1795770776308734974
+    },
+    {
+      "path": "results/local/closedform/out/threats_exact.json",
+      "bytes": 384,
+      "sha256": "d67f3fad2a5da061ccfedf1ed93ef17d153cac6ff739216fa126bb1a38e7f9eb",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/closedform/out/threats_exact.json",
+      "mtime_ns": 1795770643223535167
+    },
+    {
+      "path": "results/local/closedform/smoke/pairs_vs_threats/games.pgn",
+      "bytes": 704162,
+      "sha256": "eabf9aa619c9f2f04c726b362013d7a37db800b499fba5604aca3d0e5522cb74",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/closedform/smoke/pairs_vs_threats/games.pgn",
+      "mtime_ns": 1795771603932247703
+    },
+    {
+      "path": "results/local/closedform/smoke/psqt_vs_material/games.pgn",
+      "bytes": 526267,
+      "sha256": "707c07eba82dca6bfc6065a2ac1238016ae08ad3f6ecf984aaecb393e7b9b17a",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/closedform/smoke/psqt_vs_material/games.pgn",
+      "mtime_ns": 1795772265055847664
+    },
+    {
+      "path": "results/local/closedform/smoke/threats_vs_psqt/games.pgn",
+      "bytes": 656089,
+      "sha256": "3ab9cad0992a612fbc7b990f50f9e0057296c98c069848985147a93b7f113c8c",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/closedform/smoke/threats_vs_psqt/games.pgn",
+      "mtime_ns": 1795771576004394437
+    },
+    {
+      "path": "results/local/compiler/README.md",
+      "bytes": 15646,
+      "sha256": "3ed20aa64b9f95aab8969dd40d7c95e20a5d675b36e02679fbd8c169f0dd20ad",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/README.md",
+      "mtime_ns": 1795802667926842449
+    },
+    {
+      "path": "results/local/compiler/RESUME.md",
+      "bytes": 406,
+      "sha256": "0ea62ddafb14c1ca31ca6f2c2e18f7679d26f7e39d2e7ec23cb5c3494af9d410",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/RESUME.md",
+      "mtime_ns": 1795802662318121525
+    },
+    {
+      "path": "results/local/compiler/out/build_summary.json",
+      "bytes": 3674,
+      "sha256": "acc2649c8e05f7786cfb11631fbead97863692a7412cbec93d908ae740737f69",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/build_summary.json",
+      "mtime_ns": 1795798516331685798
+    },
+    {
+      "path": "results/local/compiler/out/check_result.json",
+      "bytes": 19396,
+      "sha256": "d0c927443c76ccd5da9bf5475bd195808d8e5fe6c3a983b37bacb1be86024263",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/check_result.json",
+      "mtime_ns": 1795798539857538763
+    },
+    {
+      "path": "results/local/compiler/out/fidelity.json",
+      "bytes": 957,
+      "sha256": "c99edb62686ddd77bc15310c01a36437fef1edf46695cf33886b9dca4fcb5a19",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/fidelity.json",
+      "mtime_ns": 1795800008509468644
+    },
+    {
+      "path": "results/local/compiler/out/match_c1_vs_v3.json",
+      "bytes": 672,
+      "sha256": "797800474a75e4acd9677096c0682758e3544b5bb9a3742a244afb5507191e2b",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/match_c1_vs_v3.json",
+      "mtime_ns": 1795797622145848036
+    },
+    {
+      "path": "results/local/compiler/out/match_c2_vs_v3.json",
+      "bytes": 670,
+      "sha256": "a09cede678b2c2952e6fca5bd24916572a7d7ff5d06d4ebf980742a6b1f7f2fb",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/match_c2_vs_v3.json",
+      "mtime_ns": 1795798429534067322
+    },
+    {
+      "path": "results/local/compiler/out/match_c3_vs_v3.json",
+      "bytes": 668,
+      "sha256": "ddfe8588822a2aace145f4f8058d8f4a293c993a98bdf8fb9594106ad012d772",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/match_c3_vs_v3.json",
+      "mtime_ns": 1795799274374277281
+    },
+    {
+      "path": "results/local/compiler/out/match_c4_vs_v3.json",
+      "bytes": 669,
+      "sha256": "869eaf8e4a4ba02d9cdf041c5b29e731283c6f6b42f12a00b2ea3f2b91b07dce",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/match_c4_vs_v3.json",
+      "mtime_ns": 1795800086916557039
+    },
+    {
+      "path": "results/local/compiler/out/match_c5_vs_v3_INVALID_37timelosses.json",
+      "bytes": 670,
+      "sha256": "40e1d99735238aae9646e7dd760dfae3a002b2e1937bc4ace30658accd32e67b",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/match_c5_vs_v3_INVALID_37timelosses.json",
+      "mtime_ns": 1795800882876182375
+    },
+    {
+      "path": "results/local/compiler/out/match_c5_vs_v3_tm200.json",
+      "bytes": 689,
+      "sha256": "63b16fdff582c86ba94e97a4c2418e3f9f69e6a3e8249610fbba364f08383634",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/match_c5_vs_v3_tm200.json",
+      "mtime_ns": 1795801852377607555
+    },
+    {
+      "path": "results/local/compiler/out/match_c5k_vs_v3_tm200.json",
+      "bytes": 692,
+      "sha256": "f52803d4430e85556cf1f9d2f569699dfe3a34fc9d49375c97438037a2a57b0d",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/match_c5k_vs_v3_tm200.json",
+      "mtime_ns": 1795802642186682495
+    },
+    {
+      "path": "results/local/fc/README.md",
+      "bytes": 2552,
+      "sha256": "617158db6090bce6828bb78e5a73b7b1103ccb9aa76f4b0ae472ab3aa78931e8",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/README.md",
+      "mtime_ns": 1795802186148474992
+    },
+    {
+      "path": "results/local/fc/RESUME.md",
+      "bytes": 1874,
+      "sha256": "af1750caf134f599c44a0f0d07224dcfecfa814a0ccd73cd48c79b2bfccf4a7c",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/RESUME.md",
+      "mtime_ns": 1795801623334968461
+    },
+    {
+      "path": "results/local/fc/logs/smoke_E17G.log",
+      "bytes": 427,
+      "sha256": "1deff43625cdda0067900caea5b22e94e177f6dd3ae858428778596945a4541c",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/logs/smoke_E17G.log",
+      "mtime_ns": 1795798017418668281
+    },
+    {
+      "path": "results/local/fc/logs/smoke_X30.log",
+      "bytes": 427,
+      "sha256": "07e29be3a178cf453d85c821b4678b33ea4fc19160c51893a1b30451626e6cd6",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/logs/smoke_X30.log",
+      "mtime_ns": 1795800858265755967
+    },
+    {
+      "path": "results/local/fc/logs/smoke_XF.log",
+      "bytes": 430,
+      "sha256": "9d48d7f0a74e33ffd81055131a013e6a80de1d68334b135ff740f634cba025bd",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/logs/smoke_XF.log",
+      "mtime_ns": 1795802148349780399
+    },
+    {
+      "path": "results/local/fc/out/E17G_exact.json",
+      "bytes": 639,
+      "sha256": "571723932a84e70a4009ac98a41e53e1312166e3397d01c4fb8d41d80858f28e",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/out/E17G_exact.json",
+      "mtime_ns": 1795797473016665862
+    },
+    {
+      "path": "results/local/fc/out/X30_exact.json",
+      "bytes": 639,
+      "sha256": "3174b0c5755e4d18ae1de23c007e229031fdeea0315476ec702bfce6c6dfd9c5",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/out/X30_exact.json",
+      "mtime_ns": 1795800320325579039
+    },
+    {
+      "path": "results/local/fc/out/XF_exact.json",
+      "bytes": 691,
+      "sha256": "c66067e9602429c824137a8161502cfc9f8748106794e2a9321abb6357c212bd",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/out/XF_exact.json",
+      "mtime_ns": 1795801609372060387
+    },
+    {
+      "path": "results/local/fc/out/build_X26d.json",
+      "bytes": 1552,
+      "sha256": "8ff19b23ad12623e179cd0f06f45fbc1c5e042ae93ff38d891bcf71548387886",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/out/build_X26d.json",
+      "mtime_ns": 1795800723334052563
+    },
+    {
+      "path": "results/local/fc/out/build_X30.json",
+      "bytes": 1901,
+      "sha256": "170f6b98168ae59f970c6973782884ab7b30bec61a1bce0d40530619bec3904f",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/out/build_X30.json",
+      "mtime_ns": 1795800246691166781
+    },
+    {
+      "path": "results/local/fc/out/build_XF.json",
+      "bytes": 1617,
+      "sha256": "f8e08a9c19d8c8413695683630b2fcf77f6eecf1e785d66a856da609307c2a62",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/out/build_XF.json",
+      "mtime_ns": 1795801570695825969
+    },
+    {
+      "path": "results/local/fc/out/exp.json",
+      "bytes": 4709,
+      "sha256": "8193858a740f13a304ab6d94265dae0f20416061e7d847e5bd733078b1915a58",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/out/exp.json",
+      "mtime_ns": 1795797464009799067
+    },
+    {
+      "path": "results/local/fc/out/fc1_x.json",
+      "bytes": 4362,
+      "sha256": "b6ea79fc9cfe5ee95dc08682d38869dfd835cf9ede21f668e5ca11057cc5a2b4",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/out/fc1_x.json",
+      "mtime_ns": 1795801231401660431
+    },
+    {
+      "path": "results/local/fc/out/prep.json",
+      "bytes": 499,
+      "sha256": "58c00e6cefd29b435a1644bb76aca7ac89ceaa2459022be0fb1f94d572ff439d",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/out/prep.json",
+      "mtime_ns": 1795795854023876908
+    },
+    {
+      "path": "results/local/fc/out/probe.json",
+      "bytes": 494,
+      "sha256": "4bccfad0ac4538f9c33e01596d17675ce3d1c3dac787f625d88ffa043e3d6c49",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/out/probe.json",
+      "mtime_ns": 1795795905061999352
+    },
+    {
+      "path": "results/local/fc/out/probe2.json",
+      "bytes": 221,
+      "sha256": "0ac6adb4d032a9707b477f1a57efd5c469215f6b3c328dcb2a82b49f77a6912a",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/out/probe2.json",
+      "mtime_ns": 1795796104198842214
+    },
+    {
+      "path": "results/local/fc/out/probe3.json",
+      "bytes": 504,
+      "sha256": "9c64b31fc3446ed737450fb476667da3f8f12505c1897c50ae78e2d0476319d0",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/out/probe3.json",
+      "mtime_ns": 1795798017651565861
+    },
+    {
+      "path": "results/local/fc/out/select_x.json",
+      "bytes": 14271,
+      "sha256": "83cd8f70abcc65c6e8440fd2027ddb9a22c259efa02e3220696d1da8738ade47",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/out/select_x.json",
+      "mtime_ns": 1795799962707468020
+    },
+    {
+      "path": "results/local/fc/out/slots2.json",
+      "bytes": 1301,
+      "sha256": "758ff168cbf46622b9f9f03a834767975c0a1be183bdde3794462ed7e23d2eeb",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/out/slots2.json",
+      "mtime_ns": 1795798126837343123
+    },
+    {
+      "path": "results/local/fc/smoke/E17G_vs_r1pairs/games.pgn",
+      "bytes": 683217,
+      "sha256": "87e2bf498c3287d14650ee0d89fd2f9f40957a94ef1e6d6dec591462bde20d33",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/smoke/E17G_vs_r1pairs/games.pgn",
+      "mtime_ns": 1795798014237933617
+    },
+    {
+      "path": "results/local/fc/smoke/X30_vs_r1pairs_void_load68/games.pgn",
+      "bytes": 666060,
+      "sha256": "26dd4492d2478c732dae3ff543cbb751d8d37d8521460ace296e1143f764c0eb",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/smoke/X30_vs_r1pairs_void_load68/games.pgn",
+      "mtime_ns": 1795800855124622311
+    },
+    {
+      "path": "results/local/fc/smoke/XF_vs_r1pairs_s4242/games.pgn",
+      "bytes": 697641,
+      "sha256": "4f228c71d367617af83c81b20e017de8fd5ae2e912452a7d42b77b2be3a5f7a9",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/smoke/XF_vs_r1pairs_s4242/games.pgn",
+      "mtime_ns": 1795803039545831695
+    },
+    {
+      "path": "results/local/fc/smoke/XF_vs_r1pairs_void_load52/games.pgn",
+      "bytes": 646202,
+      "sha256": "766b58c49f46565c77962ef218b9d2be1721ca42c232474e3025fa7aaea0f2de",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/smoke/XF_vs_r1pairs_void_load52/games.pgn",
+      "mtime_ns": 1795802145732695173
+    },
+    {
+      "path": "results/local/infra/README.md",
+      "bytes": 7722,
+      "sha256": "3010e5721c65505a6fc27bca31b3f3192ed1d0f453683c82f4b2bc25e494ff67",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/infra/README.md",
+      "mtime_ns": 1795766378800644012
+    },
+    {
+      "path": "results/local/infra/out/bounds.json",
+      "bytes": 234,
+      "sha256": "876da7e740b026929ecad89e32f4631309ea589d267ecb37d9a38f2ea1b208d8",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/infra/out/bounds.json",
+      "mtime_ns": 1795766216266954745
+    },
+    {
+      "path": "results/local/infra/out/check_result.json",
+      "bytes": 2730,
+      "sha256": "cb016c2b4e31982bfa438793f13000dc4fa1d6c8b563be48c25d816c3ebf29d1",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/infra/out/check_result.json",
+      "mtime_ns": 1795766317690251898
+    },
+    {
+      "path": "results/local/phase/RESUME.md",
+      "bytes": 4235,
+      "sha256": "ecd0bf5b0ec44913c083d9bdaa2608b579bc6cdc76abe90d1c895914e9dc6b72",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/RESUME.md",
+      "mtime_ns": 1795797462664920573
+    },
+    {
+      "path": "results/local/phase/out/bounds.json",
+      "bytes": 1566,
+      "sha256": "46e2046c1e0c703a54ee88e008d4266d7215b8b9aba231cd1d527235874d7c4b",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/bounds.json",
+      "mtime_ns": 1795776057983404535
+    },
+    {
+      "path": "results/local/phase/out/compare.json",
+      "bytes": 5826,
+      "sha256": "d232b4fd8f0c6075f5aff7c44cc535bae546533fbc159be87338342dc50c1dd9",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/compare.json",
+      "mtime_ns": 1795796364716668325
+    },
+    {
+      "path": "results/local/phase/out/p0m_exact.json",
+      "bytes": 613,
+      "sha256": "ef9ec5688bfd81a2cdbe62df7291232ef18607a1a0ac6302c41796a1882f5430",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p0m_exact.json",
+      "mtime_ns": 1795787325713609365
+    },
+    {
+      "path": "results/local/phase/out/p0m_report.json",
+      "bytes": 2427,
+      "sha256": "b9951ce437b39fe5478c7fbaa0fd0cba8d83f0f2ee3ae68e4221e6a243f30b99",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p0m_report.json",
+      "mtime_ns": 1795787298772343081
+    },
+    {
+      "path": "results/local/phase/out/p0x_exact.json",
+      "bytes": 608,
+      "sha256": "d175576a3b1ee45d3a4bb786c951491c9ccc2f52d21e7154f3b9d37da2c8256b",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p0x_exact.json",
+      "mtime_ns": 1795796359100944092
+    },
+    {
+      "path": "results/local/phase/out/p0x_report.json",
+      "bytes": 2429,
+      "sha256": "cfeb4b80682832ab9e397f1ac3451e27398c78e5d7a517447136cf082ae3845f",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p0x_report.json",
+      "mtime_ns": 1795796332802576736
+    },
+    {
+      "path": "results/local/phase/out/p13a_exact.json",
+      "bytes": 615,
+      "sha256": "210ac7dcedbeb92fcc09d273cb4e726bbcb2692a677ab6ce63e6fb93e1e8f4a4",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p13a_exact.json",
+      "mtime_ns": 1795779709815066432
+    },
+    {
+      "path": "results/local/phase/out/p13a_report.json",
+      "bytes": 5716,
+      "sha256": "55fd08c4b4e79a320252fadad30f81de1daa087810b2f3a9b71d5da9af894f55",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p13a_report.json",
+      "mtime_ns": 1795779684462561082
+    },
+    {
+      "path": "results/local/phase/out/p13m_exact.json",
+      "bytes": 616,
+      "sha256": "19b2db8ca45276d21639c0dd1f8db907c3e580236791df5616fbeeec8b7b27a6",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p13m_exact.json",
+      "mtime_ns": 1795786276498521986
+    },
+    {
+      "path": "results/local/phase/out/p13m_report.json",
+      "bytes": 5708,
+      "sha256": "40036e7f19ad18b93ba9f24bef749ecf65f2f8ad57a39cafc016a11040c7dfdf",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p13m_report.json",
+      "mtime_ns": 1795786250674089149
+    },
+    {
+      "path": "results/local/phase/out/p13t_exact.json",
+      "bytes": 616,
+      "sha256": "7c0d2bb235bde6c35d491d49ca1c61f87be2a10e6efdcd1165d01ffe271ea0bf",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p13t_exact.json",
+      "mtime_ns": 1795782432788122344
+    },
+    {
+      "path": "results/local/phase/out/p13t_report.json",
+      "bytes": 5716,
+      "sha256": "053c4e23155cd5eca6ac88a64333cac94bc945ed5883476da985efd785f75a77",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p13t_report.json",
+      "mtime_ns": 1795782406892114604
+    },
+    {
+      "path": "results/local/phase/out/p13x_exact.json",
+      "bytes": 616,
+      "sha256": "bde44cba47fa509057a80f59eeafc716487ef4e212306f361a39f9a6e05758d1",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p13x_exact.json",
+      "mtime_ns": 1795793573797919749
+    },
+    {
+      "path": "results/local/phase/out/p13x_report.json",
+      "bytes": 5351,
+      "sha256": "ee4fe8d8f4a3c47d40e067dbe50c765d6c69ec6afc40e3488c057bcbed836f09",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p13x_report.json",
+      "mtime_ns": 1795793560077568747
+    },
+    {
+      "path": "results/local/phase/out/p17m_exact.json",
+      "bytes": 615,
+      "sha256": "b6c443a55c8a5dfb24077edc3631fa5e7d65c7d073374eec2104a865f4f49332",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p17m_exact.json",
+      "mtime_ns": 1795790468369499256
+    },
+    {
+      "path": "results/local/phase/out/p17m_report.json",
+      "bytes": 4431,
+      "sha256": "30d4b7acf3e19a86c3b382262e3531c035f9ac3611f82b0a9d4e155dd85aa2a8",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p17m_report.json",
+      "mtime_ns": 1795790444776734920
+    },
+    {
+      "path": "results/local/phase/out/tune.json",
+      "bytes": 14955,
+      "sha256": "59bf4cc65241da7644044c13e42377d25240d2f06d125bd8e12c9585454116a0",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/tune.json",
+      "mtime_ns": 1795781854368020363
+    },
+    {
+      "path": "results/local/phase/out/tune_mid.json",
+      "bytes": 15195,
+      "sha256": "7a4521964932ff7c3ec4b897b261acd8d32529e2035a3ab35af088438940b29d",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/tune_mid.json",
+      "mtime_ns": 1795785656371879827
+    },
+    {
+      "path": "results/local/phase/out/tune_mid_p0.json",
+      "bytes": 5863,
+      "sha256": "53bc3c1807852c5f219d79cb3f0d52220e07ba48edbfd84273f52d15a886524b",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/tune_mid_p0.json",
+      "mtime_ns": 1795787057457802052
+    },
+    {
+      "path": "results/local/phase/out/tune_mid_p17.json",
+      "bytes": 12072,
+      "sha256": "b9d704c0bc8b86c4f6863fa596e2b783e358b984a8a5d20d65c835d97cd21020",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/tune_mid_p17.json",
+      "mtime_ns": 1795790006233563323
+    },
+    {
+      "path": "results/local/phase/out/tune_trans_p0.json",
+      "bytes": 6150,
+      "sha256": "364c7361c4665bea33736c5047d67002d7c557b7e80bff6e87496657627bfd14",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/tune_trans_p0.json",
+      "mtime_ns": 1795796189339032417
+    },
+    {
+      "path": "results/local/phase/out/tune_trans_p13.json",
+      "bytes": 17008,
+      "sha256": "aa0aea2f33187f9dc9f3ffe9d23c204728e43fefbc6672941adb2f5de738047c",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/tune_trans_p13.json",
+      "mtime_ns": 1795793309126810583
+    },
+    {
+      "path": "results/local/phase/smoke/p0x_vs_r1pairs/games.pgn",
+      "bytes": 635849,
+      "sha256": "990299510d528b61419db45444ef51adc7637f9a1f9e46539be8b9ddeb37854e",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/smoke/p0x_vs_r1pairs/games.pgn",
+      "mtime_ns": 1795797426452140107
+    },
+    {
+      "path": "results/local/phase/smoke/p13m_vs_p0m/games.pgn",
+      "bytes": 682105,
+      "sha256": "f97077a7a2e8005591ddd354625ccda0e9796a548e1f6c7ed6f5c6cc483d726e",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/smoke/p13m_vs_p0m/games.pgn",
+      "mtime_ns": 1795788391452697673
+    },
+    {
+      "path": "results/local/phase/smoke/p13m_vs_r1pairs/games.pgn",
+      "bytes": 726550,
+      "sha256": "e7c0f8c5b26952f4139ef2ac86c6205c6c722806d300c561765194e3a1b02c4c",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/smoke/p13m_vs_r1pairs/games.pgn",
+      "mtime_ns": 1795787871587472374
+    },
+    {
+      "path": "results/local/phase/smoke/p13m_vs_r1pairs_VOID_16_time_forfeits/games.pgn",
+      "bytes": 677474,
+      "sha256": "e3420adb32e905bf969dd7772988a36d59b016408dd54282aed4bab178c607a3",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/smoke/p13m_vs_r1pairs_VOID_16_time_forfeits/games.pgn",
+      "mtime_ns": 1795786816472335294
+    },
+    {
+      "path": "results/local/phase/smoke/p13m_vs_r1pairs_s777/games.pgn",
+      "bytes": 694447,
+      "sha256": "aa9036fc2501c15124259b8d59a164f67a58b025dcbda648ff0ba5d6aeb18429",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/smoke/p13m_vs_r1pairs_s777/games.pgn",
+      "mtime_ns": 1795792085792386050
+    },
+    {
+      "path": "results/local/phase/smoke/p13t_vs_r1pairs/games.pgn",
+      "bytes": 668739,
+      "sha256": "a56507dc01f1c30ee19955022875160e959cc8a90cd4a225641816ae7cd19658",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/smoke/p13t_vs_r1pairs/games.pgn",
+      "mtime_ns": 1795782983718169446
+    },
+    {
+      "path": "results/local/phase/smoke/p13x_vs_p0x/games.pgn",
+      "bytes": 741048,
+      "sha256": "36c5f8cd51633a9ac7c34bffee77609355a7b5fc76a6d6d7c44515ab2beef183",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/smoke/p13x_vs_p0x/games.pgn",
+      "mtime_ns": 1795796911704728217
+    },
+    {
+      "path": "results/local/phase/smoke/p13x_vs_p13m/games.pgn",
+      "bytes": 698287,
+      "sha256": "5022cb8d17c73f3a93974f8ab1205eca926ad32ad372150255a516c9e75bc55d",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/smoke/p13x_vs_p13m/games.pgn",
+      "mtime_ns": 1795794629577894526
+    },
+    {
+      "path": "results/local/phase/smoke/p13x_vs_r1pairs/games.pgn",
+      "bytes": 696101,
+      "sha256": "452975dc4404423229015708e7d78c157b0193cb7707a7af2cbdd92d29e457b0",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/smoke/p13x_vs_r1pairs/games.pgn",
+      "mtime_ns": 1795794104583858741
+    },
+    {
+      "path": "results/local/phase/smoke/p13x_vs_r1pairs_s1234/games.pgn",
+      "bytes": 700827,
+      "sha256": "a73616116a8987595b03c4b9e97018a1f5df483feafd25b7a6b7e2cdbf68c63b",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/smoke/p13x_vs_r1pairs_s1234/games.pgn",
+      "mtime_ns": 1795795717179450156
+    },
+    {
+      "path": "results/local/phase/smoke/p13x_vs_r1pairs_s777/games.pgn",
+      "bytes": 684547,
+      "sha256": "ec9091a6ab6a074a2112f2847a071d14e9a0b4eb6a8afb6b1b92936a2f34c798",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/smoke/p13x_vs_r1pairs_s777/games.pgn",
+      "mtime_ns": 1795795177271750198
+    },
+    {
+      "path": "results/local/phase/smoke/p17m_vs_p13m/games.pgn",
+      "bytes": 679544,
+      "sha256": "c6298fc1eaf160fb8c7cee64ad55d554995fd26f4c8fe46a42900c42dca7be2d",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/smoke/p17m_vs_p13m/games.pgn",
+      "mtime_ns": 1795791517497330414
+    },
+    {
+      "path": "results/local/phase/smoke/p17m_vs_r1pairs/games.pgn",
+      "bytes": 689255,
+      "sha256": "ffd030bc3bf8d984901e733ee02530989eb42ed66a9b244d2ed5cabe13a9b5a4",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/smoke/p17m_vs_r1pairs/games.pgn",
+      "mtime_ns": 1795790998323988156
+    },
+    {
+      "path": "results/local/programmed/README.md",
+      "bytes": 11242,
+      "sha256": "1d134dc435c633f2522ef91bba3aeb661b20e74be6d803b241338ac7704356eb",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/README.md",
+      "mtime_ns": 1795771349448110478
+    },
+    {
+      "path": "results/local/programmed/out/build_summary.json",
+      "bytes": 1096,
+      "sha256": "339c6a1aadda9338d240cc7a008c9f8c1c30bb78e7ce5c07a2362257f1afd4e3",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/build_summary.json",
+      "mtime_ns": 1795768860926491135
+    },
+    {
+      "path": "results/local/programmed/out/check_result.json",
+      "bytes": 6249,
+      "sha256": "90aa3814c47d733ade411f30868a582a3339a705425d1fbc66e5d6d5eae73ef8",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/check_result.json",
+      "mtime_ns": 1795769655820386625
+    },
+    {
+      "path": "results/local/programmed/out/group_bounds_measured.json",
+      "bytes": 1132,
+      "sha256": "69fe2d82dda441b2e376727cdd3655c6b534b5268ed22c514e9cfa0d3d049e2a",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/group_bounds_measured.json",
+      "mtime_ns": 1795767987788013090
+    },
+    {
+      "path": "results/local/programmed/out/match_v1_vs_v0_material.json",
+      "bytes": 731,
+      "sha256": "329b71524318d04db665e10ec7d77a935349ad4c5f5c5511fb2e071ac9cadb2c",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/match_v1_vs_v0_material.json",
+      "mtime_ns": 1795768846308918832
+    },
+    {
+      "path": "results/local/programmed/out/match_v2_vs_v1.json",
+      "bytes": 659,
+      "sha256": "d87b30986e8555c17e1e9aa28562f2405b5e1848552033b0144c365dd1e0aac1",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/match_v2_vs_v1.json",
+      "mtime_ns": 1795769626735217376
+    },
+    {
+      "path": "results/local/programmed/out/match_v3_vs_v2.json",
+      "bytes": 658,
+      "sha256": "68a1347172abe6cd208e24527908e84bfb0453024a82fce30ae2d942ffba2c49",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/match_v3_vs_v2.json",
+      "mtime_ns": 1795770474046155351
+    },
+    {
+      "path": "results/local/programmed/out/match_v3_vs_v3a.json",
+      "bytes": 660,
+      "sha256": "832541b0611a8700bfbce58a03dbde20c318618e3f4092fb72ec2e80af13a11d",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/match_v3_vs_v3a.json",
+      "mtime_ns": 1795771321724986335
+    },
+    {
+      "path": "results/local/quadratic/RESUME.md",
+      "bytes": 1263,
+      "sha256": "d41980e7774618efc81bd1ba46e0126a23b5946eee629ee4d1714d0d4dc0181c",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/RESUME.md",
+      "mtime_ns": 1795800809080415014
+    },
+    {
+      "path": "results/local/quadratic/logs/smoke_gtest8.log",
+      "bytes": 341,
+      "sha256": "cbf41be7a4aa898140fa6a50bf677909667aa252e722d17a793c53e5b2969f99",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/logs/smoke_gtest8.log",
+      "mtime_ns": 1795801327345560631
+    },
+    {
+      "path": "results/local/quadratic/logs/smoke_gtest8_tm.log",
+      "bytes": 338,
+      "sha256": "dbb85d6983e1f4468e20468c2d7edbe86c3cb020c05e265f527ded54ee82c3ca",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/logs/smoke_gtest8_tm.log",
+      "mtime_ns": 1795802001290394301
+    },
+    {
+      "path": "results/local/quadratic/logs/smoke_q32a.log",
+      "bytes": 339,
+      "sha256": "5dfb400207033c5883bbd5b83019a18ae439b5e623a64b511d94c181b021986b",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/logs/smoke_q32a.log",
+      "mtime_ns": 1795803392731497142
+    },
+    {
+      "path": "results/local/quadratic/out/dbg_report.json",
+      "bytes": 1858,
+      "sha256": "e4311626cfb8d8251e93eb3f8afadc7bbf8a9aabd144b6065ea2470de1f4b889",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/out/dbg_report.json",
+      "mtime_ns": 1795800728491202336
+    },
+    {
+      "path": "results/local/quadratic/out/dbgw_report.json",
+      "bytes": 2503,
+      "sha256": "eff5c889711f32fad19cafad303db76a7ffbe9981e99281693df87c91ebc8ccc",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/out/dbgw_report.json",
+      "mtime_ns": 1795802947388960649
+    },
+    {
+      "path": "results/local/quadratic/out/gtest8_check.json",
+      "bytes": 526,
+      "sha256": "2b85421f393b406dc22e489ad5ec8b48de93b62515b3d7b11aa37a818994e6d7",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/out/gtest8_check.json",
+      "mtime_ns": 1795800793785100251
+    },
+    {
+      "path": "results/local/quadratic/out/gtest8_report.json",
+      "bytes": 1742,
+      "sha256": "cd2544b449c2d0ba68a8614f9c07589406cd69bdb96fd249f91817fce13cf9b2",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/out/gtest8_report.json",
+      "mtime_ns": 1795800600854823794
+    },
+    {
+      "path": "results/local/quadratic/out/q32a_check.json",
+      "bytes": 525,
+      "sha256": "b77dd64c7dcc46ade2c4d1f405b9eb296b016f771c6513ae70dc2ccb516abd3e",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/out/q32a_check.json",
+      "mtime_ns": 1795802894237999429
+    },
+    {
+      "path": "results/local/quadratic/out/q32a_report.json",
+      "bytes": 1809,
+      "sha256": "4d722fe59e30b75e1212bcf17aaab9e7a83d5ad00fb4c3f85a12b540869ff35c",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/out/q32a_report.json",
+      "mtime_ns": 1795802725027065836
+    },
+    {
+      "path": "results/local/quadratic/out/random_q_check.json",
+      "bytes": 497,
+      "sha256": "5aa2a71163b3ba5e6da32069f28f44be198a1a19cb92500ef81a949dc10fecad",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/out/random_q_check.json",
+      "mtime_ns": 1795796169812915664
+    },
+    {
+      "path": "results/local/quadratic/out/random_wide_q_check.json",
+      "bytes": 495,
+      "sha256": "8cd1f08c8628ddadc15ae04838eba952acee8f5ddd90096b011561f286859ee8",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/out/random_wide_q_check.json",
+      "mtime_ns": 1795796195868862416
+    },
+    {
+      "path": "results/local/quadratic/smoke/gtest8_vs_pairs/games.pgn",
+      "bytes": 621653,
+      "sha256": "f99c0245449eec525aa79f95bfbf6bd338fe28a6c79da5d06b5675cc624cdd93",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/smoke/gtest8_vs_pairs/games.pgn",
+      "mtime_ns": 1795801324474233817
+    },
+    {
+      "path": "results/local/quadratic/smoke/gtest8_vs_pairs_tm500/games.pgn",
+      "bytes": 689327,
+      "sha256": "cebce6a098563211d98c51c834a1140e279de7e0da79ee90b95cc2cfdf914918",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/smoke/gtest8_vs_pairs_tm500/games.pgn",
+      "mtime_ns": 1795801998552466090
+    },
+    {
+      "path": "results/local/quadratic/smoke/q32a_vs_pairs/games.pgn",
+      "bytes": 605222,
+      "sha256": "87e7436ef2dced1a8428145c0f948e1792c9e1a382aa28ee6c5308ff059bf8af",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/smoke/q32a_vs_pairs/games.pgn",
+      "mtime_ns": 1795803389403985238
+    },
+    {
+      "path": "results/local/ratings/bootstrap_out_gen1.log",
+      "bytes": 254,
+      "sha256": "2c9b2a1af8a4a4194735a6ac8bc7701f5c0cd492dec1afee429747d9d663d20f",
+      "source": "/Users/idide/projects/sf-wsp.noindex/ratings/bootstrap_out_gen1.log",
+      "mtime_ns": 1795798280622531218
+    },
+    {
+      "path": "results/local/ratings/bootstrap_out_gen1_vs_official.log",
+      "bytes": 23733,
+      "sha256": "3d0c7435ea1696b10ca40ce532ff94466f19a2188e66f49dd1b509373fafd19e",
+      "source": "/Users/idide/projects/sf-wsp.noindex/ratings/bootstrap_out_gen1_vs_official.log",
+      "mtime_ns": 1795800611391137917
+    },
+    {
+      "path": "results/local/ratings/closedform_out_pairs.json",
+      "bytes": 833,
+      "sha256": "852c8d79e51f828e8e412387d579d692338c2c8e4a58de259ca3e878995d77c2",
+      "source": "/Users/idide/projects/sf-wsp.noindex/ratings/closedform_out_pairs.json",
+      "mtime_ns": 1795775316298165476
+    },
+    {
+      "path": "results/local/ratings/closedform_out_pairs.log",
+      "bytes": 492,
+      "sha256": "601202f149c333d719c2d476f15432309d8bd3f0bd9fa8dfb11de366304ecd8e",
+      "source": "/Users/idide/projects/sf-wsp.noindex/ratings/closedform_out_pairs.log",
+      "mtime_ns": 1795775316298318770
+    },
+    {
+      "path": "results/local/ratings/diag.pgn",
+      "bytes": 22385,
+      "sha256": "b1abadb0b1b46c1825072d12e3aa4e7364d797a5c71edaeb3ef954af4150b40c",
+      "source": "/Users/idide/projects/sf-wsp.noindex/ratings/diag.pgn",
+      "mtime_ns": 1795767969897134811
+    },
+    {
+      "path": "results/local/ratings/material.json",
+      "bytes": 826,
+      "sha256": "d1974b62c8b2073585f191cc75d44f5af45c92a024ec8445eda9383422846d91",
+      "source": "/Users/idide/projects/sf-wsp.noindex/ratings/material.json",
+      "mtime_ns": 1795767883584028310
+    },
+    {
+      "path": "results/local/ratings/material.log",
+      "bytes": 487,
+      "sha256": "da9ea486c058aed701b4eef4e46c7ddd0a6de615ebc7830b69b98b89ee89f837",
+      "source": "/Users/idide/projects/sf-wsp.noindex/ratings/material.log",
+      "mtime_ns": 1795767883584176913
+    },
+    {
+      "path": "results/local/ratings/phase_out_p13x.json",
+      "bytes": 629,
+      "sha256": "05d6559c17e8a928c5b73ca72cbd18da1e74255ba030c07f6e8f7b67498aa4c0",
+      "source": "/Users/idide/projects/sf-wsp.noindex/ratings/phase_out_p13x.json",
+      "mtime_ns": 1795799882120960313
+    },
+    {
+      "path": "results/local/ratings/phase_out_p13x.log",
+      "bytes": 344,
+      "sha256": "d814505a11174611695678c84d56fde3287dcfbeb6cb234def9a02644b130598",
+      "source": "/Users/idide/projects/sf-wsp.noindex/ratings/phase_out_p13x.log",
+      "mtime_ns": 1795799882122005892
+    },
+    {
+      "path": "results/local/ratings/phase_out_p13x_vs_official.log",
+      "bytes": 24046,
+      "sha256": "99fb56af7b36ae66b162d49e5cbae6091a1ea468fe5587f672bad1d8961e09c4",
+      "source": "/Users/idide/projects/sf-wsp.noindex/ratings/phase_out_p13x_vs_official.log",
+      "mtime_ns": 1795801315393879203
+    },
+    {
+      "path": "results/local/ratings/programmed_out_v3.json",
+      "bytes": 833,
+      "sha256": "81489a020c7298a10faacd49a050321d040838c046c3e83b07e8a9ba1180f4ef",
+      "source": "/Users/idide/projects/sf-wsp.noindex/ratings/programmed_out_v3.json",
+      "mtime_ns": 1795773794119391454
+    },
+    {
+      "path": "results/local/ratings/programmed_out_v3.log",
+      "bytes": 495,
+      "sha256": "56045f3444c0a66aacf4b8a7fa9c1cef67991b3c4c35b2ab4cf8b38ac1a323e1",
+      "source": "/Users/idide/projects/sf-wsp.noindex/ratings/programmed_out_v3.log",
+      "mtime_ns": 1795773794119595500
+    },
+    {
+      "path": "results/local/ratings/v3_vs_cfpairs.log",
+      "bytes": 23191,
+      "sha256": "8818974b3ddf85300082986987da273f4d77dfcff343af8b4b17fdff43de0697",
+      "source": "/Users/idide/projects/sf-wsp.noindex/ratings/v3_vs_cfpairs.log",
+      "mtime_ns": 1795775826071874737
+    },
+    {
+      "path": "results/mac2/cfvi/gens/g1/fit/gen1b_report.json",
+      "bytes": 2174,
+      "sha256": "9840ede6493cd913baef10190cb94ca080bc3facf8122d1e0e3084491ffc6fcc",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/gens/g1/fit/gen1b_report.json",
+      "mtime_ns": 1795801326000000000
+    },
+    {
+      "path": "results/mac2/cfvi/gens/g1/fit/gen1s_report.json",
+      "bytes": 2171,
+      "sha256": "4634a95aef2940f574f497edbad80e5273a20be81feab27fa6f476cd5a8d5769",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/gens/g1/fit/gen1s_report.json",
+      "mtime_ns": 1795801260000000000
+    },
+    {
+      "path": "results/mac2/cfvi/gens/g1/gate/summary.json",
+      "bytes": 693,
+      "sha256": "daa2e2f8ae0b5322291269c9452c5ca2220ec1c905dcfeb00f3fc5ce9f61aedb",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/gens/g1/gate/summary.json",
+      "mtime_ns": 1795802968000000000
+    },
+    {
+      "path": "results/mac2/cfvi/gens/g1/screen_gen1b/summary.json",
+      "bytes": 693,
+      "sha256": "b8632ebecd7dd4e612e52b32659012a309b750dfb78166041ad88c2fea75af2c",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/gens/g1/screen_gen1b/summary.json",
+      "mtime_ns": 1795802212000000000
+    },
+    {
+      "path": "results/mac2/cfvi/gens/g1/screen_gen1s/summary.json",
+      "bytes": 693,
+      "sha256": "e0a0197c957f00c4448fee1fd143b4e921114d2447b697a4f0e142ab24c0f038",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/gens/g1/screen_gen1s/summary.json",
+      "mtime_ns": 1795801805000000000
+    },
+    {
+      "path": "results/mac2/cfvi/gens/g2/fit/gen2b_report.json",
+      "bytes": 2634,
+      "sha256": "0435a909bd347c125ae08617e3c36d5e9249ad65642ba64df71437d4ccb46e49",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/gens/g2/fit/gen2b_report.json",
+      "mtime_ns": 1795804795000000000
+    },
+    {
+      "path": "results/mac2/cfvi/gens/g2/fit/gen2p_report.json",
+      "bytes": 2676,
+      "sha256": "6959f322264a1938f2d826859959aaec3a49590a2bda7d97c4c2edff00710970",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/gens/g2/fit/gen2p_report.json",
+      "mtime_ns": 1795804867000000000
+    },
+    {
+      "path": "results/mac2/cfvi/gens/g2/fit/gen2s_report.json",
+      "bytes": 2627,
+      "sha256": "16f17464df3c560b99bd3f6aa2819916f4a063098d673f0534991eec90dc4e45",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/gens/g2/fit/gen2s_report.json",
+      "mtime_ns": 1795804585000000000
+    },
+    {
+      "path": "results/mac2/cfvi/gens/g2/screen_gen2b/summary.json",
+      "bytes": 690,
+      "sha256": "c29d35074fcdaa55f6fda5756e0bdf1b71199477abb12dcc9c526525a53cccc8",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/gens/g2/screen_gen2b/summary.json",
+      "mtime_ns": 1795805669000000000
+    },
+    {
+      "path": "results/mac2/cfvi/gens/g2/screen_gen2s/summary.json",
+      "bytes": 693,
+      "sha256": "c8005b1e171e2e2bd3cb01a1f9fbde8c4eec84bb6f08d60545a813eee302af84",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/gens/g2/screen_gen2s/summary.json",
+      "mtime_ns": 1795805271000000000
+    },
+    {
+      "path": "results/mac2/cfvi/logs/loop.log",
+      "bytes": 24936,
+      "sha256": "526b8196954380ca776d303243d9767dabc57c094858a1d310e24b6286729479",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/logs/loop.log",
+      "mtime_ns": 1795806101000000000
+    },
+    {
+      "path": "results/mac2/cfvi/state.json",
+      "bytes": 3328,
+      "sha256": "58a494901526417cefdcfeeff5057910b9981a803ff2755a95213319084a7ad7",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/state.json",
+      "mtime_ns": 1795806101000000000
+    },
+    {
+      "path": "results/mac2/cfvi/throughput.json",
+      "bytes": 1034,
+      "sha256": "d2d9339b16247022c3c8755d8905a22517562644cbf1599cd5229941fe312da8",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/throughput.json",
+      "mtime_ns": 1795800183000000000
+    },
+    {
+      "path": "results/mac2/spsa/state.json",
+      "bytes": 29397,
+      "sha256": "a93e0c00238245126f385cfb47c837bb1621cb7c7cab0ab9c80c30024dd269e9",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/spsa/state.json",
+      "mtime_ns": 1795799954000000000
+    },
+    {
+      "path": "weights/local/bootstrap/gen1.nnue",
+      "bytes": 138254904,
+      "sha256": "fee4b3637f8f1ae23dd28324e0436b724cad985d1fc57557db844e85c2f8e28e",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen1.nnue",
+      "mtime_ns": 1795781830094332551
+    },
+    {
+      "path": "weights/local/bootstrap/gen2.nnue",
+      "bytes": 138290112,
+      "sha256": "8bf8128431af6033c2fe321f3834bb1a86b3b35e60863dffaaa5c46a162586a5",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen2.nnue",
+      "mtime_ns": 1795785073975891113
+    },
+    {
+      "path": "weights/local/bootstrap/gen3.nnue",
+      "bytes": 138290112,
+      "sha256": "c7b7c2b8f05a0f437bd1b503af6825278f660308a39299a927603111d3a1f204",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen3.nnue",
+      "mtime_ns": 1795788776705338654
+    },
+    {
+      "path": "weights/local/closedform/material.nnue",
+      "bytes": 135156600,
+      "sha256": "9bb3134c2e872cb61017cd0c798bdb0b575f1eae8d384818abe83f8987dd3fdb",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/closedform/out/material.nnue",
+      "mtime_ns": 1795768830076619363
+    },
+    {
+      "path": "weights/local/closedform/pairs.nnue",
+      "bytes": 138254904,
+      "sha256": "01858aa3415179c13bed633a2a9b2031e00d5fed608fa9f5cb97da779b0604b5",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/closedform/out/pairs.nnue",
+      "mtime_ns": 1795770775568464545
+    },
+    {
+      "path": "weights/local/closedform/psqt.nnue",
+      "bytes": 138254904,
+      "sha256": "7f0d71489408396ecc2f658622a832c3aa9c2a123002d09127312463fadea6e4",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/closedform/out/psqt.nnue",
+      "mtime_ns": 1795769354900851823
+    },
+    {
+      "path": "weights/local/closedform/threats.nnue",
+      "bytes": 138254904,
+      "sha256": "729e3314a8ec3b42dcca3412dc452888568cfe1d9d14d0a97cc0b9a8fdad2b6a",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/closedform/out/threats.nnue",
+      "mtime_ns": 1795770024246233290
+    },
+    {
+      "path": "weights/local/compiler/c1.nnue",
+      "bytes": 135156600,
+      "sha256": "e16abf2b0d99fffae234685da1af6397bc53cadb2dbe42cb6356a1b010d91ee4",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c1.nnue",
+      "mtime_ns": 1795796813918550549
+    },
+    {
+      "path": "weights/local/compiler/c2.nnue",
+      "bytes": 135156600,
+      "sha256": "a92205ce83dced37f9aaec372789e4f09c661d0f5ecc89d24a2e2e1fa384bbf4",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c2.nnue",
+      "mtime_ns": 1795796814925736285
+    },
+    {
+      "path": "weights/local/compiler/c3.nnue",
+      "bytes": 135156600,
+      "sha256": "ed4fd22cd13bcd020f15887ac9e5baa7f8919154d04d6dae952408f8d6816074",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c3.nnue",
+      "mtime_ns": 1795797180683704186
+    },
+    {
+      "path": "weights/local/compiler/c4.nnue",
+      "bytes": 136283256,
+      "sha256": "2bf38ff30d62d19971d41ae1df45eab032da38c253acf86866377c9131d4e9f9",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c4.nnue",
+      "mtime_ns": 1795797433598288549
+    },
+    {
+      "path": "weights/local/compiler/c5.nnue",
+      "bytes": 136283256,
+      "sha256": "a00ed1108da3db1abd6295b530075ff9cc68b62714c89aaea5073b80e1d09fe6",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c5.nnue",
+      "mtime_ns": 1795797655708588010
+    },
+    {
+      "path": "weights/local/compiler/c5k.nnue",
+      "bytes": 136142424,
+      "sha256": "630b47a1524b0a62946e348c7fbc1e8b5dab33471b8247292798406d3f5fb882",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c5k.nnue",
+      "mtime_ns": 1795798516239138905
+    },
+    {
+      "path": "weights/local/fc/XF.nnue",
+      "bytes": 141881328,
+      "sha256": "2ade86378ec3042667b4abb543cc4c2091e5d54d060af9776f5a8a3018f4f61a",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/out/XF.nnue",
+      "mtime_ns": 1795801570135612832
+    },
+    {
+      "path": "weights/local/infra/material.nnue",
+      "bytes": 135156600,
+      "sha256": "ab98af7705a243304c64ce86a7589c0247059cc1e41dd673bea3bb377950f4f3",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/infra/out/material.nnue",
+      "mtime_ns": 1795766317029150252
+    },
+    {
+      "path": "weights/local/phase/p0m.nnue",
+      "bytes": 138254904,
+      "sha256": "5e447bc9950dcf17cca9400929a9fa6822de25c3d5ff82a1341cf8842ebd54a8",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p0m.nnue",
+      "mtime_ns": 1795787297738355991
+    },
+    {
+      "path": "weights/local/phase/p0x.nnue",
+      "bytes": 138254904,
+      "sha256": "05a522581002d9e3477e330399577d7069f232397b1e9ae05741ccb01316c882",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p0x.nnue",
+      "mtime_ns": 1795796331564290572
+    },
+    {
+      "path": "weights/local/phase/p13m.nnue",
+      "bytes": 138747816,
+      "sha256": "348e3746cef0d8a928cd60ad80c61f401810e55e92e0a87071a40c4ea5231349",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p13m.nnue",
+      "mtime_ns": 1795786248037867459
+    },
+    {
+      "path": "weights/local/phase/p13t.nnue",
+      "bytes": 138747816,
+      "sha256": "d62469b6210059f43cd938a135614cc0a357152afa47c01961e797f6eeaf754f",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p13t.nnue",
+      "mtime_ns": 1795782404440142686
+    },
+    {
+      "path": "weights/local/phase/p13x.nnue",
+      "bytes": 138747816,
+      "sha256": "0a769d4652d4ddc24e4f860e10d6865d9bc75fd22046ce1c53e4a9fd8e186fc6",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p13x.nnue",
+      "mtime_ns": 1795793558853731641
+    },
+    {
+      "path": "weights/local/phase/p17m.nnue",
+      "bytes": 138536568,
+      "sha256": "62c9ac9ab8030ee07fa724e0813d72479089a4aec95dd4898843b100ef4b8d26",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/phase/out/p17m.nnue",
+      "mtime_ns": 1795790442905763707
+    },
+    {
+      "path": "weights/local/programmed/v0_material.nnue",
+      "bytes": 135156600,
+      "sha256": "ab98af7705a243304c64ce86a7589c0247059cc1e41dd673bea3bb377950f4f3",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v0_material.nnue",
+      "mtime_ns": 1795768113344149540
+    },
+    {
+      "path": "weights/local/programmed/v1.nnue",
+      "bytes": 135156600,
+      "sha256": "6b840f11182d0fd52c072d6a383d8ba7cc14869b7bc935731c6be2f88952981b",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v1.nnue",
+      "mtime_ns": 1795768081236328120
+    },
+    {
+      "path": "weights/local/programmed/v2.nnue",
+      "bytes": 135156600,
+      "sha256": "0fb4a46e3fba03e91dc030e7124ab13451083f00a58185d83dcf3d1a8cc69c6e",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v2.nnue",
+      "mtime_ns": 1795768081494751934
+    },
+    {
+      "path": "weights/local/programmed/v3.nnue",
+      "bytes": 135156600,
+      "sha256": "ea4bc40de9735ef140144672d7a8d552a0d7877051b7ddb0304e06734a583a67",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v3.nnue",
+      "mtime_ns": 1795768081920392555
+    },
+    {
+      "path": "weights/local/programmed/v3a.nnue",
+      "bytes": 135156600,
+      "sha256": "201f8948f6c5dac0c6d1f002acf48ebb5dde45859431b92b7268fe3e1345d8e9",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v3a.nnue",
+      "mtime_ns": 1795768860881333364
+    },
+    {
+      "path": "weights/local/quadratic/gtest8.nnue",
+      "bytes": 138219696,
+      "sha256": "823f919f412fadd480947e822be32299d6cd2fe5668683e945ba383dce60f8e3",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/out/gtest8.nnue",
+      "mtime_ns": 1795800600759789037
+    },
+    {
+      "path": "weights/local/quadratic/q32a.nnue",
+      "bytes": 138219696,
+      "sha256": "31f1ed614a8b0b8f93442b4f6fb09d80d599b682a73f56f5d070f1915fd6fae7",
+      "source": "/Users/idide/projects/sf-wsp.noindex/wspnet/quadratic/out/q32a.nnue",
+      "mtime_ns": 1795802724956022514
+    },
+    {
+      "path": "weights/mac2/cfvi/gens/g1/fit/gen1b.nnue",
+      "bytes": 137973240,
+      "sha256": "d3f71e41f52e02589c18fea7666b303e3132406a894476c46c2180916364c028",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/gens/g1/fit/gen1b.nnue",
+      "mtime_ns": 1795801324000000000
+    },
+    {
+      "path": "weights/mac2/cfvi/gens/g1/fit/gen1s.nnue",
+      "bytes": 137973240,
+      "sha256": "a6643cfe7026681f671d484dbade751965b66f58a5d85485c1ab67c011ae9985",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/gens/g1/fit/gen1s.nnue",
+      "mtime_ns": 1795801259000000000
+    },
+    {
+      "path": "weights/mac2/cfvi/gens/g2/fit/gen2b.nnue",
+      "bytes": 138184488,
+      "sha256": "6bc8bcbb95e706eeab918467d76c51da57718f9d19765c75d3dea4e850d989eb",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/gens/g2/fit/gen2b.nnue",
+      "mtime_ns": 1795804793000000000
+    },
+    {
+      "path": "weights/mac2/cfvi/gens/g2/fit/gen2p.nnue",
+      "bytes": 138219696,
+      "sha256": "b2f8ca8765be47cc8c99f66875ba92ac98e87efdfd8b8162e20825d4ed98f526",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/gens/g2/fit/gen2p.nnue",
+      "mtime_ns": 1795804864000000000
+    },
+    {
+      "path": "weights/mac2/cfvi/gens/g2/fit/gen2s.nnue",
+      "bytes": 138184488,
+      "sha256": "793a3e17ddbf9c1f441d27d5c58158c2999465180c0b657471956d2de88f3e38",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/gens/g2/fit/gen2s.nnue",
+      "mtime_ns": 1795804582000000000
+    },
+    {
+      "path": "weights/mac2/cfvi/nets/bs_gen1.nnue",
+      "bytes": 138254904,
+      "sha256": "fee4b3637f8f1ae23dd28324e0436b724cad985d1fc57557db844e85c2f8e28e",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/cfvi/nets/bs_gen1.nnue",
+      "mtime_ns": 1795781830000000000
+    },
+    {
+      "path": "weights/mac2/spsa/final.nnue",
+      "bytes": 138360528,
+      "sha256": "6210841a1dcb2cc0cc7698af8b989867af3ae5a1843c80442d1e686b1ff85b5a",
+      "source": "/Users/idide/projects/sf-wsp.noindex/exports/chess-2026-11-27.noindex/mac2/spsa/final.nnue",
+      "mtime_ns": 1795799954000000000
+    }
+  ]
+}

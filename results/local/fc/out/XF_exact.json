@@ -1,0 +1,44 @@
+{
+ "name": "XF",
+ "net": "/Users/idide/projects/sf-wsp.noindex/wspnet/fc/out/XF.nnue",
+ "file_params_match": true,
+ "params_predictor_vs_saved_pred_mismatch": 0,
+ "sim_compared": 400,
+ "sim_mismatch": 0,
+ "compared": 3000,
+ "compared_by_band": [
+  375,
+  375,
+  375,
+  375,
+  375,
+  375,
+  375,
+  375
+ ],
+ "exact": 3000,
+ "mismatch": 0,
+ "max_abs_diff": 0,
+ "eval_range": [
+  -4292,
+  3507
+ ],
+ "r1_differs_from_fc_on": 2988,
+ "fault_a_pred_plus1": 1,
+ "fault_b_fc2": {
+  "stack": 187,
+  "input": 0,
+  "positions_on_stack": 374,
+  "mismatches": 374
+ },
+ "fault_c_fc0": {
+  "row": 5,
+  "mismatches": 29
+ },
+ "fault_d_fc1": {
+  "row": 8,
+  "mismatches": 298
+ },
+ "PASS": true,
+ "seconds": 38
+}

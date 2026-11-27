@@ -1,0 +1,2 @@
+{"anchor": 2800, "games": 200, "w": 120, "l": 66, "d": 14, "timeouts": 12, "score": 0.635, "elo_diff": 96.2, "ci95": [48.1, 144.3], "implied": 2896.2}
+REFUSE: 12 time losses in 200 games against anchor 2800 (> 5%): the machine is too loaded for a rating

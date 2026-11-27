@@ -1,0 +1,553 @@
+{
+ "struct": "P13",
+ "deltas": [
+  [
+   "b0",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b1",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b2",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b3",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b4",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b5",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b6",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "b7",
+   [
+    "psq"
+   ]
+  ],
+  [
+   "noq",
+   [
+    "psq"
+   ]
+  ]
+ ],
+ "labels": "closedform/data/ds.npz = DEFAULT net depth-10 search",
+ "lam": {
+  "psq": 100.0,
+  "threat": 300.0,
+  "pair": 1000.0,
+  "delta_mult": 1.0,
+  "const": 0.001,
+  "material": 1.0,
+  "group": 1.0
+ },
+ "grid": [
+  {
+   "params": 333673,
+   "iters": 4000,
+   "rel_residual": 4.053112006290057e-06,
+   "seconds": 677,
+   "delta_mult": 1.0,
+   "slots_unclipped": 425,
+   "clip_q": null,
+   "slots": 425,
+   "val_R2_float": 0.7892
+  }
+ ],
+ "clip_q": null,
+ "nslots": 425,
+ "slots_rule": 425,
+ "slot_detail": [
+  [
+   "base:side",
+   "psq",
+   1,
+   1218.7,
+   8,
+   36
+  ],
+  [
+   "base:side",
+   "psq",
+   -1,
+   1215.4,
+   8,
+   36
+  ],
+  [
+   "base",
+   "threat",
+   1,
+   338.9,
+   2,
+   41
+  ],
+  [
+   "base",
+   "threat",
+   -1,
+   333.6,
+   2,
+   41
+  ],
+  [
+   "base",
+   "pair",
+   1,
+   223.9,
+   2,
+   29
+  ],
+  [
+   "base",
+   "pair",
+   -1,
+   217.5,
+   2,
+   28
+  ],
+  [
+   "base",
+   "psq",
+   1,
+   179.9,
+   7,
+   9
+  ],
+  [
+   "base",
+   "psq",
+   -1,
+   157.3,
+   7,
+   8
+  ],
+  [
+   "b0",
+   "psq",
+   1,
+   1360.6,
+   31,
+   12
+  ],
+  [
+   "b0",
+   "psq",
+   -1,
+   838.0,
+   31,
+   8
+  ],
+  [
+   "b1",
+   "psq",
+   1,
+   348.2,
+   15,
+   7
+  ],
+  [
+   "b1",
+   "psq",
+   -1,
+   266.8,
+   15,
+   6
+  ],
+  [
+   "b2",
+   "psq",
+   1,
+   122.6,
+   10,
+   6
+  ],
+  [
+   "b2",
+   "psq",
+   -1,
+   131.7,
+   10,
+   6
+  ],
+  [
+   "b3",
+   "psq",
+   1,
+   118.4,
+   7,
+   7
+  ],
+  [
+   "b3",
+   "psq",
+   -1,
+   96.6,
+   7,
+   6
+  ],
+  [
+   "b4",
+   "psq",
+   1,
+   102.6,
+   6,
+   7
+  ],
+  [
+   "b4",
+   "psq",
+   -1,
+   91.3,
+   6,
+   7
+  ],
+  [
+   "b5",
+   "psq",
+   1,
+   207.3,
+   5,
+   12
+  ],
+  [
+   "b5",
+   "psq",
+   -1,
+   185.4,
+   5,
+   11
+  ],
+  [
+   "b6",
+   "psq",
+   1,
+   172.6,
+   4,
+   14
+  ],
+  [
+   "b6",
+   "psq",
+   -1,
+   175.1,
+   4,
+   14
+  ],
+  [
+   "b7:side",
+   "psq",
+   1,
+   88.2,
+   8,
+   6
+  ],
+  [
+   "b7:side",
+   "psq",
+   -1,
+   67.0,
+   8,
+   5
+  ],
+  [
+   "b7",
+   "psq",
+   1,
+   165.8,
+   7,
+   8
+  ],
+  [
+   "b7",
+   "psq",
+   -1,
+   134.3,
+   7,
+   7
+  ],
+  [
+   "noq:side",
+   "psq",
+   1,
+   398.1,
+   8,
+   14
+  ],
+  [
+   "noq:side",
+   "psq",
+   -1,
+   314.2,
+   8,
+   12
+  ],
+  [
+   "noq",
+   "psq",
+   1,
+   289.9,
+   7,
+   12
+  ],
+  [
+   "noq",
+   "psq",
+   -1,
+   225.4,
+   7,
+   10
+  ]
+ ],
+ "components": [
+  {
+   "name": "base",
+   "split": true,
+   "slots_unsplit": 322,
+   "slots_split": 228,
+   "threat_pair_bounds": {
+    "threat": 63,
+    "pair": 56
+   },
+   "psq_caps": [
+    [
+     "base:side",
+     15,
+     15
+    ],
+    [
+     "base",
+     17,
+     17
+    ]
+   ]
+  },
+  {
+   "name": "b0",
+   "split": false,
+   "slots_unsplit": 20,
+   "slots_split": 28,
+   "threat_pair_bounds": {
+    "threat": 2,
+    "pair": 2
+   },
+   "psq_caps": [
+    [
+     "b0",
+     4,
+     4
+    ]
+   ]
+  },
+  {
+   "name": "b1",
+   "split": false,
+   "slots_unsplit": 13,
+   "slots_split": 24,
+   "threat_pair_bounds": {
+    "threat": 14,
+    "pair": 19
+   },
+   "psq_caps": [
+    [
+     "b1",
+     8,
+     8
+    ]
+   ]
+  },
+  {
+   "name": "b2",
+   "split": false,
+   "slots_unsplit": 12,
+   "slots_split": 21,
+   "threat_pair_bounds": {
+    "threat": 21,
+    "pair": 30
+   },
+   "psq_caps": [
+    [
+     "b2",
+     12,
+     12
+    ]
+   ]
+  },
+  {
+   "name": "b3",
+   "split": false,
+   "slots_unsplit": 13,
+   "slots_split": 24,
+   "threat_pair_bounds": {
+    "threat": 35,
+    "pair": 41
+   },
+   "psq_caps": [
+    [
+     "b3",
+     16,
+     16
+    ]
+   ]
+  },
+  {
+   "name": "b4",
+   "split": false,
+   "slots_unsplit": 14,
+   "slots_split": 25,
+   "threat_pair_bounds": {
+    "threat": 45,
+    "pair": 51
+   },
+   "psq_caps": [
+    [
+     "b4",
+     20,
+     20
+    ]
+   ]
+  },
+  {
+   "name": "b5",
+   "split": false,
+   "slots_unsplit": 23,
+   "slots_split": 34,
+   "threat_pair_bounds": {
+    "threat": 55,
+    "pair": 56
+   },
+   "psq_caps": [
+    [
+     "b5",
+     24,
+     24
+    ]
+   ]
+  },
+  {
+   "name": "b6",
+   "split": false,
+   "slots_unsplit": 28,
+   "slots_split": 32,
+   "threat_pair_bounds": {
+    "threat": 63,
+    "pair": 56
+   },
+   "psq_caps": [
+    [
+     "b6",
+     28,
+     28
+    ]
+   ]
+  },
+  {
+   "name": "b7",
+   "split": true,
+   "slots_unsplit": 30,
+   "slots_split": 26,
+   "threat_pair_bounds": {
+    "threat": 63,
+    "pair": 56
+   },
+   "psq_caps": [
+    [
+     "b7:side",
+     15,
+     15
+    ],
+    [
+     "b7",
+     17,
+     17
+    ]
+   ]
+  },
+  {
+   "name": "noq",
+   "split": true,
+   "slots_unsplit": 60,
+   "slots_split": 48,
+   "threat_pair_bounds": {
+    "threat": 48,
+    "pair": 56
+   },
+   "psq_caps": [
+    [
+     "noq:side",
+     15,
+     15
+    ],
+    [
+     "noq",
+     17,
+     17
+    ]
+   ]
+  }
+ ],
+ "net": "out/p13a.nnue",
+ "sha256": "0bacbe6c91ceb6d356cd6a747995a421035fd7c8b1b3a2f3ad95eee4ef0b2aae",
+ "stored_stacks": 103,
+ "val_R2_float": 0.7892,
+ "train": {
+  "n": 1772719,
+  "R2_internal": 0.8564,
+  "MAE_internal": 341.9,
+  "MAE_cp": 114.5,
+  "MAE_cp_label_within_300": 84.2,
+  "R2_cp": 0.844
+ },
+ "val": {
+  "n": 219877,
+  "R2_internal": 0.7892,
+  "MAE_internal": 411.4,
+  "MAE_cp": 136.2,
+  "MAE_cp_label_within_300": 98.6,
+  "R2_cp": 0.7753
+ },
+ "test": {
+  "n": 219934,
+  "R2_internal": 0.7903,
+  "MAE_internal": 413.5,
+  "MAE_cp": 136.9,
+  "MAE_cp_label_within_300": 98.9,
+  "R2_cp": 0.7773
+ },
+ "test_R2_by_band": [
+  0.9146,
+  0.8421,
+  0.7779,
+  0.6442,
+  0.4435,
+  0.238,
+  0.1919,
+  0.3818
+ ],
+ "seconds": 702
+}

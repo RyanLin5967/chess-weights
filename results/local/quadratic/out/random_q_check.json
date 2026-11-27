@@ -1,0 +1,26 @@
+{
+ "net": "out/random_q.nnue",
+ "n_compared": 2500,
+ "E_eq_P": 2500,
+ "E_eq_S": 2500,
+ "S_eq_P": 2500,
+ "eval_range": [
+  -14942,
+  15767
+ ],
+ "in_check_or_none": 0,
+ "slots_used": 512,
+ "clampA_mean_used": 0.0027523437500000004,
+ "clampB_mean_used": 0.00288984375,
+ "acc_abs_max": 347,
+ "F1_slot": 1,
+ "F1_row": 130486,
+ "F1_mismatches": 715,
+ "F2_stack": 81,
+ "F2_positions_on_stack": 298,
+ "F2_mismatches": 298,
+ "F2_mismatch_on_stack": 298,
+ "F3_mismatches": 1,
+ "PASS": true,
+ "seconds": 11
+}

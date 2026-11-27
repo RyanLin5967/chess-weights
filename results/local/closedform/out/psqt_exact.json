@@ -1,0 +1,22 @@
+{
+ "model": "psqt",
+ "net": "out/psqt.nnue",
+ "gate_ok": true,
+ "value_acc_min": 0.0,
+ "value_acc_max": 152.0,
+ "max_fill": 75.0,
+ "linear_all_positions": true,
+ "positions_scanned": 2212530,
+ "scan_seconds": 15,
+ "compared": 3000,
+ "exact": 3000,
+ "mismatch": 0,
+ "max_abs_diff": 0,
+ "planted_mismatches": 1,
+ "eval_range": [
+  -5087,
+  4748
+ ],
+ "seconds": 17,
+ "PASS": true
+}

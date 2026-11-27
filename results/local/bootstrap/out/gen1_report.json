@@ -1,0 +1,114 @@
+{
+ "name": "gen1",
+ "label_file": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/data/labels_v3.tsv",
+ "label_net": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v3.nnue",
+ "template": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v3.nnue",
+ "net": "/Users/idide/projects/sf-wsp.noindex/wspnet/bootstrap/out/gen1.nnue",
+ "sha256": "fee4b3637f8f1ae23dd28324e0436b724cad985d1fc57557db844e85c2f8e28e",
+ "nslots_written": 425,
+ "scale": 1.0,
+ "clip_q": null,
+ "pcg_iters": 4000,
+ "rel_residual": 3.58493537864481e-07,
+ "grid": [
+  {
+   "scale": 0.3,
+   "lam": {
+    "psq": 30.0,
+    "threat": 90.0,
+    "pair": 300.0,
+    "delta_mult": 1.0,
+    "const": 0.001,
+    "material": 1.0,
+    "group": 1.0
+   },
+   "iters": 4000,
+   "rel_residual": 2.6252800709751306e-06,
+   "slots_unclipped": 514,
+   "clip_q": 99.95,
+   "slots": 437,
+   "val_R2_float": 0.8769
+  },
+  {
+   "scale": 1.0,
+   "lam": {
+    "psq": 100.0,
+    "threat": 300.0,
+    "pair": 1000.0,
+    "delta_mult": 1.0,
+    "const": 0.001,
+    "material": 1.0,
+    "group": 1.0
+   },
+   "iters": 4000,
+   "rel_residual": 3.58493537864481e-07,
+   "slots_unclipped": 425,
+   "clip_q": null,
+   "slots": 425,
+   "val_R2_float": 0.8772
+  },
+  {
+   "scale": 3.0,
+   "lam": {
+    "psq": 300.0,
+    "threat": 900.0,
+    "pair": 3000.0,
+    "delta_mult": 1.0,
+    "const": 0.001,
+    "material": 1.0,
+    "group": 1.0
+   },
+   "iters": 1468,
+   "rel_residual": 9.74067385846099e-08,
+   "slots_unclipped": 369,
+   "clip_q": null,
+   "slots": 369,
+   "val_R2_float": 0.8746
+  }
+ ],
+ "val_R2_float": 0.8772,
+ "N": 3623812,
+ "mates_dropped": 115462,
+ "train_n": 2809829,
+ "train": {
+  "n": 2809829,
+  "R2_internal": 0.8918,
+  "MAE_internal": 243.1,
+  "MAE_cp": 81.9,
+  "MAE_cp_label_within_300": 63.6,
+  "R2_cp": 0.8836
+ },
+ "val": {
+  "n": 344383,
+  "R2_internal": 0.8772,
+  "MAE_internal": 259.3,
+  "MAE_cp": 87.4,
+  "MAE_cp_label_within_300": 67.5,
+  "R2_cp": 0.8679
+ },
+ "test": {
+  "n": 354138,
+  "R2_internal": 0.8762,
+  "MAE_internal": 259.2,
+  "MAE_cp": 86.3,
+  "MAE_cp_label_within_300": 66.9,
+  "R2_cp": 0.8701
+ },
+ "test_own_games": {
+  "n": 130305,
+  "R2_internal": 0.8855,
+  "MAE_internal": 270.6,
+  "MAE_cp": 89.8,
+  "MAE_cp_label_within_300": 66.9,
+  "R2_cp": 0.8885
+ },
+ "test_round1_positions": {
+  "n": 223833,
+  "R2_internal": 0.8693,
+  "MAE_internal": 252.5,
+  "MAE_cp": 84.3,
+  "MAE_cp_label_within_300": 66.9,
+  "R2_cp": 0.8545
+ },
+ "seconds": 3168
+}

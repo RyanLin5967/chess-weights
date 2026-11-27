@@ -1,0 +1,926 @@
+{
+ "c1": {
+  "net": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c1.nnue",
+  "positions": 3011,
+  "slots": 123,
+  "A_engine_eq_simulate": 3011,
+  "A_mismatch": 0,
+  "B_max_fill": 120,
+  "B_corpus_book_over_cap": 0,
+  "B_hand_over_cap": [],
+  "C_within_bound": 3011,
+  "C_checked": 3011,
+  "C_max_abs_engine_minus_ideal": 16.316312403461055,
+  "C_mean_abs_engine_minus_ideal": 2.236997666423437,
+  "C_mean_bound": 66.54659599236427,
+  "D_terms": {
+   "psqt": {
+    "max_abs_net_minus_ref": 20.4472,
+    "max_bound": 49.8595,
+    "violations": 0
+   },
+   "imb": {
+    "max_abs_net_minus_ref": 3.3229,
+    "max_bound": 8.3787,
+    "violations": 0
+   }
+  },
+  "phase_gate_vs_sf11_phase_abs_dev_mean": 0.0025985449186316837,
+  "phase_dev_max": 0.01171875,
+  "eval_range": [
+   -6559,
+   5735
+  ],
+  "hand": {
+   "startpos": {
+    "engine": 29,
+    "ideal": 29.06
+   },
+   "white up a queen, white to move": {
+    "engine": 2800,
+    "ideal": 2799.29
+   },
+   "same, black to move": {
+    "engine": -2742,
+    "ideal": -2741.17
+   },
+   "KPK white pawn e6": {
+    "engine": 170,
+    "ideal": 170.59
+   },
+   "queenside castled kings": {
+    "engine": 29,
+    "ideal": 29.06
+   },
+   "pawn forks knight and rook": {
+    "engine": 2191,
+    "ideal": 2191.9
+   },
+   "doubled and isolated pawns": {
+    "engine": 306,
+    "ideal": 307.06
+   },
+   "passed pawn on 6th vs blocked": {
+    "engine": 47,
+    "ideal": 47.22
+   },
+   "pawnless flank, kings g1/g8": {
+    "engine": 29,
+    "ideal": 29.06
+   },
+   "two bishops vs bishop and knight": {
+    "engine": 148,
+    "ideal": 149.64
+   },
+   "8 pawns each, white queen vs rook": {
+    "engine": 1438,
+    "ideal": 1438.26
+   }
+  },
+  "planted": {
+   "ft_digit": {
+    "row": 130486,
+    "col": 59,
+    "delta": 2,
+    "mismatch_vs_unplanted_simulate": 599,
+    "fired": true
+   },
+   "phase_gate": {
+    "row": 130224,
+    "col": 574,
+    "delta": 16,
+    "mismatch_vs_unplanted_simulate": 254,
+    "fired": true
+   },
+   "D_asymmetric_pawn_psqt_in_ref": {
+    "violations": 2,
+    "fired": true
+   }
+  },
+  "status": "PASS",
+  "seconds": 4.3
+ },
+ "c2": {
+  "net": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c2.nnue",
+  "positions": 3011,
+  "slots": 432,
+  "A_engine_eq_simulate": 3011,
+  "A_mismatch": 0,
+  "B_max_fill": 120,
+  "B_corpus_book_over_cap": 0,
+  "B_hand_over_cap": [],
+  "C_within_bound": 3011,
+  "C_checked": 3011,
+  "C_max_abs_engine_minus_ideal": 31.068299330527907,
+  "C_mean_abs_engine_minus_ideal": 3.6884095551029836,
+  "C_mean_bound": 194.96181471433678,
+  "D_terms": {
+   "psqt": {
+    "max_abs_net_minus_ref": 20.4472,
+    "max_bound": 49.8595,
+    "violations": 0
+   },
+   "imb": {
+    "max_abs_net_minus_ref": 3.3229,
+    "max_bound": 8.3787,
+    "violations": 0
+   },
+   "pawnpair": {
+    "max_abs_net_minus_ref": 15.2674,
+    "max_bound": 19.8282,
+    "violations": 0
+   },
+   "isolated": {
+    "max_abs_net_minus_ref": 0.9308,
+    "max_bound": 5.4117,
+    "violations": 0
+   },
+   "unopposed": {
+    "max_abs_net_minus_ref": 2.3121,
+    "max_bound": 8.5272,
+    "violations": 0
+   },
+   "passed": {
+    "max_abs_net_minus_ref": 9.8096,
+    "max_bound": 30.2981,
+    "violations": 0
+   },
+   "passed_enemy": {
+    "max_abs_net_minus_ref": 14.2572,
+    "max_bound": 49.7387,
+    "violations": 0
+   },
+   "threats": {
+    "max_abs_net_minus_ref": 13.3442,
+    "max_bound": 30.8378,
+    "violations": 0
+   },
+   "shelter": {
+    "max_abs_net_minus_ref": 22.0835,
+    "max_bound": 48.4636,
+    "violations": 0
+   },
+   "flank": {
+    "max_abs_net_minus_ref": 1.8803,
+    "max_bound": 2.4624,
+    "violations": 0
+   }
+  },
+  "phase_gate_vs_sf11_phase_abs_dev_mean": 0.0025985449186316837,
+  "phase_dev_max": 0.01171875,
+  "eval_range": [
+   -6617,
+   5761
+  ],
+  "hand": {
+   "startpos": {
+    "engine": 29,
+    "ideal": 29.06
+   },
+   "white up a queen, white to move": {
+    "engine": 2800,
+    "ideal": 2799.29
+   },
+   "same, black to move": {
+    "engine": -2742,
+    "ideal": -2741.17
+   },
+   "KPK white pawn e6": {
+    "engine": 436,
+    "ideal": 434.19
+   },
+   "queenside castled kings": {
+    "engine": 29,
+    "ideal": 29.06
+   },
+   "pawn forks knight and rook": {
+    "engine": 2135,
+    "ideal": 2132.75
+   },
+   "doubled and isolated pawns": {
+    "engine": 132,
+    "ideal": 132.71
+   },
+   "passed pawn on 6th vs blocked": {
+    "engine": -103,
+    "ideal": -104.3
+   },
+   "pawnless flank, kings g1/g8": {
+    "engine": 29,
+    "ideal": 29.06
+   },
+   "two bishops vs bishop and knight": {
+    "engine": 164,
+    "ideal": 166.24
+   },
+   "8 pawns each, white queen vs rook": {
+    "engine": 1438,
+    "ideal": 1438.26
+   }
+  },
+  "planted": {
+   "ft_digit": {
+    "row": 130486,
+    "col": 59,
+    "delta": 2,
+    "mismatch_vs_unplanted_simulate": 599,
+    "fired": true
+   },
+   "phase_gate": {
+    "row": 130224,
+    "col": 574,
+    "delta": 16,
+    "mismatch_vs_unplanted_simulate": 254,
+    "fired": true
+   },
+   "D_asymmetric_pawn_psqt_in_ref": {
+    "violations": 2,
+    "fired": true
+   },
+   "D_bishop_attacks_queen_as_feature_in_ref": {
+    "violations": 4,
+    "fired": true
+   }
+  },
+  "status": "PASS",
+  "seconds": 5.8
+ },
+ "c3": {
+  "net": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c3.nnue",
+  "positions": 3011,
+  "slots": 417,
+  "A_engine_eq_simulate": 3011,
+  "A_mismatch": 0,
+  "B_max_fill": 120,
+  "B_corpus_book_over_cap": 0,
+  "B_hand_over_cap": [],
+  "C_within_bound": 3011,
+  "C_checked": 3011,
+  "C_max_abs_engine_minus_ideal": 34.894421526299766,
+  "C_mean_abs_engine_minus_ideal": 4.039777995896122,
+  "C_mean_bound": 221.03207035606096,
+  "D_terms": {
+   "psqt": {
+    "max_abs_net_minus_ref": 21.3011,
+    "max_bound": 54.5209,
+    "violations": 0
+   },
+   "imb": {
+    "max_abs_net_minus_ref": 3.3229,
+    "max_bound": 8.3787,
+    "violations": 0
+   },
+   "pawnpair": {
+    "max_abs_net_minus_ref": 15.2674,
+    "max_bound": 19.8282,
+    "violations": 0
+   },
+   "isolated": {
+    "max_abs_net_minus_ref": 0.9308,
+    "max_bound": 5.4117,
+    "violations": 0
+   },
+   "unopposed": {
+    "max_abs_net_minus_ref": 2.3121,
+    "max_bound": 8.5272,
+    "violations": 0
+   },
+   "passed": {
+    "max_abs_net_minus_ref": 9.8096,
+    "max_bound": 30.2981,
+    "violations": 0
+   },
+   "passed_enemy": {
+    "max_abs_net_minus_ref": 13.9372,
+    "max_bound": 43.9855,
+    "violations": 0
+   },
+   "threats": {
+    "max_abs_net_minus_ref": 13.3442,
+    "max_bound": 30.8378,
+    "violations": 0
+   },
+   "mob": {
+    "max_abs_net_minus_ref": 8.145,
+    "max_bound": 20.8,
+    "violations": 0
+   },
+   "shelter": {
+    "max_abs_net_minus_ref": 22.0835,
+    "max_bound": 48.4636,
+    "violations": 0
+   },
+   "flank": {
+    "max_abs_net_minus_ref": 1.8803,
+    "max_bound": 2.4624,
+    "violations": 0
+   }
+  },
+  "phase_gate_vs_sf11_phase_abs_dev_mean": 0.0025985449186316837,
+  "phase_dev_max": 0.01171875,
+  "eval_range": [
+   -6942,
+   6035
+  ],
+  "hand": {
+   "startpos": {
+    "engine": 29,
+    "ideal": 29.06
+   },
+   "white up a queen, white to move": {
+    "engine": 2824,
+    "ideal": 2826.13
+   },
+   "same, black to move": {
+    "engine": -2766,
+    "ideal": -2768.01
+   },
+   "KPK white pawn e6": {
+    "engine": 436,
+    "ideal": 433.27
+   },
+   "queenside castled kings": {
+    "engine": 29,
+    "ideal": 29.06
+   },
+   "pawn forks knight and rook": {
+    "engine": 2305,
+    "ideal": 2304.66
+   },
+   "doubled and isolated pawns": {
+    "engine": 132,
+    "ideal": 132.71
+   },
+   "passed pawn on 6th vs blocked": {
+    "engine": -103,
+    "ideal": -104.12
+   },
+   "pawnless flank, kings g1/g8": {
+    "engine": 29,
+    "ideal": 29.06
+   },
+   "two bishops vs bishop and knight": {
+    "engine": 198,
+    "ideal": 199.89
+   },
+   "8 pawns each, white queen vs rook": {
+    "engine": 1415,
+    "ideal": 1415.46
+   }
+  },
+  "planted": {
+   "ft_digit": {
+    "row": 130486,
+    "col": 62,
+    "delta": 2,
+    "mismatch_vs_unplanted_simulate": 599,
+    "fired": true
+   },
+   "phase_gate": {
+    "row": 130224,
+    "col": 577,
+    "delta": 16,
+    "mismatch_vs_unplanted_simulate": 254,
+    "fired": true
+   },
+   "D_asymmetric_pawn_psqt_in_ref": {
+    "violations": 1,
+    "fired": true
+   },
+   "D_bishop_attacks_queen_as_feature_in_ref": {
+    "violations": 4,
+    "fired": true
+   },
+   "D_mob_bishop_blocked_by_queen_in_ref": {
+    "violations": 21,
+    "fired": true
+   }
+  },
+  "status": "PASS",
+  "seconds": 17.6
+ },
+ "c4": {
+  "net": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c4.nnue",
+  "positions": 3011,
+  "slots": 450,
+  "A_engine_eq_simulate": 3011,
+  "A_mismatch": 0,
+  "B_max_fill": 120,
+  "B_corpus_book_over_cap": 0,
+  "B_hand_over_cap": [],
+  "C_within_bound": 3011,
+  "C_checked": 3011,
+  "C_max_abs_engine_minus_ideal": 34.894421526299766,
+  "C_mean_abs_engine_minus_ideal": 4.045462379023481,
+  "C_mean_bound": 221.03207035606096,
+  "D_terms": {
+   "psqt": {
+    "max_abs_net_minus_ref": 21.3011,
+    "max_bound": 54.5209,
+    "violations": 0
+   },
+   "imb": {
+    "max_abs_net_minus_ref": 3.3229,
+    "max_bound": 8.3787,
+    "violations": 0
+   },
+   "pawnpair": {
+    "max_abs_net_minus_ref": 15.2674,
+    "max_bound": 19.8282,
+    "violations": 0
+   },
+   "isolated": {
+    "max_abs_net_minus_ref": 0.9308,
+    "max_bound": 5.4117,
+    "violations": 0
+   },
+   "unopposed": {
+    "max_abs_net_minus_ref": 2.3121,
+    "max_bound": 8.5272,
+    "violations": 0
+   },
+   "passed": {
+    "max_abs_net_minus_ref": 9.8096,
+    "max_bound": 30.2981,
+    "violations": 0
+   },
+   "passed_enemy": {
+    "max_abs_net_minus_ref": 13.9372,
+    "max_bound": 43.9855,
+    "violations": 0
+   },
+   "threats": {
+    "max_abs_net_minus_ref": 13.3442,
+    "max_bound": 30.8378,
+    "violations": 0
+   },
+   "mob": {
+    "max_abs_net_minus_ref": 8.145,
+    "max_bound": 20.8,
+    "violations": 0
+   },
+   "shelter": {
+    "max_abs_net_minus_ref": 22.0835,
+    "max_bound": 48.4636,
+    "violations": 0
+   },
+   "flank": {
+    "max_abs_net_minus_ref": 1.8803,
+    "max_bound": 2.4624,
+    "violations": 0
+   },
+   "kd(o0 exact)": {
+    "max_abs_net_minus_ref": 0.0,
+    "max_bound": 0.0,
+    "violations": 0
+   },
+   "kd(penalty exact)": {
+    "max_abs_net_minus_ref": 0.0,
+    "max_bound": 0.0,
+    "violations": 0
+   }
+  },
+  "phase_gate_vs_sf11_phase_abs_dev_mean": 0.0025985449186316837,
+  "phase_dev_max": 0.01171875,
+  "eval_range": [
+   -6991,
+   6086
+  ],
+  "hand": {
+   "startpos": {
+    "engine": 29,
+    "ideal": 29.06
+   },
+   "white up a queen, white to move": {
+    "engine": 2824,
+    "ideal": 2826.13
+   },
+   "same, black to move": {
+    "engine": -2766,
+    "ideal": -2768.01
+   },
+   "KPK white pawn e6": {
+    "engine": 436,
+    "ideal": 433.27
+   },
+   "queenside castled kings": {
+    "engine": 29,
+    "ideal": 29.06
+   },
+   "pawn forks knight and rook": {
+    "engine": 2305,
+    "ideal": 2304.66
+   },
+   "doubled and isolated pawns": {
+    "engine": 132,
+    "ideal": 132.71
+   },
+   "passed pawn on 6th vs blocked": {
+    "engine": -103,
+    "ideal": -104.12
+   },
+   "pawnless flank, kings g1/g8": {
+    "engine": 29,
+    "ideal": 29.06
+   },
+   "two bishops vs bishop and knight": {
+    "engine": 198,
+    "ideal": 199.89
+   },
+   "8 pawns each, white queen vs rook": {
+    "engine": 1415,
+    "ideal": 1415.46
+   }
+  },
+  "planted": {
+   "ft_digit": {
+    "row": 130486,
+    "col": 62,
+    "delta": 2,
+    "mismatch_vs_unplanted_simulate": 599,
+    "fired": true
+   },
+   "phase_gate": {
+    "row": 130224,
+    "col": 577,
+    "delta": 16,
+    "mismatch_vs_unplanted_simulate": 254,
+    "fired": true
+   },
+   "D_asymmetric_pawn_psqt_in_ref": {
+    "violations": 1,
+    "fired": true
+   },
+   "D_bishop_attacks_queen_as_feature_in_ref": {
+    "violations": 4,
+    "fired": true
+   },
+   "D_mob_bishop_blocked_by_queen_in_ref": {
+    "violations": 21,
+    "fired": true
+   },
+   "D_kd_ring_without_clamp_in_ref": {
+    "violations": 162,
+    "fired": true
+   }
+  },
+  "status": "PASS",
+  "seconds": 29.7
+ },
+ "c5": {
+  "net": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c5.nnue",
+  "positions": 3011,
+  "slots": 494,
+  "A_engine_eq_simulate": 3011,
+  "A_mismatch": 0,
+  "B_max_fill": 120,
+  "B_corpus_book_over_cap": 0,
+  "B_hand_over_cap": [],
+  "C_within_bound": 3011,
+  "C_checked": 3011,
+  "C_max_abs_engine_minus_ideal": 30.024684208916142,
+  "C_mean_abs_engine_minus_ideal": 4.047114792910687,
+  "C_mean_bound": 235.23716030749588,
+  "D_terms": {
+   "psqt": {
+    "max_abs_net_minus_ref": 22.5954,
+    "max_bound": 55.7231,
+    "violations": 0
+   },
+   "imb": {
+    "max_abs_net_minus_ref": 3.3229,
+    "max_bound": 8.3787,
+    "violations": 0
+   },
+   "pawnpair": {
+    "max_abs_net_minus_ref": 15.2674,
+    "max_bound": 19.8282,
+    "violations": 0
+   },
+   "isolated": {
+    "max_abs_net_minus_ref": 0.9308,
+    "max_bound": 5.4117,
+    "violations": 0
+   },
+   "unopposed": {
+    "max_abs_net_minus_ref": 2.3121,
+    "max_bound": 8.5272,
+    "violations": 0
+   },
+   "passed": {
+    "max_abs_net_minus_ref": 9.8096,
+    "max_bound": 30.2981,
+    "violations": 0
+   },
+   "passed_enemy": {
+    "max_abs_net_minus_ref": 13.9372,
+    "max_bound": 43.9855,
+    "violations": 0
+   },
+   "threats": {
+    "max_abs_net_minus_ref": 13.3442,
+    "max_bound": 30.8378,
+    "violations": 0
+   },
+   "mob": {
+    "max_abs_net_minus_ref": 8.145,
+    "max_bound": 20.8,
+    "violations": 0
+   },
+   "rookfile": {
+    "max_abs_net_minus_ref": 1.2014,
+    "max_bound": 2.2481,
+    "violations": 0
+   },
+   "minpd": {
+    "max_abs_net_minus_ref": 2.2286,
+    "max_bound": 4.6297,
+    "violations": 0
+   },
+   "shelter": {
+    "max_abs_net_minus_ref": 22.0835,
+    "max_bound": 48.4636,
+    "violations": 0
+   },
+   "flank": {
+    "max_abs_net_minus_ref": 1.8803,
+    "max_bound": 2.4624,
+    "violations": 0
+   },
+   "kd(o0 exact)": {
+    "max_abs_net_minus_ref": 0.0,
+    "max_bound": 0.0,
+    "violations": 0
+   },
+   "kd(penalty exact)": {
+    "max_abs_net_minus_ref": 0.0,
+    "max_bound": 0.0,
+    "violations": 0
+   }
+  },
+  "phase_gate_vs_sf11_phase_abs_dev_mean": 0.0025985449186316837,
+  "phase_dev_max": 0.01171875,
+  "eval_range": [
+   -7025,
+   5999
+  ],
+  "hand": {
+   "startpos": {
+    "engine": 29,
+    "ideal": 29.06
+   },
+   "white up a queen, white to move": {
+    "engine": 2824,
+    "ideal": 2826.13
+   },
+   "same, black to move": {
+    "engine": -2766,
+    "ideal": -2768.01
+   },
+   "KPK white pawn e6": {
+    "engine": 353,
+    "ideal": 350.57
+   },
+   "queenside castled kings": {
+    "engine": 29,
+    "ideal": 29.06
+   },
+   "pawn forks knight and rook": {
+    "engine": 2381,
+    "ideal": 2380.16
+   },
+   "doubled and isolated pawns": {
+    "engine": 148,
+    "ideal": 149.25
+   },
+   "passed pawn on 6th vs blocked": {
+    "engine": -87,
+    "ideal": -87.58
+   },
+   "pawnless flank, kings g1/g8": {
+    "engine": 29,
+    "ideal": 29.06
+   },
+   "two bishops vs bishop and knight": {
+    "engine": 198,
+    "ideal": 199.89
+   },
+   "8 pawns each, white queen vs rook": {
+    "engine": 1415,
+    "ideal": 1415.46
+   }
+  },
+  "planted": {
+   "ft_digit": {
+    "row": 130486,
+    "col": 62,
+    "delta": 2,
+    "mismatch_vs_unplanted_simulate": 599,
+    "fired": true
+   },
+   "phase_gate": {
+    "row": 130224,
+    "col": 579,
+    "delta": 16,
+    "mismatch_vs_unplanted_simulate": 254,
+    "fired": true
+   },
+   "D_asymmetric_pawn_psqt_in_ref": {
+    "violations": 1,
+    "fired": true
+   },
+   "D_bishop_attacks_queen_as_feature_in_ref": {
+    "violations": 4,
+    "fired": true
+   },
+   "D_mob_bishop_blocked_by_queen_in_ref": {
+    "violations": 21,
+    "fired": true
+   },
+   "D_kd_ring_without_clamp_in_ref": {
+    "violations": 162,
+    "fired": true
+   }
+  },
+  "status": "PASS",
+  "seconds": 30.7
+ },
+ "c5k": {
+  "net": "/Users/idide/projects/sf-wsp.noindex/wspnet/compiler/out/c5k.nnue",
+  "positions": 3011,
+  "slots": 502,
+  "A_engine_eq_simulate": 3011,
+  "A_mismatch": 0,
+  "B_max_fill": 120,
+  "B_corpus_book_over_cap": 0,
+  "B_hand_over_cap": [],
+  "C_within_bound": 3011,
+  "C_checked": 3011,
+  "C_max_abs_engine_minus_ideal": 39.29456969663579,
+  "C_mean_abs_engine_minus_ideal": 5.2910615171839845,
+  "C_mean_bound": 281.9122578341918,
+  "D_terms": {
+   "psqt": {
+    "max_abs_net_minus_ref": 29.2478,
+    "max_bound": 68.4359,
+    "violations": 0
+   },
+   "imb": {
+    "max_abs_net_minus_ref": 1.5311,
+    "max_bound": 7.4078,
+    "violations": 0
+   },
+   "pawnpair": {
+    "max_abs_net_minus_ref": 21.3374,
+    "max_bound": 35.299,
+    "violations": 0
+   },
+   "isolated": {
+    "max_abs_net_minus_ref": 2.6329,
+    "max_bound": 7.095,
+    "violations": 0
+   },
+   "unopposed": {
+    "max_abs_net_minus_ref": 2.8257,
+    "max_bound": 8.4238,
+    "violations": 0
+   },
+   "passed": {
+    "max_abs_net_minus_ref": 13.1396,
+    "max_bound": 42.9858,
+    "violations": 0
+   },
+   "passed_enemy": {
+    "max_abs_net_minus_ref": 11.783,
+    "max_bound": 48.1271,
+    "violations": 0
+   },
+   "threats": {
+    "max_abs_net_minus_ref": 4.8761,
+    "max_bound": 17.1199,
+    "violations": 0
+   },
+   "mob": {
+    "max_abs_net_minus_ref": 10.485,
+    "max_bound": 28.082,
+    "violations": 0
+   },
+   "rookfile": {
+    "max_abs_net_minus_ref": 2.0472,
+    "max_bound": 2.6692,
+    "violations": 0
+   },
+   "minpd": {
+    "max_abs_net_minus_ref": 1.6097,
+    "max_bound": 5.2753,
+    "violations": 0
+   },
+   "shelter": {
+    "max_abs_net_minus_ref": 33.1641,
+    "max_bound": 59.2563,
+    "violations": 0
+   },
+   "flank": {
+    "max_abs_net_minus_ref": 1.011,
+    "max_bound": 2.6401,
+    "violations": 0
+   },
+   "kd(o0 exact)": {
+    "max_abs_net_minus_ref": 0.0,
+    "max_bound": 0.0,
+    "violations": 0
+   },
+   "kd(penalty exact)": {
+    "max_abs_net_minus_ref": 0.0,
+    "max_bound": 0.0,
+    "violations": 0
+   }
+  },
+  "phase_gate_vs_sf11_phase_abs_dev_mean": 0.0025985449186316837,
+  "phase_dev_max": 0.01171875,
+  "eval_range": [
+   -9592,
+   8190
+  ],
+  "hand": {
+   "startpos": {
+    "engine": 39,
+    "ideal": 39.69
+   },
+   "white up a queen, white to move": {
+    "engine": 3855,
+    "ideal": 3860.53
+   },
+   "same, black to move": {
+    "engine": -3776,
+    "ideal": -3781.15
+   },
+   "KPK white pawn e6": {
+    "engine": 477,
+    "ideal": 478.88
+   },
+   "queenside castled kings": {
+    "engine": 39,
+    "ideal": 39.69
+   },
+   "pawn forks knight and rook": {
+    "engine": 3250,
+    "ideal": 3251.33
+   },
+   "doubled and isolated pawns": {
+    "engine": 202,
+    "ideal": 203.88
+   },
+   "passed pawn on 6th vs blocked": {
+    "engine": -121,
+    "ideal": -119.63
+   },
+   "pawnless flank, kings g1/g8": {
+    "engine": 39,
+    "ideal": 39.69
+   },
+   "two bishops vs bishop and knight": {
+    "engine": 272,
+    "ideal": 273.05
+   },
+   "8 pawns each, white queen vs rook": {
+    "engine": 1932,
+    "ideal": 1933.54
+   }
+  },
+  "planted": {
+   "ft_digit": {
+    "row": 130486,
+    "col": 80,
+    "delta": 2,
+    "mismatch_vs_unplanted_simulate": 599,
+    "fired": true
+   },
+   "phase_gate": {
+    "row": 130224,
+    "col": 598,
+    "delta": 16,
+    "mismatch_vs_unplanted_simulate": 254,
+    "fired": true
+   },
+   "D_asymmetric_pawn_psqt_in_ref": {
+    "violations": 1,
+    "fired": true
+   },
+   "D_bishop_attacks_queen_as_feature_in_ref": {
+    "violations": 4,
+    "fired": true
+   },
+   "D_mob_bishop_blocked_by_queen_in_ref": {
+    "violations": 22,
+    "fired": true
+   },
+   "D_kd_ring_without_clamp_in_ref": {
+    "violations": 162,
+    "fired": true
+   }
+  },
+  "status": "PASS",
+  "seconds": 12.4
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "a": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v3.nnue",
+ "b": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/v3a.nnue",
+ "games": 200,
+ "a_wins": 67,
+ "a_losses": 53,
+ "draws": 80,
+ "elo_a_minus_b": 24.4,
+ "elo_ci95_trinomial": 37.3,
+ "fastchess_elo": [
+  "24.36",
+  "27.87"
+ ],
+ "ptnml": "[2, 17, 50, 27, 4], WL/DD Ratio: 1.78",
+ "timeouts_per_player": [],
+ "tc": "10+0.1",
+ "concurrency": 8,
+ "seed": 1,
+ "seconds": 828,
+ "fastchess_exit": 0,
+ "log": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/match_v3_vs_v3a.log",
+ "pgn": "/Users/idide/projects/sf-wsp.noindex/wspnet/programmed/out/match_v3_vs_v3a.pgn"
+}
