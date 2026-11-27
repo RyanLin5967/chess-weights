@@ -243,5 +243,19 @@
     "gzip_bytes": 90904390,
     "restored_bytes": 138360528,
     "sha256": "6210841a1dcb2cc0cc7698af8b989867af3ae5a1843c80442d1e686b1ff85b5a"
+  },
+  {
+    "path": "weights/best/cx1.nnue",
+    "stored_as": "weights/best/cx1.nnue.gz",
+    "gzip_bytes": 1242937,
+    "restored_bytes": 141881328,
+    "sha256": "1fa19808efb46964a91e989dc0f6d15600e87525fc342143b12957715c6e3964"
+  },
+  {
+    "path": "weights/best/lin_cauchy1200.nnue",
+    "stored_as": "weights/best/lin_cauchy1200.nnue.gz",
+    "gzip_bytes": 914977,
+    "restored_bytes": 138149280,
+    "sha256": "18fce9a7b513df0d4a5290d19428d759fc3c87d4f020b95c93e0dabbb977b529"
   }
 ]
